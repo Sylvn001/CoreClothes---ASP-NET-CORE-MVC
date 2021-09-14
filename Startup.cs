@@ -47,6 +47,10 @@ namespace coreClothes
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    name: "admin",
+                    pattern: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
             });
         }
     }
