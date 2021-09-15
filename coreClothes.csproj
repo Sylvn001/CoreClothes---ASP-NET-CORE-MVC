@@ -6,14 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\Views\Dashboard\NovaPasta\**" />
+    <Compile Remove="Areas\Admin\Views\Dashboard\**" />
     <Compile Remove="Areas\Admin\Views\NovaPasta\**" />
-    <Content Remove="Areas\Admin\Views\Dashboard\NovaPasta\**" />
+    <Compile Remove="wwwroot\NovaPasta\**" />
+    <Content Remove="Areas\Admin\Views\Dashboard\**" />
     <Content Remove="Areas\Admin\Views\NovaPasta\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\Dashboard\NovaPasta\**" />
+    <Content Remove="wwwroot\NovaPasta\**" />
+    <EmbeddedResource Remove="Areas\Admin\Views\Dashboard\**" />
     <EmbeddedResource Remove="Areas\Admin\Views\NovaPasta\**" />
-    <None Remove="Areas\Admin\Views\Dashboard\NovaPasta\**" />
+    <EmbeddedResource Remove="wwwroot\NovaPasta\**" />
+    <None Remove="Areas\Admin\Views\Dashboard\**" />
     <None Remove="Areas\Admin\Views\NovaPasta\**" />
+    <None Remove="wwwroot\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,10 +26,6 @@
     <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
     <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\NovaPasta\" />
   </ItemGroup>
 
 </Project>

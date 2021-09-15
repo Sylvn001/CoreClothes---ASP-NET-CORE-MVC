@@ -30,7 +30,7 @@ namespace coreClothes.Areas.Admin.Services
 
 
 
-        public bool ValidarAutenticacao(string email, string password)
+        public bool ValidateAuth(string email, string password)
         {
             if (email == "admin@mail.com" && password == "123")
                 return true;
@@ -38,9 +38,9 @@ namespace coreClothes.Areas.Admin.Services
             return false;
         }
 
-        public bool ValidarAutenticacao(Models.User user)
+        public bool ValidateAuth(Models.User user)
         {
-            if (user.Email == "admin" && user.Password == "123")
+            if (user.Email == "admin@mail.com" && user.Password == "123")
                 return true;
 
             return false;

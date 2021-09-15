@@ -22,14 +22,13 @@ namespace coreClothes.Areas.Admin.Controllers
             Models.User user = new Models.User();
             user.Email = Request.Form["email"];
             user.Password = Request.Form["password"];
-
             Services.UserService userService = new Services.UserService();
-            if (userService.ValidarAutenticacao(user))
+            if (userService.ValidateAuth(user))
             {
-                return Redirect("/admin/dashboard/");
+                return Redirect("/admin/Product");
             }
             else
-            {
+            {    
                 ViewBag.Msg = "Invalid Credentials!";
                 return View("~/Areas/Admin/Views/Login/Index.cshtml");
             }
