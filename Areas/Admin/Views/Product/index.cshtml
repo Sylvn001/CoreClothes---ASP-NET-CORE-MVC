@@ -4,41 +4,107 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container">
-    <div>
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Stock</th>
-                    <th scope="col">Category</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>T-shirt</td>
-                    <td>R$: 10.0</td>
-                    <td>10</td>
-                    <td>Shirt</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>T-shirt</td>
-                    <td>R$: 10.0</td>
-                    <td>10</td>
-                    <td>Shirt</td>
-                </tr>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>T-shirt</td>
-                    <td>R$: 10.0</td>
-                    <td>10</td>
-                    <td>Shirt</td>
-                </tr>
-            </tbody>
-        </table>  
+
+<div class="card ">
+    <div class="card-header d-flex justify-content-between">
+        <h2 class="card-title"> Products List</h2>
+        <div>
+            <a class="btn btn-primary" href="Product/Create">
+                <i class="fas fa-plus"></i>
+            </a>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive ps">
+            <table class="table tablesorter " id="">
+                <thead class=" text-primary">
+                    <tr>
+                        <th class="">
+                            ID
+                        </th>
+                        <th class="">
+                            Name
+                        </th>
+                        <th>
+                            Stock
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Category
+                        </th>
+                        <th>
+                            <i class="fas fa-cog"></i>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            T-Shirt
+                        </td>
+                        <td>
+                            10
+                        </td>
+                        <td class="">
+                            $98,615
+                        </td>
+                        <td class="">
+                            Shirt
+                        </td>
+                        <td>
+                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
+                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            T-Shirt
+                        </td>
+                        <td>
+                            10
+                        </td>
+                        <td class="">
+                            $98,615
+                        </td>
+                        <td class="">
+                            Shirt
+                        </td>
+                        <td>
+                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
+                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            T-Shirt
+                        </td>
+                        <td>
+                            10
+                        </td>
+                        <td class="">
+                            $98,615
+                        </td>
+                        <td class="">
+                            Shirt
+                        </td>
+                        <td>
+                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
+                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>

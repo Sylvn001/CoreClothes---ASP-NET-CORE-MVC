@@ -4,14 +4,27 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container-fluid">
-    <div class="row d-flex align-items-center">
-        <form>
-            <div class="form-group">
+@section Scripts {
+    <script src="~/views/admin/category/create.js"></script>
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="title">New Category</h3>
+    </div>
+    <div class="card-body">
+        <form class="d-flex">
+            <div class="form-group col-3">
                 <label for="categoryName">Category Name</label>
-                <input type="text" class="form-control" id="CategoryName" name="name" placeholder="">
+                <input type="text" class="form-control" id="categoryName" name="name" placeholder="">
             </div>
         </form>
     </div>
-</div>
+    <div class="card-footer">
+        <a class="text-white font-weight-bold" href="~/admin/Category">
+            <button type="button" class="btn btn-fill btn-info">Cancel</button>
+        </a>
+        <button type="button" onclick="create.save()" class="btn btn-fill btn-primary">Save</button>
 
+    </div>
+</div>
