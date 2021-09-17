@@ -415,3 +415,4 @@ C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Area
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\index.cshtml.g.cs
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs

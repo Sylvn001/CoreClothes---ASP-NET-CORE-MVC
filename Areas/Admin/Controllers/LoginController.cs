@@ -28,11 +28,11 @@ namespace coreClothes.Areas.Admin.Controllers
                 return Redirect("/admin/Product");
             }
             else
-            {    
+            {
                 ViewBag.Msg = "Invalid Credentials!";
-                return View("~/Areas/Admin/Views/Login/Index.cshtml");
+                return View("~/Areas/admin/Views/Login/Index.cshtml");
             }
-
+            
         }
 
     }
