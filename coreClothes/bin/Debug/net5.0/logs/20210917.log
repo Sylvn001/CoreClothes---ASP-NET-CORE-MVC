@@ -1,0 +1,226 @@
+2021-09-17 15:09:33.187 -03:00 [INF] Logger funcionado...
+2021-09-17 15:09:33.242 -03:00 [INF] Starting...
+2021-09-17 15:09:34.156 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-17 15:09:34.778 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-17 15:09:34.780 -03:00 [INF] Hosting environment: Development
+2021-09-17 15:09:34.790 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-09-17 15:09:34.814 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-09-17 15:09:34.838 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 15:09:34.872 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-09-17 15:09:34.902 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 15:09:34.986 -03:00 [INF] Executed ViewResult - view Index executed in 104.1296ms.
+2021-09-17 15:09:34.990 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 116.3961ms
+2021-09-17 15:09:34.993 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 15:09:35.012 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 199.3941ms
+2021-09-17 15:09:35.065 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - -
+2021-09-17 15:09:35.076 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-09-17 15:09:35.080 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-09-17 15:09:35.080 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-09-17 15:09:35.084 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 4.5855ms
+2021-09-17 15:09:35.085 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 8.0364ms
+2021-09-17 15:09:35.089 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 8.8398ms
+2021-09-17 15:09:35.149 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-09-17 15:09:35.228 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-09-17 15:09:35.234 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-09-17 15:09:35.236 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 170.1538ms
+2021-09-17 15:09:35.236 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 86.2348ms
+2021-09-17 15:09:39.312 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Index - -
+2021-09-17 15:09:39.314 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 15:09:39.316 -03:00 [INF] Route matched with {action = "Index", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-09-17 15:09:39.326 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 15:09:39.344 -03:00 [INF] Executed ViewResult - view Index executed in 25.8636ms.
+2021-09-17 15:09:39.349 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Index (coreClothes) in 31.6301ms
+2021-09-17 15:09:39.352 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 15:09:39.355 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Index - - - 200 - text/html;+charset=utf-8 43.4993ms
+2021-09-17 15:09:39.368 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-09-17 15:09:39.374 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 5.5355ms
+2021-09-17 15:09:39.376 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - -
+2021-09-17 15:09:39.391 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - -
+2021-09-17 15:09:39.482 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-4.jpg'
+2021-09-17 15:09:39.493 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - - - 0 52622 image/jpeg 116.8239ms
+2021-09-17 15:09:39.516 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-5.jpg'
+2021-09-17 15:09:39.517 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - - - 0 33168 image/jpeg 126.7894ms
+2021-09-17 15:09:43.524 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-09-17 15:09:43.526 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-09-17 15:09:43.528 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-09-17 15:09:43.532 -03:00 [INF] Executing ViewResult, running view Details.
+2021-09-17 15:09:43.545 -03:00 [INF] Executed ViewResult - view Details executed in 15.0598ms.
+2021-09-17 15:09:43.546 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 16.5681ms
+2021-09-17 15:09:43.548 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-09-17 15:09:43.550 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 25.7796ms
+2021-09-17 15:09:43.578 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-09-17 15:09:43.584 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 5.4591ms
+2021-09-17 15:09:43.588 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - -
+2021-09-17 15:09:43.650 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/single/1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\single\1.jpg'
+2021-09-17 15:09:43.651 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - - - 0 130703 image/jpeg 62.9816ms
+2021-09-17 21:57:55.240 -03:00 [INF] Logger funcionado...
+2021-09-17 21:57:55.303 -03:00 [INF] Starting...
+2021-09-17 21:57:56.402 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-17 21:57:57.075 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-17 21:57:57.076 -03:00 [INF] Hosting environment: Development
+2021-09-17 21:57:57.078 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-09-17 21:57:57.114 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-09-17 21:57:57.139 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 21:57:57.171 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-09-17 21:57:57.214 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:57:57.311 -03:00 [INF] Executed ViewResult - view Index executed in 130.1227ms.
+2021-09-17 21:57:57.313 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 141.3283ms
+2021-09-17 21:57:57.316 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 21:57:57.329 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 216.0412ms
+2021-09-17 21:57:57.368 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - -
+2021-09-17 21:57:57.370 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-09-17 21:57:57.382 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 11.0576ms
+2021-09-17 21:57:57.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-09-17 21:57:57.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-09-17 21:57:57.389 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 2.8926ms
+2021-09-17 21:57:57.419 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 35.5248ms
+2021-09-17 21:57:57.487 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-09-17 21:57:57.517 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-09-17 21:57:57.531 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 157.0458ms
+2021-09-17 21:57:57.552 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-09-17 21:57:57.554 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 66.6749ms
+2021-09-17 21:59:04.292 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Index - -
+2021-09-17 21:59:04.296 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 21:59:04.299 -03:00 [INF] Route matched with {action = "Index", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-09-17 21:59:04.314 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:59:04.328 -03:00 [INF] Executed ViewResult - view Index executed in 27.451ms.
+2021-09-17 21:59:04.329 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Index (coreClothes) in 29.3567ms
+2021-09-17 21:59:04.331 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 21:59:04.333 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Index - - - 200 - text/html;+charset=utf-8 42.3490ms
+2021-09-17 21:59:04.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - -
+2021-09-17 21:59:04.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-09-17 21:59:04.370 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-13.jpg - -
+2021-09-17 21:59:04.376 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-7.jpg - -
+2021-09-17 21:59:04.380 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-14.jpg - -
+2021-09-17 21:59:04.376 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 21.2386ms
+2021-09-17 21:59:04.415 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - -
+2021-09-17 21:59:04.443 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - -
+2021-09-17 21:59:04.544 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-4.jpg'
+2021-09-17 21:59:04.559 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-13.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-13.jpg'
+2021-09-17 21:59:04.579 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - - - 0 52622 image/jpeg 220.0592ms
+2021-09-17 21:59:04.585 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-13.jpg - - - 0 14939 image/jpeg 214.9615ms
+2021-09-17 21:59:04.558 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-7.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-7.jpg'
+2021-09-17 21:59:04.585 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-14.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-14.jpg'
+2021-09-17 21:59:04.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-15.jpg - -
+2021-09-17 21:59:04.604 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-7.jpg - - - 0 37341 image/jpeg 223.1876ms
+2021-09-17 21:59:04.636 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-14.jpg - - - 0 22098 image/jpeg 225.1747ms
+2021-09-17 21:59:04.604 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-5.jpg'
+2021-09-17 21:59:04.598 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-6.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-6.jpg'
+2021-09-17 21:59:04.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - - - 0 33168 image/jpeg 223.8711ms
+2021-09-17 21:59:04.647 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - - - 0 30429 image/jpeg 203.7453ms
+2021-09-17 21:59:04.686 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-15.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-15.jpg'
+2021-09-17 21:59:04.687 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-15.jpg - - - 0 17684 image/jpeg 88.2009ms
+2021-09-17 21:59:10.136 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-09-17 21:59:10.138 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-09-17 21:59:10.140 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-09-17 21:59:10.153 -03:00 [INF] Executing ViewResult, running view Details.
+2021-09-17 21:59:10.166 -03:00 [INF] Executed ViewResult - view Details executed in 24.4724ms.
+2021-09-17 21:59:10.167 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 25.7799ms
+2021-09-17 21:59:10.168 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-09-17 21:59:10.170 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 33.9457ms
+2021-09-17 21:59:10.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-09-17 21:59:10.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 2.7512ms
+2021-09-17 21:59:10.196 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - -
+2021-09-17 21:59:10.257 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/single/1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\single\1.jpg'
+2021-09-17 21:59:10.258 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - - - 0 130703 image/jpeg 61.3469ms
+2021-09-17 21:59:17.443 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-09-17 21:59:17.445 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-09-17 21:59:17.447 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-09-17 21:59:17.457 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:59:17.583 -03:00 [INF] Executed ViewResult - view Index executed in 134.6746ms.
+2021-09-17 21:59:17.584 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 136.1379ms
+2021-09-17 21:59:17.590 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-09-17 21:59:17.592 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 149.0678ms
+2021-09-17 21:59:17.600 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - -
+2021-09-17 21:59:17.614 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-09-17 21:59:17.616 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - - - 200 2401 text/css 16.1390ms
+2021-09-17 21:59:24.328 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/admin/Login/Auth application/x-www-form-urlencoded 35
+2021-09-17 21:59:24.329 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-09-17 21:59:24.331 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-09-17 21:59:24.338 -03:00 [INF] Executing RedirectResult, redirecting to /admin/Product.
+2021-09-17 21:59:24.339 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 6.4891ms
+2021-09-17 21:59:24.340 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-09-17 21:59:24.342 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10386/admin/Login/Auth application/x-www-form-urlencoded 35 - 302 - - 14.8001ms
+2021-09-17 21:59:24.353 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin/Product - -
+2021-09-17 21:59:24.355 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 21:59:24.357 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.ProductController (coreClothes).
+2021-09-17 21:59:24.366 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:59:24.395 -03:00 [INF] Executed ViewResult - view Index executed in 36.1857ms.
+2021-09-17 21:59:24.396 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes) in 37.7558ms
+2021-09-17 21:59:24.398 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 21:59:24.399 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin/Product - - - 200 - text/html;+charset=utf-8 46.2256ms
+2021-09-17 21:59:24.437 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/bdashboard/assets/css/black-dashboard.css?v=1.0.0 - -
+2021-09-17 21:59:24.443 -03:00 [INF] The file /lib/bdashboard/assets/css/black-dashboard.css was not modified
+2021-09-17 21:59:24.446 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/bdashboard/assets/css/black-dashboard.css?v=1.0.0 - - - 304 - text/css 9.3126ms
+2021-09-17 21:59:24.483 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/bdashboard/assets/fonts/nucleo.woff2 - -
+2021-09-17 21:59:24.531 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/fonts/nucleo.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\fonts\nucleo.woff2'
+2021-09-17 21:59:24.532 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/bdashboard/assets/fonts/nucleo.woff2 - - - 0 12616 font/woff2 49.3763ms
+2021-09-17 21:59:27.534 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin/Product/Create - -
+2021-09-17 21:59:27.535 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Create (coreClothes)'
+2021-09-17 21:59:27.537 -03:00 [INF] Route matched with {area = "admin", action = "Create", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller coreClothes.Areas.Admin.Controllers.ProductController (coreClothes).
+2021-09-17 21:59:27.546 -03:00 [INF] Executing ViewResult, running view Create.
+2021-09-17 21:59:27.551 -03:00 [INF] Executed ViewResult - view Create executed in 12.3ms.
+2021-09-17 21:59:27.552 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.ProductController.Create (coreClothes) in 13.5552ms
+2021-09-17 21:59:27.553 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Create (coreClothes)'
+2021-09-17 21:59:27.557 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin/Product/Create - - - 200 - text/html;+charset=utf-8 23.5846ms
+2021-09-17 21:59:27.581 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/category/create.js - -
+2021-09-17 21:59:27.598 -03:00 [INF] Sending file. Request path: '/views/admin/category/create.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\category\create.js'
+2021-09-17 21:59:27.600 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/category/create.js - - - 200 467 application/javascript 18.8817ms
+2021-09-17 21:59:29.765 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin/Category - -
+2021-09-17 21:59:29.766 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-09-17 21:59:29.768 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-09-17 21:59:29.780 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:59:29.783 -03:00 [INF] Executed ViewResult - view Index executed in 13.5209ms.
+2021-09-17 21:59:29.784 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 14.8903ms
+2021-09-17 21:59:29.785 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-09-17 21:59:29.787 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin/Category - - - 200 - text/html;+charset=utf-8 21.8703ms
+2021-09-17 21:59:34.370 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-09-17 21:59:34.371 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 21:59:34.373 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-09-17 21:59:34.374 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 21:59:34.376 -03:00 [INF] Executed ViewResult - view Index executed in 2.1973ms.
+2021-09-17 21:59:34.378 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 3.9631ms
+2021-09-17 21:59:34.379 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 21:59:34.381 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 11.4070ms
+2021-09-17 21:59:34.404 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-09-17 21:59:34.408 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-09-17 21:59:34.404 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-09-17 21:59:34.421 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 13.7471ms
+2021-09-17 21:59:34.421 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 17.1586ms
+2021-09-17 21:59:34.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 22.7172ms
+2021-09-17 22:00:21.421 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Index - -
+2021-09-17 22:00:21.423 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 22:00:21.449 -03:00 [INF] Route matched with {action = "Index", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-09-17 22:00:21.451 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 22:00:21.463 -03:00 [INF] Executed ViewResult - view Index executed in 12.9118ms.
+2021-09-17 22:00:21.468 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Index (coreClothes) in 17.8661ms
+2021-09-17 22:00:21.470 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-09-17 22:00:21.473 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-09-17 22:00:21.474 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Index - - - 200 - text/html;+charset=utf-8 53.6941ms
+2021-09-17 22:00:21.476 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - -
+2021-09-17 22:00:21.496 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - -
+2021-09-17 22:00:21.497 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 23.6292ms
+2021-09-17 22:00:21.501 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-15.jpg - -
+2021-09-17 22:00:21.519 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - -
+2021-09-17 22:00:21.629 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-4.jpg'
+2021-09-17 22:00:21.641 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-15.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-15.jpg'
+2021-09-17 22:00:21.641 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - - - 0 52622 image/jpeg 164.6892ms
+2021-09-17 22:00:21.650 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-6.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-6.jpg'
+2021-09-17 22:00:21.650 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-15.jpg - - - 0 17684 image/jpeg 148.1966ms
+2021-09-17 22:00:21.658 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - - - 0 30429 image/jpeg 138.3681ms
+2021-09-17 22:00:21.656 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\product-5.jpg'
+2021-09-17 22:00:21.660 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-5.jpg - - - 0 33168 image/jpeg 164.7044ms
+2021-09-17 22:00:45.282 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Home/Index - -
+2021-09-17 22:00:45.284 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 22:00:45.286 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-09-17 22:00:45.287 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-17 22:00:45.289 -03:00 [INF] Executed ViewResult - view Index executed in 1.62ms.
+2021-09-17 22:00:45.290 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 2.96ms
+2021-09-17 22:00:45.291 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-09-17 22:00:45.298 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Home/Index - - - 200 - text/html;+charset=utf-8 15.7202ms
+2021-09-17 22:00:45.312 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-09-17 22:00:45.313 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-09-17 22:00:45.316 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 3.3314ms
+2021-09-17 22:00:45.316 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 2.5337ms
+2021-09-17 22:00:45.321 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Home/assets/images/products/cart/product-2.jpg - -
+2021-09-17 22:00:45.326 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Home/assets/images/products/cart/product-2.jpg - - - 404 - - 4.5976ms

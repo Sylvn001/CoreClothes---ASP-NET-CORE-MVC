@@ -1,0 +1,172 @@
+2021-10-22 23:38:54.257 -03:00 [INF] Logger funcionado...
+2021-10-22 23:38:54.343 -03:00 [INF] Starting...
+2021-10-22 23:38:55.546 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-22 23:38:56.272 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-22 23:38:56.274 -03:00 [INF] Hosting environment: Development
+2021-10-22 23:38:56.276 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-10-22 23:38:56.317 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-10-22 23:38:56.351 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-10-22 23:38:56.394 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-10-22 23:38:56.443 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-22 23:38:56.550 -03:00 [INF] Executed ViewResult - view Index executed in 142.6819ms.
+2021-10-22 23:38:56.553 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 156.6753ms
+2021-10-22 23:38:56.567 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-10-22 23:38:56.575 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 259.4154ms
+2021-10-22 23:38:56.596 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - -
+2021-10-22 23:38:56.596 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-22 23:38:56.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-10-22 23:38:56.596 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-22 23:38:56.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - -
+2021-10-22 23:38:56.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-22 23:38:56.656 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css - -
+2021-10-22 23:38:56.669 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\magnific-popup\magnific-popup.css'
+2021-10-22 23:38:56.669 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.hoverIntent.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.hoverIntent.min.js'
+2021-10-22 23:38:56.675 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-10-22 23:38:56.675 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - -
+2021-10-22 23:38:56.678 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 200 2317 application/javascript 79.1852ms
+2021-10-22 23:38:56.685 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - - - 200 6016 text/css 85.9900ms
+2021-10-22 23:38:56.685 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-22 23:38:56.692 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-22 23:38:56.696 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/demos/demo-18.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\demos\demo-18.css'
+2021-10-22 23:38:56.698 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 200 9553 text/css 97.8877ms
+2021-10-22 23:38:56.704 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-22 23:38:56.710 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - - - 200 9827 text/css 35.7623ms
+2021-10-22 23:38:56.710 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-22 23:38:56.712 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.waypoints.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.waypoints.min.js'
+2021-10-22 23:38:56.721 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 200 10275 application/javascript 36.3634ms
+2021-10-22 23:38:56.718 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/superfish.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\superfish.min.js'
+2021-10-22 23:38:56.735 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-22 23:38:56.735 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap-input-spinner.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\bootstrap-input-spinner.js'
+2021-10-22 23:38:56.743 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\bootstrap.bundle.min.js'
+2021-10-22 23:38:56.743 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.min.js'
+2021-10-22 23:38:56.753 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-22 23:38:56.759 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 200 11736 application/javascript 44.8414ms
+2021-10-22 23:38:56.763 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-22 23:38:56.768 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 200 78635 application/javascript 169.5399ms
+2021-10-22 23:38:56.763 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/owl.carousel.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\owl.carousel.min.js'
+2021-10-22 23:38:56.768 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-10-22 23:38:56.774 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 200 88145 application/javascript 177.9921ms
+2021-10-22 23:38:56.774 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.magnific-popup.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.magnific-popup.min.js'
+2021-10-22 23:38:56.782 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 200 44342 application/javascript 78.0266ms
+2021-10-22 23:38:56.782 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/main.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\main.js'
+2021-10-22 23:38:56.783 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 200 20229 application/javascript 50.8483ms
+2021-10-22 23:38:56.781 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/demos/demo-18.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\demos\demo-18.js'
+2021-10-22 23:38:56.789 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/style.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\style.css'
+2021-10-22 23:38:56.793 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 200 26530 application/javascript 38.4769ms
+2021-10-22 23:38:56.784 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - - - 200 155758 text/css 188.7802ms
+2021-10-22 23:38:56.797 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 200 74 application/javascript 33.0238ms
+2021-10-22 23:38:56.745 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 200 4508 application/javascript 52.9317ms
+2021-10-22 23:38:56.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css - - - 200 272428 text/css 147.0287ms
+2021-10-22 23:38:56.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - -
+2021-10-22 23:38:56.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - -
+2021-10-22 23:38:56.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - -
+2021-10-22 23:38:56.866 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - -
+2021-10-22 23:38:56.866 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - -
+2021-10-22 23:38:56.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - -
+2021-10-22 23:38:56.866 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - -
+2021-10-22 23:38:56.890 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4.jpg'
+2021-10-22 23:38:56.890 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8-2.jpg'
+2021-10-22 23:38:56.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - -
+2021-10-22 23:38:56.896 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7.jpg'
+2021-10-22 23:38:56.892 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4-2.jpg'
+2021-10-22 23:38:56.903 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - - - 200 13088 image/jpeg 36.6708ms
+2021-10-22 23:38:56.908 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - - - 200 7891 image/jpeg 42.9121ms
+2021-10-22 23:38:56.910 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - - - 200 25658 image/jpeg 43.8224ms
+2021-10-22 23:38:56.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - - - 200 14436 image/jpeg 46.9124ms
+2021-10-22 23:38:56.894 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-2.jpg'
+2021-10-22 23:38:56.916 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-3.jpg'
+2021-10-22 23:38:56.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-10-22 23:38:56.901 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1-2.jpg'
+2021-10-22 23:38:56.924 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - - - 200 21587 image/jpeg 32.0010ms
+2021-10-22 23:38:56.924 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - - - 200 15624 image/jpeg 58.0659ms
+2021-10-22 23:38:56.929 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - - - 200 15949 image/jpeg 63.6809ms
+2021-10-22 23:38:56.915 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-2.jpg'
+2021-10-22 23:38:56.933 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - - - 200 36150 image/jpeg 66.7223ms
+2021-10-22 23:38:56.941 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-10-22 23:38:56.944 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 200 134912 font/woff2 25.6719ms
+2021-10-22 23:38:56.952 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-22 23:38:56.959 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/cart/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\cart\product-1.jpg'
+2021-10-22 23:38:56.967 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 200 2018 image/jpeg 15.0142ms
+2021-10-22 23:38:56.969 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-10-22 23:38:56.973 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - -
+2021-10-22 23:38:56.977 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - -
+2021-10-22 23:38:56.978 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - -
+2021-10-22 23:38:56.979 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - -
+2021-10-22 23:38:56.984 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 16.2113ms
+2021-10-22 23:38:56.992 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1.jpg'
+2021-10-22 23:38:56.992 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6.jpg'
+2021-10-22 23:38:56.992 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6-2.jpg'
+2021-10-22 23:38:56.997 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - -
+2021-10-22 23:38:57.006 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - - - 200 15464 image/jpeg 29.4171ms
+2021-10-22 23:38:57.013 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-1.jpg'
+2021-10-22 23:38:57.015 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - - - 200 15198 image/jpeg 41.6422ms
+2021-10-22 23:38:57.015 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - - - 200 15586 image/jpeg 36.3701ms
+2021-10-22 23:38:57.019 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - - - 200 42959 image/jpeg 40.5154ms
+2021-10-22 23:38:57.018 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - -
+2021-10-22 23:38:57.026 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - -
+2021-10-22 23:38:57.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - -
+2021-10-22 23:38:57.025 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-4.jpg'
+2021-10-22 23:38:57.019 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - -
+2021-10-22 23:38:57.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - -
+2021-10-22 23:38:57.036 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/5.png - -
+2021-10-22 23:38:57.040 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5.jpg'
+2021-10-22 23:38:57.043 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9.jpg'
+2021-10-22 23:38:57.047 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/5.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\5.png'
+2021-10-22 23:38:57.047 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - -
+2021-10-22 23:38:57.048 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5-2.jpg'
+2021-10-22 23:38:57.052 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - - - 200 13802 image/jpeg 54.9473ms
+2021-10-22 23:38:57.056 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/5.png - - - 200 1781 image/png 19.4138ms
+2021-10-22 23:38:57.061 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - -
+2021-10-22 23:38:57.061 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-2-2.jpg'
+2021-10-22 23:38:57.064 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-3.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-3.jpg'
+2021-10-22 23:38:57.066 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - - - 200 13947 image/jpeg 47.2250ms
+2021-10-22 23:38:57.072 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - - - 200 25109 image/jpeg 46.3206ms
+2021-10-22 23:38:57.074 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8.jpg'
+2021-10-22 23:38:57.074 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - -
+2021-10-22 23:38:57.075 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - -
+2021-10-22 23:38:57.063 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - - - 200 30378 image/jpeg 33.8395ms
+2021-10-22 23:38:57.081 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - - - 200 21802 image/jpeg 46.5150ms
+2021-10-22 23:38:57.079 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-3-2.jpg'
+2021-10-22 23:38:57.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/7.png - -
+2021-10-22 23:38:57.089 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - - - 200 28170 image/jpeg 71.1731ms
+2021-10-22 23:38:57.097 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - - - 200 14903 image/jpeg 37.0938ms
+2021-10-22 23:38:57.093 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-10-22 23:38:57.092 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9-2.jpg'
+2021-10-22 23:38:57.106 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/7.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\7.png'
+2021-10-22 23:38:57.110 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - - - 200 17762 image/jpeg 61.1474ms
+2021-10-22 23:38:57.113 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7-2.jpg'
+2021-10-22 23:38:57.115 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/3.png - -
+2021-10-22 23:38:57.116 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-10-22 23:38:57.118 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/7.png - - - 200 825 image/png 36.5521ms
+2021-10-22 23:38:57.120 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - - - 200 14074 image/jpeg 44.7566ms
+2021-10-22 23:38:57.125 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/3.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\3.png'
+2021-10-22 23:38:57.136 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - - - 200 30236 image/jpeg 57.2254ms
+2021-10-22 23:38:57.128 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 35.1854ms
+2021-10-22 23:38:57.140 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 23.8581ms
+2021-10-22 23:38:57.115 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/4.png - -
+2021-10-22 23:38:57.144 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/3.png - - - 200 832 image/png 27.9780ms
+2021-10-22 23:38:57.090 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/6.png - -
+2021-10-22 23:38:57.151 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/4.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\4.png'
+2021-10-22 23:38:57.151 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/6.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\6.png'
+2021-10-22 23:38:57.158 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/4.png - - - 200 1184 image/png 43.1761ms
+2021-10-22 23:38:57.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/6.png - - - 200 1074 image/png 68.6978ms
+2021-10-22 23:38:57.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/apple-touch-icon.png - -
+2021-10-22 23:38:57.365 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/favicon-16x16.png - -
+2021-10-22 23:38:57.367 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/apple-touch-icon.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\apple-touch-icon.png'
+2021-10-22 23:38:57.369 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/favicon-16x16.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\favicon-16x16.png'
+2021-10-22 23:38:57.374 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/apple-touch-icon.png - - - 200 1891 image/png 11.2303ms
+2021-10-22 23:38:57.375 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/favicon-16x16.png - - - 200 842 image/png 9.2867ms
+2021-10-22 23:39:04.589 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-22 23:39:04.592 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-22 23:39:04.595 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-22 23:39:04.605 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-22 23:39:04.767 -03:00 [INF] Executed ViewResult - view Index executed in 170.3146ms.
+2021-10-22 23:39:04.768 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 172.448ms
+2021-10-22 23:39:04.772 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-22 23:39:04.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 186.0809ms
+2021-10-22 23:39:04.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - -
+2021-10-22 23:39:04.806 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-10-22 23:39:04.810 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - - - 200 2401 text/css 16.3160ms
+2021-10-22 23:39:05.024 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-22 23:39:05.030 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\favicon.ico'
+2021-10-22 23:39:05.032 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 200 5430 image/x-icon 9.1670ms

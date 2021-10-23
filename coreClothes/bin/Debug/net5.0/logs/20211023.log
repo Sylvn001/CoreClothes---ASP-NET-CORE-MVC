@@ -1,0 +1,521 @@
+2021-10-23 00:10:06.513 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:10:06.534 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:06.557 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:10:13.154 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:10:13.160 -03:00 [INF] Executed ViewResult - view Index executed in 6600.423ms.
+2021-10-23 00:10:13.161 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 6601.9513ms
+2021-10-23 00:10:13.170 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:13.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 6658.6959ms
+2021-10-23 00:10:28.897 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:10:28.900 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:28.902 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:10:28.903 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:10:28.905 -03:00 [INF] Executed ViewResult - view Index executed in 1.9316ms.
+2021-10-23 00:10:28.907 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.3456ms
+2021-10-23 00:10:28.908 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:28.910 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 12.6560ms
+2021-10-23 00:10:30.920 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:10:30.922 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:30.923 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:10:30.925 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:10:30.926 -03:00 [INF] Executed ViewResult - view Index executed in 1.5405ms.
+2021-10-23 00:10:30.927 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2.7291ms
+2021-10-23 00:10:30.929 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:10:30.932 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 11.6839ms
+2021-10-23 00:10:43.779 -03:00 [INF] Logger funcionado...
+2021-10-23 00:10:43.842 -03:00 [INF] Starting...
+2021-10-23 00:10:44.608 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-23 00:10:44.941 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-23 00:10:44.942 -03:00 [INF] Hosting environment: Development
+2021-10-23 00:10:44.944 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-10-23 00:10:44.979 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-10-23 00:10:45.005 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-10-23 00:10:45.039 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-10-23 00:10:45.072 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:10:45.155 -03:00 [INF] Executed ViewResult - view Index executed in 105.1783ms.
+2021-10-23 00:10:45.161 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 120.8221ms
+2021-10-23 00:10:45.164 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-10-23 00:10:45.178 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 200.9875ms
+2021-10-23 00:10:45.218 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - -
+2021-10-23 00:10:45.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-10-23 00:10:45.253 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-10-23 00:10:45.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-10-23 00:10:45.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 44.0711ms
+2021-10-23 00:10:45.324 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-10-23 00:10:45.327 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 62.2674ms
+2021-10-23 00:10:45.327 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 74.6674ms
+2021-10-23 00:10:45.453 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-10-23 00:10:45.453 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-10-23 00:10:45.460 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 149.7212ms
+2021-10-23 00:10:45.464 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 245.9405ms
+2021-10-23 00:10:49.678 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/login - -
+2021-10-23 00:10:49.684 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/login - - - 404 - - 6.4973ms
+2021-10-23 00:11:15.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:11:15.297 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:11:15.302 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:11:15.306 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:11:15.316 -03:00 [INF] Executed ViewResult - view Index executed in 11.5428ms.
+2021-10-23 00:11:15.317 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 13.376ms
+2021-10-23 00:11:15.319 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:11:15.321 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 27.2271ms
+2021-10-23 00:11:47.723 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:11:47.753 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:11:47.765 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:11:50.093 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:11:50.099 -03:00 [INF] Executed ViewResult - view Index executed in 2329.97ms.
+2021-10-23 00:11:50.100 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2331.5905ms
+2021-10-23 00:11:50.102 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:11:50.105 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 2381.5620ms
+2021-10-23 00:11:50.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:11:50.126 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:11:50.128 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1867 application/javascript 4.7273ms
+2021-10-23 00:12:49.767 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:12:49.769 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:12:49.774 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:12:49.894 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:12:49.901 -03:00 [INF] Executed ViewResult - view Index executed in 125.525ms.
+2021-10-23 00:12:49.902 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 127.0062ms
+2021-10-23 00:12:49.904 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:12:49.908 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 140.8525ms
+2021-10-23 00:12:49.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:12:49.928 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:12:49.934 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 9.2322ms
+2021-10-23 00:13:53.275 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:13:53.278 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:53.286 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:13:53.390 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:13:53.395 -03:00 [INF] Executed ViewResult - view Index executed in 107.9283ms.
+2021-10-23 00:13:53.397 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 109.5938ms
+2021-10-23 00:13:53.398 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:53.400 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 124.8874ms
+2021-10-23 00:13:53.424 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:13:53.426 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:13:53.428 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1867 application/javascript 4.3824ms
+2021-10-23 00:13:54.651 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:13:54.653 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:54.655 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:13:54.657 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:13:54.658 -03:00 [INF] Executed ViewResult - view Index executed in 1.7731ms.
+2021-10-23 00:13:54.660 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.1418ms
+2021-10-23 00:13:54.661 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:54.665 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 14.3844ms
+2021-10-23 00:13:54.694 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:13:54.697 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:13:54.700 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 5.3380ms
+2021-10-23 00:13:55.589 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:13:55.591 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:55.593 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:13:55.594 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:13:55.596 -03:00 [INF] Executed ViewResult - view Index executed in 1.8409ms.
+2021-10-23 00:13:55.598 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.5688ms
+2021-10-23 00:13:55.600 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:13:55.602 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 12.9340ms
+2021-10-23 00:13:55.626 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:13:55.629 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:13:55.632 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 5.8459ms
+2021-10-23 00:15:12.064 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:15:12.069 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:15:12.071 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:15:12.075 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:15:12.085 -03:00 [INF] Executed ViewResult - view Index executed in 9.7087ms.
+2021-10-23 00:15:12.087 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 11.9137ms
+2021-10-23 00:15:12.109 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:15:12.178 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:15:12.398 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:15:12.402 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 334.0220ms
+2021-10-23 00:15:12.473 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1712 application/javascript 294.9392ms
+2021-10-23 00:16:09.228 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:16:09.235 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:09.236 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:16:09.238 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:16:09.240 -03:00 [INF] Executed ViewResult - view Index executed in 1.9614ms.
+2021-10-23 00:16:09.242 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 4.414ms
+2021-10-23 00:16:09.262 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:09.270 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:16:09.282 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 53.9427ms
+2021-10-23 00:16:09.292 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:16:09.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1716 application/javascript 30.1750ms
+2021-10-23 00:16:24.214 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:16:24.218 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:24.220 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:16:24.221 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:16:24.223 -03:00 [INF] Executed ViewResult - view Index executed in 1.8965ms.
+2021-10-23 00:16:24.224 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.1794ms
+2021-10-23 00:16:24.225 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:24.229 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 15.1782ms
+2021-10-23 00:16:24.244 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:16:24.248 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:16:24.253 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1716 application/javascript 9.0411ms
+2021-10-23 00:16:25.124 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:16:25.126 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:25.127 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:16:25.129 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:16:25.131 -03:00 [INF] Executed ViewResult - view Index executed in 2.214ms.
+2021-10-23 00:16:25.132 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.6382ms
+2021-10-23 00:16:25.134 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:25.137 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 12.6799ms
+2021-10-23 00:16:25.154 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - -
+2021-10-23 00:16:25.154 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:16:25.160 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-10-23 00:16:25.161 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:16:25.167 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1716 application/javascript 12.1423ms
+2021-10-23 00:16:25.167 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - - - 200 2401 text/css 12.1839ms
+2021-10-23 00:16:25.347 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-23 00:16:25.350 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\favicon.ico'
+2021-10-23 00:16:25.352 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 200 5430 image/x-icon 4.4244ms
+2021-10-23 00:16:28.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:16:28.097 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:28.099 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:16:28.100 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:16:28.102 -03:00 [INF] Executed ViewResult - view Index executed in 1.465ms.
+2021-10-23 00:16:28.103 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2.8514ms
+2021-10-23 00:16:28.105 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:28.109 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 13.5804ms
+2021-10-23 00:16:28.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:16:28.125 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:16:28.127 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 3.8980ms
+2021-10-23 00:16:43.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:16:43.399 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:43.405 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:16:43.406 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:16:43.408 -03:00 [INF] Executed ViewResult - view Index executed in 1.5396ms.
+2021-10-23 00:16:43.409 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.1576ms
+2021-10-23 00:16:43.427 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:16:43.428 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:16:43.440 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:16:43.442 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 14.9843ms
+2021-10-23 00:16:43.444 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 81.3712ms
+2021-10-23 00:17:38.520 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:17:38.522 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:17:38.526 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:17:38.527 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:17:38.534 -03:00 [INF] Executed ViewResult - view Index executed in 6.8549ms.
+2021-10-23 00:17:38.632 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 104.1747ms
+2021-10-23 00:17:38.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:17:38.645 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:17:38.649 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:17:38.659 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 25.8970ms
+2021-10-23 00:17:38.766 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 246.3245ms
+2021-10-23 00:18:01.174 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:18:01.177 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:01.180 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:18:01.181 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:18:01.183 -03:00 [INF] Executed ViewResult - view Index executed in 1.6806ms.
+2021-10-23 00:18:01.184 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.0587ms
+2021-10-23 00:18:01.186 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:01.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 25.1053ms
+2021-10-23 00:18:01.224 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:18:01.226 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:18:01.228 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 4.0973ms
+2021-10-23 00:18:01.935 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:18:01.937 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:01.939 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:18:01.940 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:18:01.943 -03:00 [INF] Executed ViewResult - view Index executed in 2.3038ms.
+2021-10-23 00:18:01.946 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 6.049ms
+2021-10-23 00:18:02.072 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:18:02.123 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:02.123 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - -
+2021-10-23 00:18:02.184 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:18:02.205 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 269.8999ms
+2021-10-23 00:18:02.206 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1716 application/javascript 132.5814ms
+2021-10-23 00:18:02.205 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-10-23 00:18:02.211 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - - - 200 2401 text/css 88.8041ms
+2021-10-23 00:18:02.224 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-23 00:18:02.235 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\favicon.ico'
+2021-10-23 00:18:02.240 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 200 5430 image/x-icon 16.1034ms
+2021-10-23 00:18:14.967 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:18:14.978 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:14.981 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:18:14.983 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:18:14.985 -03:00 [INF] Executed ViewResult - view Index executed in 2.0809ms.
+2021-10-23 00:18:15.032 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:18:15.032 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 49.4959ms
+2021-10-23 00:18:15.136 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:18:15.144 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:15.224 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 191.3552ms
+2021-10-23 00:18:15.271 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 304.2156ms
+2021-10-23 00:18:30.217 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:18:30.383 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:30.509 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:18:30.628 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:18:30.643 -03:00 [INF] Executed ViewResult - view Index executed in 14.9442ms.
+2021-10-23 00:18:30.677 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 48.6785ms
+2021-10-23 00:18:30.677 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:18:30.688 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:18:30.690 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:18:30.697 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 19.8972ms
+2021-10-23 00:18:30.703 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 485.9466ms
+2021-10-23 00:19:15.219 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:19:15.222 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:15.233 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:19:15.235 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:19:15.237 -03:00 [INF] Executed ViewResult - view Index executed in 2.228ms.
+2021-10-23 00:19:15.239 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 4.3537ms
+2021-10-23 00:19:15.309 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:19:15.310 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:15.323 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:19:15.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 108.7751ms
+2021-10-23 00:19:15.342 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1752 application/javascript 33.0057ms
+2021-10-23 00:19:33.396 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:19:33.398 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:33.400 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:19:33.401 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:19:33.403 -03:00 [INF] Executed ViewResult - view Index executed in 1.6477ms.
+2021-10-23 00:19:33.404 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.0676ms
+2021-10-23 00:19:33.406 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:33.415 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 18.9289ms
+2021-10-23 00:19:33.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:19:33.433 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:19:33.435 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 8.5869ms
+2021-10-23 00:19:49.030 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:19:49.033 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:49.034 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:19:49.036 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:19:49.037 -03:00 [INF] Executed ViewResult - view Index executed in 1.6897ms.
+2021-10-23 00:19:49.039 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.1156ms
+2021-10-23 00:19:49.041 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:19:49.043 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 12.8136ms
+2021-10-23 00:19:49.055 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:19:49.056 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - -
+2021-10-23 00:19:49.060 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-10-23 00:19:49.061 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:19:49.067 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/views/admin/login/index.css - - - 200 2401 text/css 11.5764ms
+2021-10-23 00:19:49.069 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1752 application/javascript 13.2355ms
+2021-10-23 00:19:49.149 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-23 00:19:49.151 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\favicon.ico'
+2021-10-23 00:19:49.153 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 200 5430 image/x-icon 4.4207ms
+2021-10-23 00:20:26.955 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:20:26.958 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:20:26.960 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:20:26.961 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:20:26.964 -03:00 [INF] Executed ViewResult - view Index executed in 3.2871ms.
+2021-10-23 00:20:26.966 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 4.7119ms
+2021-10-23 00:20:26.969 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:20:26.984 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 28.9092ms
+2021-10-23 00:20:26.992 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:20:26.998 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:20:27.001 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 8.3162ms
+2021-10-23 00:23:21.947 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:23:21.948 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:23:21.952 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:23:21.953 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:23:21.955 -03:00 [INF] Executed ViewResult - view Index executed in 1.5428ms.
+2021-10-23 00:23:21.959 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.4372ms
+2021-10-23 00:23:21.961 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:23:21.964 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 17.7743ms
+2021-10-23 00:23:21.985 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:23:21.987 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:23:21.989 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1590 application/javascript 4.5729ms
+2021-10-23 00:23:22.008 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-23 00:23:22.077 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\favicon.ico'
+2021-10-23 00:23:22.080 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 0 5430 image/x-icon 72.2848ms
+2021-10-23 00:24:19.956 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:24:19.960 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:24:19.961 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:24:19.963 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:24:19.966 -03:00 [INF] Executed ViewResult - view Index executed in 2.7179ms.
+2021-10-23 00:24:19.967 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 4.255ms
+2021-10-23 00:24:19.981 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:24:19.984 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 28.2811ms
+2021-10-23 00:24:20.009 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:24:20.012 -03:00 [INF] Sending file. Request path: '/clientapp/src/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\src\views\login\Index.js'
+2021-10-23 00:24:20.018 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 200 1590 application/javascript 9.2454ms
+2021-10-23 00:25:18.006 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:25:18.017 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:18.019 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:25:18.021 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:25:18.023 -03:00 [INF] Executed ViewResult - view Index executed in 1.9676ms.
+2021-10-23 00:25:18.032 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 11.0591ms
+2021-10-23 00:25:18.069 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:18.070 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:25:18.099 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:25:18.101 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 32.0725ms
+2021-10-23 00:25:18.117 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 110.1922ms
+2021-10-23 00:25:40.235 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:25:40.237 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:40.240 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:25:40.241 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:25:40.242 -03:00 [INF] Executed ViewResult - view Index executed in 1.316ms.
+2021-10-23 00:25:40.245 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.5009ms
+2021-10-23 00:25:40.246 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:40.249 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 14.0635ms
+2021-10-23 00:25:40.267 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:25:40.269 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:25:40.270 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 3.4758ms
+2021-10-23 00:25:47.067 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:25:47.068 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:47.070 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:25:47.071 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:25:47.073 -03:00 [INF] Executed ViewResult - view Index executed in 1.5158ms.
+2021-10-23 00:25:47.075 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.8533ms
+2021-10-23 00:25:47.079 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:47.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 14.9504ms
+2021-10-23 00:25:47.093 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:25:47.096 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:25:47.098 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 4.7889ms
+2021-10-23 00:25:47.624 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:25:47.626 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:47.628 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:25:47.630 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:25:47.632 -03:00 [INF] Executed ViewResult - view Index executed in 1.8981ms.
+2021-10-23 00:25:47.633 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.2198ms
+2021-10-23 00:25:47.635 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:25:47.639 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 14.8563ms
+2021-10-23 00:25:47.653 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:25:47.654 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:25:47.656 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 2.9953ms
+2021-10-23 00:26:39.728 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:26:39.730 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:26:39.732 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:26:39.874 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:26:39.880 -03:00 [INF] Executed ViewResult - view Index executed in 146.3448ms.
+2021-10-23 00:26:39.882 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 148.1309ms
+2021-10-23 00:26:39.884 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:26:39.887 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 158.3512ms
+2021-10-23 00:26:39.915 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:26:39.918 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:26:39.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 3.8820ms
+2021-10-23 00:27:21.992 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:22.025 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:22.031 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:22.034 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:22.042 -03:00 [INF] Executed ViewResult - view Index executed in 8.052ms.
+2021-10-23 00:27:22.048 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 14.5119ms
+2021-10-23 00:27:22.052 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:22.135 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:22.141 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 149.3354ms
+2021-10-23 00:27:22.151 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:22.156 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 20.6967ms
+2021-10-23 00:27:23.001 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:23.003 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:23.004 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:23.006 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:23.007 -03:00 [INF] Executed ViewResult - view Index executed in 1.4916ms.
+2021-10-23 00:27:23.009 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.3289ms
+2021-10-23 00:27:23.014 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:23.022 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 20.6418ms
+2021-10-23 00:27:23.038 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:23.041 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:23.043 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 5.2579ms
+2021-10-23 00:27:24.133 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:24.136 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.137 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:24.138 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:24.140 -03:00 [INF] Executed ViewResult - view Index executed in 1.3858ms.
+2021-10-23 00:27:24.141 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2.4582ms
+2021-10-23 00:27:24.166 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.170 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:24.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 45.1881ms
+2021-10-23 00:27:24.179 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:24.187 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 17.0794ms
+2021-10-23 00:27:24.585 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:24.590 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.592 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:24.600 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:24.602 -03:00 [INF] Executed ViewResult - view Index executed in 2.2808ms.
+2021-10-23 00:27:24.604 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 4.0477ms
+2021-10-23 00:27:24.628 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.631 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:24.640 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:24.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 55.0899ms
+2021-10-23 00:27:24.647 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 15.9414ms
+2021-10-23 00:27:24.877 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:24.879 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.881 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:24.883 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:24.885 -03:00 [INF] Executed ViewResult - view Index executed in 2.0644ms.
+2021-10-23 00:27:24.887 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.6985ms
+2021-10-23 00:27:24.889 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:24.899 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 23.0223ms
+2021-10-23 00:27:24.923 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:24.925 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:24.927 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 3.8377ms
+2021-10-23 00:27:25.138 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:25.140 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.141 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:25.143 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:25.145 -03:00 [INF] Executed ViewResult - view Index executed in 1.7342ms.
+2021-10-23 00:27:25.147 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.6153ms
+2021-10-23 00:27:25.148 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 20.3816ms
+2021-10-23 00:27:25.171 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:25.173 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:25.176 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 4.8568ms
+2021-10-23 00:27:25.425 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:25.428 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.430 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:25.432 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:25.434 -03:00 [INF] Executed ViewResult - view Index executed in 1.9178ms.
+2021-10-23 00:27:25.436 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 3.7537ms
+2021-10-23 00:27:25.445 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.451 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 25.9774ms
+2021-10-23 00:27:25.468 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:25.471 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:25.474 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 5.2915ms
+2021-10-23 00:27:25.776 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:25.779 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.781 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:25.784 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:25.786 -03:00 [INF] Executed ViewResult - view Index executed in 2.4736ms.
+2021-10-23 00:27:25.791 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 7.0291ms
+2021-10-23 00:27:25.796 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:25.798 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 22.6109ms
+2021-10-23 00:27:25.810 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:25.813 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:25.815 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 5.4278ms
+2021-10-23 00:27:35.584 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:27:35.588 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:35.590 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:27:35.592 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:27:35.595 -03:00 [INF] Executed ViewResult - view Index executed in 3.3856ms.
+2021-10-23 00:27:35.597 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 5.013ms
+2021-10-23 00:27:35.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:27:35.637 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:27:35.668 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:27:35.671 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 86.9190ms
+2021-10-23 00:27:35.679 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 41.7405ms
+2021-10-23 00:30:24.439 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:30:24.440 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:30:24.444 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:30:24.446 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:30:24.451 -03:00 [INF] Executed ViewResult - view Index executed in 4.9035ms.
+2021-10-23 00:30:24.455 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 9.159ms
+2021-10-23 00:30:24.456 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:30:24.459 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 20.0805ms
+2021-10-23 00:30:24.482 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:30:24.484 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:30:24.486 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 3.8320ms
+2021-10-23 00:32:17.468 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:32:17.470 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:17.497 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:32:17.498 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:32:17.501 -03:00 [INF] Executed ViewResult - view Index executed in 2.6745ms.
+2021-10-23 00:32:17.505 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 7.1015ms
+2021-10-23 00:32:17.547 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:17.547 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:32:17.552 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 84.1472ms
+2021-10-23 00:32:17.554 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:32:17.574 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 27.5308ms
+2021-10-23 00:32:18.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:32:18.428 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:18.430 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:32:18.432 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:32:18.433 -03:00 [INF] Executed ViewResult - view Index executed in 1.4861ms.
+2021-10-23 00:32:18.435 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2.932ms
+2021-10-23 00:32:18.437 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:18.438 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 11.7357ms
+2021-10-23 00:32:18.461 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:32:18.463 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:32:18.465 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 4.1711ms
+2021-10-23 00:32:19.054 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-23 00:32:19.056 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:19.059 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-23 00:32:19.062 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-23 00:32:19.066 -03:00 [INF] Executed ViewResult - view Index executed in 3.9257ms.
+2021-10-23 00:32:19.087 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 25.3392ms
+2021-10-23 00:32:19.090 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - -
+2021-10-23 00:32:19.092 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-23 00:32:19.107 -03:00 [INF] The file /clientapp/src/views/login/Index.js was not modified
+2021-10-23 00:32:19.117 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/src/views/login/Index.js - - - 304 - application/javascript 27.3265ms
+2021-10-23 00:32:19.118 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 63.5010ms
