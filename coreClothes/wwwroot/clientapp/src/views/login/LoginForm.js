@@ -9,7 +9,7 @@ class LoginForm extends React.Component
     render = (props) => {
         let msg = null;
 
-        if (!this.props.data.state.success)
+        if (this.props.data.state.error)
         {
             msg =
             <div className="alert alert-danger">
@@ -17,7 +17,7 @@ class LoginForm extends React.Component
                     <i className="tim-icons icon-simple-remove"></i>
                 </button>
                 <span>
-                    <b>Error -</b>
+                    <b>Error: </b>
                     {this.props.data.state.msg}
                 </span>
             </div>
@@ -28,16 +28,28 @@ class LoginForm extends React.Component
                     <form action="~/admin/Login/Auth" method="post">
                         <div className="form-group">
                             <label className="form-control-label">Email</label>
-                            <input type="email" name="email" className="form-control"/>
+                        <input
+                            type="email"
+                            name="email"
+                            onChange={e => this.props.data.setState({ email: e.target.value })}
+                            className="form-control"
+                            value={this.props.data.state.email}
+                        />
                         </div>
                         <div className="form-group">
                             <label className="form-control-label">Password</label>
-                            <input type="password" name="password" className="form-control"/>
+                        <input
+                            type="password"
+                            name="password"
+                            onChange={e => this.props.data.setState({ password: e.target.value })}
+                            className="form-control"
+                            value={this.props.data.state.password}
+                        />
                         </div>
 
                         <div className="col-lg-12 loginbttm">
-                            <div className="col-lg-6 login-btm login-text">
                                 {msg}
+                            <div className="col-lg-6 login-btm login-text">
                             </div>
                             <div className="col-lg-6 login-btm login-button">
                                 <button type="button" onClick={this.props.data.save} className="btn btn-outline-primary">LOGIN</button>

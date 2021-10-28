@@ -9,19 +9,19 @@ class LoginCard extends React.Component
         super();
 
         this.state = {
-            name: "sss",
-            password: "",
+            email: "admin@mail.com",
+            password: "123",
             msg: "",
-            success: false
+            error: false
         }
     }
 
     save = () => {
-        if (this.state.name.trim() == "" || this.state.password.trim() == "")
-          {
+        if (this.state.email.trim() == "" || this.state.password.trim() == "")
+        {
               this.setState({
-                  msg: "Dados obrigatórios",
-                  sucesso: false
+                  msg: "Email and password are required!",
+                  error: true
               })
           }
     }
