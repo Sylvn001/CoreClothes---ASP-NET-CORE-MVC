@@ -9,15 +9,19 @@
     <Compile Remove="Areas\Admin\Views\Dashboard\**" />
     <Compile Remove="Areas\Admin\Views\NovaPasta\**" />
     <Compile Remove="wwwroot\clientapp\public\**" />
+    <Compile Remove="wwwroot\clientapp\src\components\NovaPasta\**" />
     <Content Remove="Areas\Admin\Views\Dashboard\**" />
     <Content Remove="Areas\Admin\Views\NovaPasta\**" />
     <Content Remove="wwwroot\clientapp\public\**" />
+    <Content Remove="wwwroot\clientapp\src\components\NovaPasta\**" />
     <EmbeddedResource Remove="Areas\Admin\Views\Dashboard\**" />
     <EmbeddedResource Remove="Areas\Admin\Views\NovaPasta\**" />
     <EmbeddedResource Remove="wwwroot\clientapp\public\**" />
+    <EmbeddedResource Remove="wwwroot\clientapp\src\components\NovaPasta\**" />
     <None Remove="Areas\Admin\Views\Dashboard\**" />
     <None Remove="Areas\Admin\Views\NovaPasta\**" />
     <None Remove="wwwroot\clientapp\public\**" />
+    <None Remove="wwwroot\clientapp\src\components\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>

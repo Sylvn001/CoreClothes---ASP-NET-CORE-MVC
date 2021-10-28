@@ -1,29 +1,43 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-class LoginCard extends React.Component
+import SideBar from './SideBar';
+import ToolBox from './ToolBox';
+import ProductStore from './ProductStore';
+import ProductsNavigation from './ProductsNavigation';
+
+
+class ProductsList extends React.Component
 {
     constructor() {
-
         super();
-
-        this.state = {
-            //email: "admin@mail.com",
-            //password: "123",
-            //msg: "",
-            //error: false
-        }
     }
 
     render = () => {
       let view =
         <>
-          {this.renderForm()}
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-9">
+                        <ToolBox />
+
+                        <div className="products mb-3">
+                            <div className="row justify-content-center">
+                                <ProductStore />
+                            </div>
+                        </div>
+
+                        <ProductsNavigation />
+                    </div>
+                    <SideBar />
+                </div>
+            </div>
+
         </>
       return view;
     }
 }
 
-export default LoginCard;
+export default ProductsList;
 
-ReactDom.render(<LoginCard/>, document.getElementById("root"));
+ReactDom.render(<ProductsList/>, document.getElementById("root")); 

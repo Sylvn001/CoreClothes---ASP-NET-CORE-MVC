@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BF0DF/AT1ikEP6UBHW0xL71Z0RWvxP2PZF7LQKDi4+6w48ANi9yVmDkgnZxXq8hFb5plMOL770mirSOcG19baA==",
+  "dgSpecHash": "urWDsKyZmM77tZU0vm98Gf7vlN1+YTUSj1naMVzJ4GtMdWuJm2EsiqVCVVjKhxZTalCSoNhq1dnj7liBZl+N9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj",
+  "projectFilePath": "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junior\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\junior\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
