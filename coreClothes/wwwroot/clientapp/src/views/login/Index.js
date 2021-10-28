@@ -5,7 +5,9 @@ import LoginForm from './LoginForm';
 class LoginCard extends React.Component
 {
     constructor() {
+
         super();
+
         this.state = {
             name: "sss",
             password: "",

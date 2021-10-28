@@ -48,6 +48,22 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "React.AspNet": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            },
+            "React.Core": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            },
+            "React.Web": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            },
+            "React.Web.Mvc4": {
+              "target": "Package",
+              "version": "[5.2.12, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -59,6 +75,10 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.Web.Optimization.React": {
+              "target": "Package",
+              "version": "[5.2.12, )"
             }
           },
           "imports": [

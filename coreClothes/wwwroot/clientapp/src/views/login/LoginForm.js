@@ -18,7 +18,7 @@ class LoginForm extends React.Component
                 </button>
                 <span>
                     <b>Error -</b>
-                    {this.data.state.msg}
+                    {this.props.data.state.msg}
                 </span>
             </div>
         }

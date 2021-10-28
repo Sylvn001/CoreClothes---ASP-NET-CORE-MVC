@@ -416,3 +416,13 @@ C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Area
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Create.cshtml.g.cs
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
 C:\Users\junior\source\repos\coreClothes\coreClothes\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\AdvancedStringBuilder.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\JavaScriptEngineSwitcher.Core.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\JSPool.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\React.AspNet.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\React.AspNet.Middleware.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\React.Core.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\React.Web.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\React.Web.Mvc4.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\System.Web.Optimization.React.dll
+C:\Users\junior\source\repos\coreClothes\coreClothes\bin\Debug\net5.0\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll

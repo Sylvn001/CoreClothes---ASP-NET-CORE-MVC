@@ -1,0 +1,19 @@
+2021-10-28 00:10:28.566 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login_Index.0c6d7abd728c341a5a79.hot-update.json - -
+2021-10-28 00:10:28.607 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.0c6d7abd728c341a5a79.hot-update.json'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\login_Index.0c6d7abd728c341a5a79.hot-update.json'
+2021-10-28 00:10:28.612 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login_Index.0c6d7abd728c341a5a79.hot-update.json - - - 200 35 application/json 45.7785ms
+2021-10-28 00:10:28.619 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.0c6d7abd728c341a5a79.hot-update.js - -
+2021-10-28 00:10:28.639 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.0c6d7abd728c341a5a79.hot-update.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\login\Index.0c6d7abd728c341a5a79.hot-update.js'
+2021-10-28 00:10:28.641 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.0c6d7abd728c341a5a79.hot-update.js - - - 200 7239 application/javascript 21.4926ms
+2021-10-28 00:10:28.681 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-10-28 00:10:28.682 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-28 00:10:28.684 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-10-28 00:10:28.685 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-28 00:10:28.687 -03:00 [INF] Executed ViewResult - view Index executed in 1.6216ms.
+2021-10-28 00:10:28.688 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 2.7936ms
+2021-10-28 00:10:28.690 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-10-28 00:10:28.692 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 11.7274ms
+2021-10-28 00:10:28.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - -
+2021-10-28 00:10:28.779 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-28 00:10:28.795 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - - - 200 1345026 application/javascript 75.3795ms
+2021-10-28 00:10:28.890 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-28 00:10:28.895 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 0 - - 5.3745ms
