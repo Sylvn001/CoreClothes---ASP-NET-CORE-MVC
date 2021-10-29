@@ -11,9 +11,14 @@ class ProductsList extends React.Component
 {
     constructor() {
         super();
+
+        this.state = {
+          products: [1,2,3,4,5,6,7,8],
+      }
     }
 
     render = () => {
+
       let view =
         <>
             <div className="container">
@@ -23,7 +28,7 @@ class ProductsList extends React.Component
 
                         <div className="products mb-3">
                             <div className="row justify-content-center">
-                                <ProductStore />
+                              {this.state.products.map((item, index) => {return(<ProductStore key={"id_" + index}/>)})}
                             </div>
                         </div>
 
@@ -40,4 +45,4 @@ class ProductsList extends React.Component
 
 export default ProductsList;
 
-ReactDom.render(<ProductsList/>, document.getElementById("root")); 
+ReactDom.render(<ProductsList/>, document.getElementById("root"));

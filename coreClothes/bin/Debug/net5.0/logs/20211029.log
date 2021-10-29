@@ -1,0 +1,4 @@
+2021-10-29 00:00:03.830 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:00:03.869 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:00:03.872 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 41.9910ms
+2021-10-29 00:00:03.881 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 11.8084ms
