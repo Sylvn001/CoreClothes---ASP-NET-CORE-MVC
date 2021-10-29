@@ -2,3 +2,334 @@
 2021-10-29 00:00:03.869 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
 2021-10-29 00:00:03.872 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 41.9910ms
 2021-10-29 00:00:03.881 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 11.8084ms
+2021-10-29 00:00:05.903 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-10-29 00:00:05.905 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 0 - - 2.4455ms
+2021-10-29 00:04:00.142 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-10-29 00:04:00.143 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:04:00.144 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-10-29 00:04:00.146 -03:00 [INF] Executing ViewResult, running view Details.
+2021-10-29 00:04:00.148 -03:00 [INF] Executed ViewResult - view Details executed in 1.8836ms.
+2021-10-29 00:04:00.149 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 3.2507ms
+2021-10-29 00:04:00.151 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:04:00.153 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 11.8216ms
+2021-10-29 00:04:00.194 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-10-29 00:04:00.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 2.5127ms
+2021-10-29 00:04:00.202 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-29 00:04:00.203 -03:00 [INF] The file /lib/molla/assets/js/jquery.min.js was not modified
+2021-10-29 00:04:00.206 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 304 - application/javascript 4.4949ms
+2021-10-29 00:04:00.214 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-29 00:04:00.216 -03:00 [INF] The file /lib/molla/assets/js/bootstrap.bundle.min.js was not modified
+2021-10-29 00:04:00.217 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 304 - application/javascript 3.2885ms
+2021-10-29 00:04:00.219 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-29 00:04:00.222 -03:00 [INF] The file /lib/molla/assets/js/jquery.hoverIntent.min.js was not modified
+2021-10-29 00:04:00.224 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 304 - application/javascript 5.2016ms
+2021-10-29 00:04:00.226 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-29 00:04:00.228 -03:00 [INF] The file /lib/molla/assets/js/jquery.waypoints.min.js was not modified
+2021-10-29 00:04:00.230 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 304 - application/javascript 3.3604ms
+2021-10-29 00:04:00.231 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-29 00:04:00.233 -03:00 [INF] The file /lib/molla/assets/js/bootstrap-input-spinner.js was not modified
+2021-10-29 00:04:00.235 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 304 - application/javascript 3.6722ms
+2021-10-29 00:04:00.236 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-29 00:04:00.238 -03:00 [INF] The file /lib/molla/assets/js/owl.carousel.min.js was not modified
+2021-10-29 00:04:00.240 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 304 - application/javascript 3.6359ms
+2021-10-29 00:04:00.242 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-29 00:04:00.243 -03:00 [INF] The file /lib/molla/assets/js/superfish.min.js was not modified
+2021-10-29 00:04:00.245 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 304 - application/javascript 3.6131ms
+2021-10-29 00:04:00.247 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-29 00:04:00.249 -03:00 [INF] The file /lib/molla/assets/js/jquery.magnific-popup.min.js was not modified
+2021-10-29 00:04:00.250 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 304 - application/javascript 3.2874ms
+2021-10-29 00:04:00.252 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-29 00:04:00.253 -03:00 [INF] The file /lib/molla/assets/js/main.js was not modified
+2021-10-29 00:04:00.255 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 304 - application/javascript 3.0155ms
+2021-10-29 00:04:00.256 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-29 00:04:00.258 -03:00 [INF] The file /lib/molla/assets/js/demos/demo-18.js was not modified
+2021-10-29 00:04:00.260 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 304 - application/javascript 3.2573ms
+2021-10-29 00:04:00.350 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-29 00:04:00.352 -03:00 [INF] The file /lib/molla/assets/images/products/cart/product-1.jpg was not modified
+2021-10-29 00:04:00.353 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 304 - image/jpeg 3.4430ms
+2021-10-29 00:04:00.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/2-small.jpg - -
+2021-10-29 00:04:00.357 -03:00 [INF] The file /lib/molla/assets/images/products/single/2-small.jpg was not modified
+2021-10-29 00:04:00.359 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/2-small.jpg - - - 304 - image/jpeg 4.5393ms
+2021-10-29 00:04:00.361 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1-small.jpg - -
+2021-10-29 00:04:00.363 -03:00 [INF] The file /lib/molla/assets/images/products/single/1-small.jpg was not modified
+2021-10-29 00:04:00.364 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1-small.jpg - - - 304 - image/jpeg 3.2341ms
+2021-10-29 00:04:00.366 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - -
+2021-10-29 00:04:00.368 -03:00 [INF] The file /lib/molla/assets/images/products/single/1.jpg was not modified
+2021-10-29 00:04:00.369 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1.jpg - - - 304 - image/jpeg 3.2484ms
+2021-10-29 00:04:00.371 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/3-small.jpg - -
+2021-10-29 00:04:00.373 -03:00 [INF] The file /lib/molla/assets/images/products/single/3-small.jpg was not modified
+2021-10-29 00:04:00.375 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/3-small.jpg - - - 304 - image/jpeg 3.8449ms
+2021-10-29 00:04:00.376 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1-thumb.jpg - -
+2021-10-29 00:04:00.378 -03:00 [INF] The file /lib/molla/assets/images/products/single/1-thumb.jpg was not modified
+2021-10-29 00:04:00.380 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/1-thumb.jpg - - - 304 - image/jpeg 3.1952ms
+2021-10-29 00:04:00.381 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/4-small.jpg - -
+2021-10-29 00:04:00.383 -03:00 [INF] The file /lib/molla/assets/images/products/single/4-small.jpg was not modified
+2021-10-29 00:04:00.385 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/4-small.jpg - - - 304 - image/jpeg 3.2218ms
+2021-10-29 00:04:00.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/2-thumb.jpg - -
+2021-10-29 00:04:00.388 -03:00 [INF] The file /lib/molla/assets/images/products/single/2-thumb.jpg was not modified
+2021-10-29 00:04:00.390 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/single/2-thumb.jpg - - - 304 - image/jpeg 3.6358ms
+2021-10-29 00:04:00.391 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - -
+2021-10-29 00:04:00.393 -03:00 [INF] The file /lib/molla/assets/images/products/product-4.jpg was not modified
+2021-10-29 00:04:00.395 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4.jpg - - - 304 - image/jpeg 3.2097ms
+2021-10-29 00:04:00.396 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-2-thumb.jpg - -
+2021-10-29 00:04:00.398 -03:00 [INF] The file /lib/molla/assets/images/products/product-4-2-thumb.jpg was not modified
+2021-10-29 00:04:00.400 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-2-thumb.jpg - - - 304 - image/jpeg 3.4510ms
+2021-10-29 00:04:00.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-thumb.jpg - -
+2021-10-29 00:04:00.403 -03:00 [INF] The file /lib/molla/assets/images/products/product-4-thumb.jpg was not modified
+2021-10-29 00:04:00.405 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-thumb.jpg - - - 304 - image/jpeg 3.1512ms
+2021-10-29 00:04:00.407 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-3-thumb.jpg - -
+2021-10-29 00:04:00.408 -03:00 [INF] The file /lib/molla/assets/images/products/product-4-3-thumb.jpg was not modified
+2021-10-29 00:04:00.410 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-4-3-thumb.jpg - - - 304 - image/jpeg 3.5043ms
+2021-10-29 00:04:00.412 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-3-thumb.jpg - -
+2021-10-29 00:04:00.414 -03:00 [INF] The file /lib/molla/assets/images/products/product-11-3-thumb.jpg was not modified
+2021-10-29 00:04:00.415 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-3-thumb.jpg - - - 304 - image/jpeg 3.5994ms
+2021-10-29 00:04:01.141 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - -
+2021-10-29 00:04:01.143 -03:00 [INF] The file /lib/molla/assets/images/products/product-6.jpg was not modified
+2021-10-29 00:04:01.145 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-6.jpg - - - 304 - image/jpeg 3.5570ms
+2021-10-29 00:04:01.146 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-thumb.jpg - -
+2021-10-29 00:04:01.148 -03:00 [INF] The file /lib/molla/assets/images/products/product-11-thumb.jpg was not modified
+2021-10-29 00:04:01.149 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-thumb.jpg - - - 304 - image/jpeg 3.2742ms
+2021-10-29 00:04:01.151 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11.jpg - -
+2021-10-29 00:04:01.153 -03:00 [INF] The file /lib/molla/assets/images/products/product-11.jpg was not modified
+2021-10-29 00:04:01.154 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11.jpg - - - 304 - image/jpeg 3.0246ms
+2021-10-29 00:04:01.156 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-10.jpg - -
+2021-10-29 00:04:01.158 -03:00 [INF] The file /lib/molla/assets/images/products/product-10.jpg was not modified
+2021-10-29 00:04:01.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-10.jpg - - - 304 - image/jpeg 3.5341ms
+2021-10-29 00:04:01.161 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-2-thumb.jpg - -
+2021-10-29 00:04:01.162 -03:00 [INF] The file /lib/molla/assets/images/products/product-11-2-thumb.jpg was not modified
+2021-10-29 00:04:01.164 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-11-2-thumb.jpg - - - 304 - image/jpeg 3.1709ms
+2021-10-29 00:04:01.165 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-7.jpg - -
+2021-10-29 00:04:01.167 -03:00 [INF] The file /lib/molla/assets/images/products/product-7.jpg was not modified
+2021-10-29 00:04:01.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/product-7.jpg - - - 304 - image/jpeg 2.8786ms
+2021-10-29 00:04:01.170 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:04:01.173 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:04:01.175 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 4.9411ms
+2021-10-29 00:04:01.177 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 4.1344ms
+2021-10-29 00:04:08.133 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - -
+2021-10-29 00:04:08.189 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/demos/demo-18.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\demos\demo-18.css'
+2021-10-29 00:04:08.191 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - - - 0 9827 text/css 58.0337ms
+2021-10-29 00:04:08.264 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css.map - -
+2021-10-29 00:04:08.267 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css.map - - - 404 - - 2.3741ms
+2021-10-29 00:04:26.801 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-10-29 00:04:26.853 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-10-29 00:04:26.854 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 0 9553 text/css 52.9769ms
+2021-10-29 00:04:26.864 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css.map - -
+2021-10-29 00:04:26.866 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css.map - - - 404 - - 1.9498ms
+2021-10-29 00:25:07.084 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-10-29 00:25:07.086 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:07.089 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-10-29 00:25:09.812 -03:00 [INF] Executing ViewResult, running view Details.
+2021-10-29 00:25:09.825 -03:00 [INF] Executed ViewResult - view Details executed in 2735.4108ms.
+2021-10-29 00:25:09.843 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 2752.8815ms
+2021-10-29 00:25:09.846 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:10.595 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 3510.7386ms
+2021-10-29 00:25:10.690 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-29 00:25:10.701 -03:00 [INF] The file /lib/molla/assets/js/bootstrap.bundle.min.js was not modified
+2021-10-29 00:25:10.702 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 304 - application/javascript 12.4079ms
+2021-10-29 00:25:10.772 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-29 00:25:10.774 -03:00 [INF] The file /lib/molla/assets/js/jquery.hoverIntent.min.js was not modified
+2021-10-29 00:25:10.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 304 - application/javascript 3.0210ms
+2021-10-29 00:25:10.777 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-29 00:25:10.779 -03:00 [INF] The file /lib/molla/assets/js/jquery.waypoints.min.js was not modified
+2021-10-29 00:25:10.781 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 304 - application/javascript 3.5131ms
+2021-10-29 00:25:10.782 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-10-29 00:25:10.785 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-29 00:25:10.787 -03:00 [INF] The file /lib/molla/assets/js/jquery.min.js was not modified
+2021-10-29 00:25:10.789 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 304 - application/javascript 3.7752ms
+2021-10-29 00:25:10.791 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-29 00:25:10.793 -03:00 [INF] The file /lib/molla/assets/js/bootstrap-input-spinner.js was not modified
+2021-10-29 00:25:10.794 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 304 - application/javascript 3.3924ms
+2021-10-29 00:25:10.796 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-29 00:25:10.798 -03:00 [INF] The file /lib/molla/assets/js/superfish.min.js was not modified
+2021-10-29 00:25:10.799 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 304 - application/javascript 3.1833ms
+2021-10-29 00:25:10.801 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-29 00:25:10.803 -03:00 [INF] The file /lib/molla/assets/js/owl.carousel.min.js was not modified
+2021-10-29 00:25:10.805 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 304 - application/javascript 3.3600ms
+2021-10-29 00:25:10.810 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-29 00:25:10.812 -03:00 [INF] The file /lib/molla/assets/js/jquery.magnific-popup.min.js was not modified
+2021-10-29 00:25:10.814 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 304 - application/javascript 3.3511ms
+2021-10-29 00:25:10.815 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-29 00:25:10.817 -03:00 [INF] The file /lib/molla/assets/js/main.js was not modified
+2021-10-29 00:25:10.819 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 304 - application/javascript 3.5695ms
+2021-10-29 00:25:10.821 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-29 00:25:10.823 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/demos/demo-18.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\demos\demo-18.js'
+2021-10-29 00:25:10.825 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 42.9044ms
+2021-10-29 00:25:10.826 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - -
+2021-10-29 00:25:10.843 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-29 00:25:10.845 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/cart/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\cart\product-1.jpg'
+2021-10-29 00:25:10.847 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 200 74 application/javascript 26.1236ms
+2021-10-29 00:25:10.850 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 200 2018 image/jpeg 6.6488ms
+2021-10-29 00:25:10.860 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Details.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product\Details.js'
+2021-10-29 00:25:10.877 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - - - 200 1362901 application/javascript 50.3578ms
+2021-10-29 00:25:10.963 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/apple-touch-icon.png - -
+2021-10-29 00:25:10.965 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/favicon-16x16.png - -
+2021-10-29 00:25:11.090 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/apple-touch-icon.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\apple-touch-icon.png'
+2021-10-29 00:25:11.097 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/favicon-16x16.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\favicon-16x16.png'
+2021-10-29 00:25:11.098 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/apple-touch-icon.png - - - 0 1891 image/png 133.8309ms
+2021-10-29 00:25:11.099 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/icons/favicon-16x16.png - - - 0 842 image/png 134.1253ms
+2021-10-29 00:25:11.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:25:11.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:25:11.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 6.5012ms
+2021-10-29 00:25:11.291 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 8.4631ms
+2021-10-29 00:25:40.931 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product_Details.45533c9b2fc5f74bb3b6.hot-update.json - -
+2021-10-29 00:25:40.948 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product_Details.45533c9b2fc5f74bb3b6.hot-update.json'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product_Details.45533c9b2fc5f74bb3b6.hot-update.json'
+2021-10-29 00:25:40.959 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product_Details.45533c9b2fc5f74bb3b6.hot-update.json - - - 200 39 application/json 28.1869ms
+2021-10-29 00:25:40.965 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.45533c9b2fc5f74bb3b6.hot-update.js - -
+2021-10-29 00:25:40.983 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Details.45533c9b2fc5f74bb3b6.hot-update.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product\Details.45533c9b2fc5f74bb3b6.hot-update.js'
+2021-10-29 00:25:40.999 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.45533c9b2fc5f74bb3b6.hot-update.js - - - 200 5475 application/javascript 33.7836ms
+2021-10-29 00:25:41.042 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-10-29 00:25:41.045 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:41.046 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-10-29 00:25:41.214 -03:00 [INF] Executing ViewResult, running view Details.
+2021-10-29 00:25:41.221 -03:00 [INF] Executed ViewResult - view Details executed in 172.9196ms.
+2021-10-29 00:25:41.225 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 177.356ms
+2021-10-29 00:25:41.233 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:41.242 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 199.8483ms
+2021-10-29 00:25:41.252 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-10-29 00:25:41.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-29 00:25:41.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-29 00:25:41.266 -03:00 [INF] The file /lib/molla/assets/js/superfish.min.js was not modified
+2021-10-29 00:25:41.269 -03:00 [INF] The file /lib/molla/assets/js/owl.carousel.min.js was not modified
+2021-10-29 00:25:41.280 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 304 - application/javascript 17.8238ms
+2021-10-29 00:25:41.285 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 304 - application/javascript 21.9482ms
+2021-10-29 00:25:41.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-29 00:25:41.263 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-29 00:25:41.296 -03:00 [INF] The file /lib/molla/assets/js/jquery.hoverIntent.min.js was not modified
+2021-10-29 00:25:41.299 -03:00 [INF] The file /lib/molla/assets/js/bootstrap.bundle.min.js was not modified
+2021-10-29 00:25:41.301 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 304 - application/javascript 37.9663ms
+2021-10-29 00:25:41.306 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 304 - application/javascript 43.5565ms
+2021-10-29 00:25:41.309 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - -
+2021-10-29 00:25:41.309 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-29 00:25:41.264 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-29 00:25:41.320 -03:00 [INF] The file /lib/molla/assets/images/products/cart/product-1.jpg was not modified
+2021-10-29 00:25:41.328 -03:00 [INF] The file /lib/molla/assets/js/jquery.min.js was not modified
+2021-10-29 00:25:41.329 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 304 - image/jpeg 19.5847ms
+2021-10-29 00:25:41.341 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 304 - application/javascript 77.6836ms
+2021-10-29 00:25:41.266 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-29 00:25:41.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-29 00:25:41.392 -03:00 [INF] The file /lib/molla/assets/js/bootstrap-input-spinner.js was not modified
+2021-10-29 00:25:41.394 -03:00 [INF] The file /lib/molla/assets/js/jquery.waypoints.min.js was not modified
+2021-10-29 00:25:41.396 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 304 - application/javascript 130.3919ms
+2021-10-29 00:25:41.401 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 304 - application/javascript 117.1864ms
+2021-10-29 00:25:41.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-29 00:25:41.296 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-29 00:25:41.421 -03:00 [INF] The file /lib/molla/assets/js/jquery.magnific-popup.min.js was not modified
+2021-10-29 00:25:41.424 -03:00 [INF] The file /lib/molla/assets/js/demos/demo-18.js was not modified
+2021-10-29 00:25:41.426 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Details.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product\Details.js'
+2021-10-29 00:25:41.426 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 304 - application/javascript 141.8563ms
+2021-10-29 00:25:41.434 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 304 - application/javascript 137.7206ms
+2021-10-29 00:25:41.284 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 32.3638ms
+2021-10-29 00:25:41.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-29 00:25:41.446 -03:00 [INF] The file /lib/molla/assets/js/main.js was not modified
+2021-10-29 00:25:41.447 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 304 - application/javascript 154.8785ms
+2021-10-29 00:25:41.462 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - - - 200 1362559 application/javascript 152.2771ms
+2021-10-29 00:25:41.925 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:25:41.927 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:25:41.927 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 2.5810ms
+2021-10-29 00:25:41.931 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 4.2496ms
+2021-10-29 00:25:43.728 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-10-29 00:25:43.732 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:43.734 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-10-29 00:25:43.736 -03:00 [INF] Executing ViewResult, running view Details.
+2021-10-29 00:25:43.738 -03:00 [INF] Executed ViewResult - view Details executed in 2.4009ms.
+2021-10-29 00:25:43.740 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 4.4057ms
+2021-10-29 00:25:43.750 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:25:43.755 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 26.5341ms
+2021-10-29 00:25:43.781 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-29 00:25:43.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-29 00:25:43.797 -03:00 [INF] The file /lib/molla/assets/js/jquery.min.js was not modified
+2021-10-29 00:25:43.800 -03:00 [INF] The file /lib/molla/assets/js/bootstrap.bundle.min.js was not modified
+2021-10-29 00:25:43.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 304 - application/javascript 21.9816ms
+2021-10-29 00:25:43.807 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 304 - application/javascript 13.0109ms
+2021-10-29 00:25:43.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-29 00:25:43.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-10-29 00:25:43.834 -03:00 [INF] The file /lib/molla/assets/js/jquery.waypoints.min.js was not modified
+2021-10-29 00:25:43.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-29 00:25:43.847 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - -
+2021-10-29 00:25:43.846 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 304 - application/javascript 52.2155ms
+2021-10-29 00:25:43.860 -03:00 [INF] The file /clientapp/dist/views/product/Details.js was not modified
+2021-10-29 00:25:43.846 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 52.3934ms
+2021-10-29 00:25:43.864 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - - - 304 - application/javascript 16.8518ms
+2021-10-29 00:25:43.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-29 00:25:43.857 -03:00 [INF] The file /lib/molla/assets/js/owl.carousel.min.js was not modified
+2021-10-29 00:25:43.879 -03:00 [INF] The file /lib/molla/assets/images/products/cart/product-1.jpg was not modified
+2021-10-29 00:25:43.882 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 304 - application/javascript 86.9867ms
+2021-10-29 00:25:43.886 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 304 - image/jpeg 19.1865ms
+2021-10-29 00:25:43.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-29 00:25:43.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-29 00:25:43.900 -03:00 [INF] The file /lib/molla/assets/js/superfish.min.js was not modified
+2021-10-29 00:25:43.902 -03:00 [INF] The file /lib/molla/assets/js/bootstrap-input-spinner.js was not modified
+2021-10-29 00:25:43.909 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 304 - application/javascript 114.3350ms
+2021-10-29 00:25:43.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 304 - application/javascript 118.6166ms
+2021-10-29 00:25:43.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-29 00:25:43.804 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-29 00:25:43.923 -03:00 [INF] The file /lib/molla/assets/js/jquery.hoverIntent.min.js was not modified
+2021-10-29 00:25:43.925 -03:00 [INF] The file /lib/molla/assets/js/jquery.magnific-popup.min.js was not modified
+2021-10-29 00:25:43.927 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 304 - application/javascript 130.1850ms
+2021-10-29 00:25:43.930 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 304 - application/javascript 126.0124ms
+2021-10-29 00:25:43.830 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-29 00:25:43.847 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-29 00:25:43.939 -03:00 [INF] The file /lib/molla/assets/js/main.js was not modified
+2021-10-29 00:25:43.942 -03:00 [INF] The file /lib/molla/assets/js/demos/demo-18.js was not modified
+2021-10-29 00:25:43.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 304 - application/javascript 116.3883ms
+2021-10-29 00:25:43.953 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 304 - application/javascript 105.6314ms
+2021-10-29 00:25:44.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:25:44.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:25:44.288 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 4.5402ms
+2021-10-29 00:25:44.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 4.8204ms
+2021-10-29 00:26:26.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product_Details.3870b72aff0ea39636e9.hot-update.json - -
+2021-10-29 00:26:26.507 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product_Details.3870b72aff0ea39636e9.hot-update.json'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product_Details.3870b72aff0ea39636e9.hot-update.json'
+2021-10-29 00:26:26.524 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product_Details.3870b72aff0ea39636e9.hot-update.json - - - 200 39 application/json 96.5821ms
+2021-10-29 00:26:26.547 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.3870b72aff0ea39636e9.hot-update.js - -
+2021-10-29 00:26:26.592 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Details.3870b72aff0ea39636e9.hot-update.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product\Details.3870b72aff0ea39636e9.hot-update.js'
+2021-10-29 00:26:26.595 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.3870b72aff0ea39636e9.hot-update.js - - - 200 5482 application/javascript 48.2964ms
+2021-10-29 00:26:26.651 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/Details - -
+2021-10-29 00:26:26.665 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:26:26.679 -03:00 [INF] Route matched with {action = "Details", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-10-29 00:26:26.681 -03:00 [INF] Executing ViewResult, running view Details.
+2021-10-29 00:26:26.693 -03:00 [INF] Executed ViewResult - view Details executed in 12.1344ms.
+2021-10-29 00:26:26.695 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Details (coreClothes) in 14.0209ms
+2021-10-29 00:26:26.701 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Details (coreClothes)'
+2021-10-29 00:26:26.726 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/Details - - - 200 - text/html;+charset=utf-8 74.2752ms
+2021-10-29 00:26:26.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - -
+2021-10-29 00:26:26.802 -03:00 [INF] The file /lib/molla/assets/js/superfish.min.js was not modified
+2021-10-29 00:26:26.810 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/superfish.min.js - - - 304 - application/javascript 15.8035ms
+2021-10-29 00:26:26.813 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - -
+2021-10-29 00:26:26.816 -03:00 [INF] The file /lib/molla/assets/js/owl.carousel.min.js was not modified
+2021-10-29 00:26:26.823 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/owl.carousel.min.js - - - 304 - application/javascript 10.0173ms
+2021-10-29 00:26:26.835 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - -
+2021-10-29 00:26:26.845 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-10-29 00:26:26.855 -03:00 [INF] The file /lib/molla/assets/js/jquery.hoverIntent.min.js was not modified
+2021-10-29 00:26:26.861 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 304 - application/javascript 15.8275ms
+2021-10-29 00:26:26.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-10-29 00:26:26.876 -03:00 [INF] The file /lib/molla/assets/js/jquery.waypoints.min.js was not modified
+2021-10-29 00:26:26.878 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.waypoints.min.js - - - 304 - application/javascript 10.8087ms
+2021-10-29 00:26:26.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-10-29 00:26:26.891 -03:00 [INF] The file /lib/molla/assets/js/bootstrap.bundle.min.js was not modified
+2021-10-29 00:26:26.892 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap.bundle.min.js - - - 304 - application/javascript 9.8009ms
+2021-10-29 00:26:26.895 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - -
+2021-10-29 00:26:26.897 -03:00 [INF] The file /lib/molla/assets/js/jquery.min.js was not modified
+2021-10-29 00:26:26.899 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.min.js - - - 304 - application/javascript 4.4450ms
+2021-10-29 00:26:26.902 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-10-29 00:26:26.907 -03:00 [INF] The file /lib/molla/assets/js/bootstrap-input-spinner.js was not modified
+2021-10-29 00:26:26.909 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/bootstrap-input-spinner.js - - - 304 - application/javascript 7.6360ms
+2021-10-29 00:26:26.913 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-10-29 00:26:26.915 -03:00 [INF] The file /lib/molla/assets/js/jquery.magnific-popup.min.js was not modified
+2021-10-29 00:26:26.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 304 - application/javascript 5.7493ms
+2021-10-29 00:26:26.925 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - -
+2021-10-29 00:26:26.927 -03:00 [INF] The file /lib/molla/assets/js/main.js was not modified
+2021-10-29 00:26:26.929 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/main.js - - - 304 - application/javascript 4.0981ms
+2021-10-29 00:26:28.691 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 1855.6158ms
+2021-10-29 00:26:28.697 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-10-29 00:26:28.699 -03:00 [INF] The file /lib/molla/assets/js/demos/demo-18.js was not modified
+2021-10-29 00:26:28.701 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 304 - application/javascript 3.9063ms
+2021-10-29 00:26:28.703 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - -
+2021-10-29 00:26:28.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-10-29 00:26:28.722 -03:00 [INF] The file /lib/molla/assets/images/products/cart/product-1.jpg was not modified
+2021-10-29 00:26:28.724 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 304 - image/jpeg 3.3940ms
+2021-10-29 00:26:28.733 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Details.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\product\Details.js'
+2021-10-29 00:26:28.750 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/product/Details.js - - - 200 1362607 application/javascript 47.8044ms
+2021-10-29 00:26:30.193 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - -
+2021-10-29 00:26:30.195 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - -
+2021-10-29 00:26:30.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css.map - - - 404 - - 4.1551ms
+2021-10-29 00:26:30.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css.map - - - 404 - - 4.5442ms
