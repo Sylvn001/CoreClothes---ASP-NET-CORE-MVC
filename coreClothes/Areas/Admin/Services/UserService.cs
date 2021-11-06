@@ -3,47 +3,53 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using coreClothes.Areas.Admin.Models;
+using coreClothes.Areas.Admin.DAL;
+
 
 namespace coreClothes.Areas.Admin.Services
 {
     public class UserService
     {
-        public Models.User GetUser(int id)
-        {
-            Models.User u = new Models.User();
-            return u;
-        }
+        UserDAL _uDAL = new UserDAL();
 
-        public bool Save(Models.User u)
+        public bool Salvar(Models.User u)
         {
-            bool success;
+            bool sucess;
             string msg;
-            (success, msg) = u.Validate();
+            (sucess, msg) = u.Validate();
 
-            if (success)
+            if (sucess)
             {
-                return true;
+                sucess = false;
+                var UserSearched = _uDAL.Search(u.Email).FirstOrDefault();
+
+                if (UserSearched != null && UserSearched.Id != u.Id)
+                {
+                    msg = "Email already exist.";
+                }
+                else
+                {
+                    sucess = _uDAL.Save(u);
+                }
             }
 
-            return false;
+            return sucess;
+        }
+
+        public IEnumerable<Models.User> Search(string email)
+        {
+            return _uDAL.Search(email);
         }
 
 
-
-        public bool ValidateAuth(string email, string password)
+        public Models.User GetById(int id)
         {
-            if (email == "admin@mail.com" && password == "123")
-                return true;
-
-            return false;
+            return _uDAL.GetById(id);
         }
 
         public bool ValidateAuth(Models.User user)
         {
-            if (user.Email == "admin@mail.com" && user.Password == "123")
-                return true;
-
-            return false;
+            return _uDAL.ValidateAuth(user.Email, user.Password);
         }
     }
 }

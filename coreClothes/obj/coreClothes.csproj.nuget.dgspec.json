@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
             "React.AspNet": {
               "target": "Package",
               "version": "[5.2.12, )"

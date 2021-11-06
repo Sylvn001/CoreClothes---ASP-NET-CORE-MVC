@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj",
+  "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,68 +15619,68 @@
   "RootNamespace": "coreClothes",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Product\\Details.cshtml",
-      "TargetPath": "Views\\Product\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Category\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Product\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Category\\index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Category\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Login\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\Views\\Product\\Index.cshtml",
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Category\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Login\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Product\\index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
