@@ -1,5 +1,5 @@
 ﻿
-let baseURL = "https://localhost:44389/";
+let baseURL = "http://localhost:10386/";
 
 var HTTPClient = {
 

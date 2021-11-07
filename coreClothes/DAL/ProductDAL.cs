@@ -53,7 +53,7 @@ namespace coreClothes.DAL
 
         }
 
-        public IEnumerable<Product> GetByname(string name)
+        public IEnumerable<Product> Search(string name)
         {
             List<Product> Products = new List<Product>();
 

@@ -47,7 +47,7 @@ namespace coreClothes.Areas.Admin.Services
             return _uDAL.GetById(id);
         }
 
-        public bool ValidateAuth(Models.User user)
+        public bool ValidateAuth(User user)
         {
             return _uDAL.ValidateAuth(user.Email, user.Password);
         }

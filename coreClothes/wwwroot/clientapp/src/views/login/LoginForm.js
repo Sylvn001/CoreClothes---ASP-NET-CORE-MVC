@@ -9,7 +9,7 @@ class LoginForm extends React.Component
     render = (props) => {
         let msg = null;
 
-        if (this.props.data.state.error)
+        if (this.props.data.state.success)
         {
             msg =
             <div className="alert alert-danger">
@@ -25,7 +25,7 @@ class LoginForm extends React.Component
 
         let view =
             <React.Fragment>
-                    <form action="~/admin/Login/Auth" method="post">
+                    <form>
                         <div className="form-group">
                             <label className="form-control-label">Email</label>
                         <input

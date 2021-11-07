@@ -12,18 +12,40 @@ class LoginCard extends React.Component
             email: "admin@mail.com",
             password: "123",
             msg: "",
-            error: false
+            sucess: false
         }
     }
 
     save = () => {
-        if (this.state.email.trim() == "" || this.state.password.trim() == "")
-        {
-              this.setState({
-                  msg: "Email and password are required!",
-                  error: true
-              })
-          }
+        if (this.state.email.trim() == "" || this.state.password.trim() == "") {
+            this.setState({
+                msg: "Email and password are required!",
+                success: false
+            })
+        } else {
+            let data = {
+                email: this.state.email,
+                password: this.state.password
+            }
+
+            HTTPClient.post("Admin/Login/Auth", data)
+                .then(r => r.json())
+                .then(r => {
+
+                    if (r.sucess) {
+                        location.href = "Product";
+                    }
+                    else {
+
+                        this.setState({
+                            msg: r.msg,
+                            sucess: r.sucess
+                        });
+                    }
+                })
+                .finally(() => {
+                });
+        }
     }
 
     renderForm = () => {

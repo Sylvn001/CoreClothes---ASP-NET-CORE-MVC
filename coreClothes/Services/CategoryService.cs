@@ -3,25 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using coreClothes.DAL;
+using coreClothes.Models;
 
 namespace coreClothes.Services
 {
-    public class ProductService
+    public class CategoryService
     {
-        ProductDAL _pDAL = new ProductDAL();
-        public Models.Product GetAll()
+        CategoryDAL _cDAL = new CategoryDAL();
+        public IEnumerable<Category> GetAll()
         {
-            return _pDAL.GetAll();
+            return _cDAL.GetAll();
         }
 
-        public IEnumerable<Models.Product> Search(string email)
+        public IEnumerable<Category> Search(string name)
         {
-            return _pDAL.Search(email);
+            return _cDAL.Search(name);
         }
 
-        public Models.Product GetById(int id)
+        public Category GetById(int id)
         {
-            return _pDAL.GetById(id);
+            return _cDAL.GetById(id);
         }
 
     }

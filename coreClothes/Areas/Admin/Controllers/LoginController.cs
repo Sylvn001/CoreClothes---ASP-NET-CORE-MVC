@@ -17,23 +17,36 @@ namespace coreClothes.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Auth()
+        public IActionResult Auth([FromBody] System.Text.Json.JsonElement data)
         {
             Models.User user = new Models.User();
-            user.Email = Request.Form["email"];
-            user.Password = Request.Form["password"];
+            user.Email = data.GetProperty("email").GetString();
+            user.Password = data.GetProperty("password").GetString();
+
             Services.UserService userService = new Services.UserService();
+
+            string msg = "";
+            bool success = false;
+
             if (userService.ValidateAuth(user))
             {
-                return Redirect("/admin/Product");
+                success = true;
+                msg = "success";
             }
             else
             {
-                ViewBag.Msg = "Invalid Credentials!";
-                return View("~/Areas/admin/Views/Login/Index.cshtml");
+                msg = "Invalid Credentials";
             }
-            
+
+            return Json(new
+            {
+                msg,
+                success,
+            });
+
+
         }
 
     }
+
 }
