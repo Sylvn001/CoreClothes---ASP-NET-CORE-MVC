@@ -1,9 +1,7 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient; //importação do provider do MYSQL
+using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient; //importação do provider do MYSQL
 
 
 namespace coreClothes.DB
@@ -18,7 +16,7 @@ namespace coreClothes.DB
 
         public MySQLPersistence()
         {
-            _strCon = "Server=den1.mysql3.gear.host;Database=fipp2022;Uid=fipp2022;Pwd=123456$;";
+            _strCon = Environment.GetEnvironmentVariable("STR_CON");
             _conexao = new MySqlConnection(_strCon);
             _comando = _conexao.CreateCommand();
         }
@@ -59,7 +57,7 @@ namespace coreClothes.DB
                 }
             }
 
-            int linhaAfetadas =  _comando.ExecuteNonQuery();
+            int linhaAfetadas = _comando.ExecuteNonQuery();
             UltimoId = (int)_comando.LastInsertedId;
 
             return linhaAfetadas;

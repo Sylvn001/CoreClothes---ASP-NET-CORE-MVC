@@ -847,3 +847,242 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2021-11-07 00:30:21.390 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43
 2021-11-07 00:30:21.393 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
 2021-11-07 00:30:21.402 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:42:49.959 -03:00 [INF] Logger funcionado...
+2021-11-07 00:42:50.027 -03:00 [INF] Starting...
+2021-11-07 00:42:50.784 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-07 00:42:51.114 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-07 00:42:51.115 -03:00 [INF] Hosting environment: Development
+2021-11-07 00:42:51.117 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-11-07 00:42:51.149 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/ - -
+2021-11-07 00:42:51.174 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-07 00:42:51.211 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-11-07 00:42:51.247 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-07 00:42:51.334 -03:00 [INF] Executed ViewResult - view Index executed in 111.3044ms.
+2021-11-07 00:42:51.337 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 124.1109ms
+2021-11-07 00:42:51.339 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-07 00:42:51.348 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/ - - - 200 - text/html;+charset=utf-8 200.6191ms
+2021-11-07 00:42:52.517 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - -
+2021-11-07 00:42:52.525 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - -
+2021-11-07 00:42:52.542 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - -
+2021-11-07 00:42:52.530 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-11-07 00:42:52.543 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - -
+2021-11-07 00:42:52.547 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - -
+2021-11-07 00:42:52.692 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - -
+2021-11-07 00:42:52.903 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-1.jpg'
+2021-11-07 00:42:52.903 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-11-07 00:42:52.908 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/cart/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\cart\product-1.jpg'
+2021-11-07 00:42:52.903 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\magnific-popup\magnific-popup.css'
+2021-11-07 00:42:52.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 388.5765ms
+2021-11-07 00:42:52.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/products/cart/product-1.jpg - - - 0 2018 image/jpeg 383.8296ms
+2021-11-07 00:42:52.916 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - - - 0 6016 text/css 371.8840ms
+2021-11-07 00:42:52.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - -
+2021-11-07 00:42:52.913 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - - - 0 42959 image/jpeg 369.3165ms
+2021-11-07 00:42:52.920 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - -
+2021-11-07 00:42:52.920 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - -
+2021-11-07 00:42:52.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - -
+2021-11-07 00:42:52.908 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-2.jpg'
+2021-11-07 00:42:52.908 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-3.jpg'
+2021-11-07 00:42:52.975 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - - - 0 36150 image/jpeg 428.0745ms
+2021-11-07 00:42:52.997 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - -
+2021-11-07 00:42:52.997 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - - - 0 21587 image/jpeg 305.3564ms
+2021-11-07 00:42:53.036 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-2.jpg'
+2021-11-07 00:42:53.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - -
+2021-11-07 00:42:53.075 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - -
+2021-11-07 00:42:53.075 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - - - 0 15624 image/jpeg 156.6063ms
+2021-11-07 00:42:53.099 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1.jpg'
+2021-11-07 00:42:53.122 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1-2.jpg'
+2021-11-07 00:42:53.152 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - -
+2021-11-07 00:42:53.144 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4.jpg'
+2021-11-07 00:42:53.188 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - - - 0 15949 image/jpeg 261.4254ms
+2021-11-07 00:42:53.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - - - 0 13088 image/jpeg 271.9249ms
+2021-11-07 00:42:53.124 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - - - 0 15198 image/jpeg 201.1165ms
+2021-11-07 00:42:53.233 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5.jpg'
+2021-11-07 00:42:53.233 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - -
+2021-11-07 00:42:53.233 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - -
+2021-11-07 00:42:53.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - - - 0 30378 image/jpeg 269.2012ms
+2021-11-07 00:42:53.265 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5-2.jpg'
+2021-11-07 00:42:53.309 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - -
+2021-11-07 00:42:53.345 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6-2.jpg'
+2021-11-07 00:42:53.345 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - - - 0 25109 image/jpeg 314.5279ms
+2021-11-07 00:42:53.309 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6.jpg'
+2021-11-07 00:42:53.388 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - - - 0 15586 image/jpeg 242.0974ms
+2021-11-07 00:42:53.397 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - -
+2021-11-07 00:42:53.397 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - - - 0 15464 image/jpeg 322.7389ms
+2021-11-07 00:42:53.452 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - -
+2021-11-07 00:42:53.499 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4-2.jpg'
+2021-11-07 00:42:53.499 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - -
+2021-11-07 00:42:53.481 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7-2.jpg'
+2021-11-07 00:42:53.529 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - - - 0 14436 image/jpeg 289.1159ms
+2021-11-07 00:42:53.557 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - - - 0 30236 image/jpeg 326.4289ms
+2021-11-07 00:42:53.574 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - -
+2021-11-07 00:42:53.574 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7.jpg'
+2021-11-07 00:42:53.588 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/6.png - -
+2021-11-07 00:42:53.597 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - - - 0 25658 image/jpeg 291.2974ms
+2021-11-07 00:42:53.589 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - -
+2021-11-07 00:42:53.580 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9.jpg'
+2021-11-07 00:42:53.622 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/7.png - -
+2021-11-07 00:42:53.633 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - - - 0 13947 image/jpeg 227.3748ms
+2021-11-07 00:42:53.520 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - -
+2021-11-07 00:42:53.657 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8-2.jpg'
+2021-11-07 00:42:53.753 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/5.png - -
+2021-11-07 00:42:53.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - - - 0 7891 image/jpeg 241.6060ms
+2021-11-07 00:42:53.813 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-4.jpg'
+2021-11-07 00:42:53.815 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/6.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\6.png'
+2021-11-07 00:42:53.838 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - - - 0 13802 image/jpeg 263.7839ms
+2021-11-07 00:42:53.854 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/6.png - - - 0 1074 image/png 265.3368ms
+2021-11-07 00:42:53.876 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - -
+2021-11-07 00:42:53.877 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - -
+2021-11-07 00:42:53.915 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/7.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\7.png'
+2021-11-07 00:42:53.915 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/demos/demo-18.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\demos\demo-18.js'
+2021-11-07 00:42:53.941 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/7.png - - - 0 825 image/png 325.5171ms
+2021-11-07 00:42:53.950 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - -
+2021-11-07 00:42:53.944 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/js/demos/demo-18.js - - - 0 74 application/javascript 354.9128ms
+2021-11-07 00:42:53.972 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css - -
+2021-11-07 00:42:53.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-11-07 00:42:53.987 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/5.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\5.png'
+2021-11-07 00:42:53.972 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8.jpg'
+2021-11-07 00:42:54.032 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/5.png - - - 0 1781 image/png 276.7304ms
+2021-11-07 00:42:54.032 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - - - 0 14903 image/jpeg 512.5493ms
+2021-11-07 00:42:54.058 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/demos/demo-18.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\demos\demo-18.css'
+2021-11-07 00:42:54.084 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-11-07 00:42:54.078 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/assets/images/products/cart/product-2.jpg - - - 404 - - 1558.1221ms
+2021-11-07 00:42:54.109 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/demos/demo-18.css - - - 0 9827 text/css 225.2255ms
+2021-11-07 00:42:54.133 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9-2.jpg'
+2021-11-07 00:42:54.123 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/1.png - - - 404 - - 683.1202ms
+2021-11-07 00:42:54.160 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - - - 0 14074 image/jpeg 215.8902ms
+2021-11-07 00:42:54.142 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/images/brands/2.png - - - 404 - - 266.6437ms
+2021-11-07 00:42:54.215 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-11-07 00:42:54.225 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 0 9553 text/css 228.5220ms
+2021-11-07 00:42:54.226 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/style.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\style.css'
+2021-11-07 00:42:54.258 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-11-07 00:42:54.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/css/style.css - - - 0 272428 text/css 293.2945ms
+2021-11-07 00:42:54.270 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 184.6761ms
+2021-11-07 00:43:12.891 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-11-07 00:43:12.896 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-07 00:43:12.899 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:43:12.903 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-07 00:43:12.911 -03:00 [INF] Executed ViewResult - view Index executed in 9.0237ms.
+2021-11-07 00:43:12.913 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 11.3221ms
+2021-11-07 00:43:12.914 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-07 00:43:12.918 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 26.3331ms
+2021-11-07 00:43:12.963 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/HTTPClient.js?cache=2 - -
+2021-11-07 00:43:12.965 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - -
+2021-11-07 00:43:12.968 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-11-07 00:43:12.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/HTTPClient.js?cache=2 - - - 304 - application/javascript 8.1666ms
+2021-11-07 00:43:12.994 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\login\Index.js'
+2021-11-07 00:43:13.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - - - 200 1345885 application/javascript 46.5009ms
+2021-11-07 00:43:13.072 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/favicon.ico - -
+2021-11-07 00:43:13.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/favicon.ico - - - 0 - - 2.1000ms
+2021-11-07 00:43:14.268 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-07 00:43:14.271 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:14.280 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:43:33.520 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-07 00:43:33.520 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-07 00:43:33.556 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/admin - -
+2021-11-07 00:43:33.562 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-07 00:43:33.569 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:33.568 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:33.570 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:43:33.810 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:43:33.574 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-07 00:43:33.821 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-07 00:43:34.803 -03:00 [INF] Executed ViewResult - view Index executed in 983.7218ms.
+2021-11-07 00:43:35.335 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - -
+2021-11-07 00:43:35.335 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 993.1372ms
+2021-11-07 00:43:36.845 -03:00 [INF] The file /clientapp/dist/views/login/Index.js was not modified
+2021-11-07 00:43:37.470 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:10386/lib/HTTPClient.js?cache=2 - -
+2021-11-07 00:43:38.504 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-11-07 00:43:38.504 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/clientapp/dist/views/login/Index.js - - - 304 - application/javascript 3168.4358ms
+2021-11-07 00:43:42.836 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 9015.5658ms
+2021-11-07 00:43:42.836 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 9014.6175ms
+2021-11-07 00:43:41.498 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-07 00:43:42.837 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/lib/HTTPClient.js?cache=2 - - - 304 - application/javascript 5365.6358ms
+2021-11-07 00:43:43.643 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 29360.5197ms
+2021-11-07 00:43:44.269 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:10386/admin - - - 200 - text/html;+charset=utf-8 10713.4195ms
+2021-11-07 00:43:44.751 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:44.751 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:45.163 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:46.672 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at coreClothes.DB.MySQLPersistence.ExecutarConsultaSimples(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 100
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 110
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method20(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-07 00:43:46.672 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at coreClothes.DB.MySQLPersistence.ExecutarConsultaSimples(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 100
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 110
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method20(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-07 00:43:46.672 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at coreClothes.DB.MySQLPersistence.ExecutarConsultaSimples(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 100
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 110
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method20(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-07 00:43:46.736 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 32468.1102ms
+2021-11-07 00:43:46.738 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 13218.2231ms
+2021-11-07 00:43:46.742 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 13222.2840ms
+2021-11-07 00:43:51.217 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:10386/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-07 00:43:51.218 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-07 00:43:51.220 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).

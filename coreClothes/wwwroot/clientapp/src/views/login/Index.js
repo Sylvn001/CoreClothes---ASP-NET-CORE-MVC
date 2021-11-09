@@ -12,7 +12,7 @@ class LoginCard extends React.Component
             email: "admin@mail.com",
             password: "123",
             msg: "",
-            sucess: false
+            success: false
         }
     }
 
@@ -31,15 +31,15 @@ class LoginCard extends React.Component
             HTTPClient.post("Admin/Login/Auth", data)
                 .then(r => r.json())
                 .then(r => {
-
-                    if (r.sucess) {
-                        location.href = "Product";
+                    console.log(r)
+                    if (r.success) {
+                        location.href = "Admin/Product";
                     }
                     else {
 
                         this.setState({
                             msg: r.msg,
-                            sucess: r.sucess
+                            success: r.success
                         });
                     }
                 })

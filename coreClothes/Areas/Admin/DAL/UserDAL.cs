@@ -98,8 +98,10 @@ namespace coreClothes.Areas.Admin.DAL
 
         public bool ValidateAuth(string email, string password)
         {
+            _bd.AbrirConexao();
+
             string sql = @"select count(*) 
-                           from user 
+                           from User 
                            where email = @email and
                                  password = @password";
 
@@ -109,6 +111,7 @@ namespace coreClothes.Areas.Admin.DAL
 
             bool ok = Convert.ToInt32(_bd.ExecutarConsultaSimples(sql, parameters)) == 1;
 
+            _bd.FecharConexao();
             return ok;
         }
     }
