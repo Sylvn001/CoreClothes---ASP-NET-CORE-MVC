@@ -9,7 +9,7 @@ class LoginForm extends React.Component
     render = (props) => {
         let msg = null;
 
-        if (this.props.data.state.success)
+        if (this.props.data.state.msg)
         {
             msg =
             <div className="alert alert-danger">

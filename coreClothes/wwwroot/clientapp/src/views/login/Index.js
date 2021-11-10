@@ -36,11 +36,11 @@ class LoginCard extends React.Component
                         location.href = "Admin/Product";
                     }
                     else {
-
                         this.setState({
                             msg: r.msg,
                             success: r.success
                         });
+                        console.log(this.state.msg)
                     }
                 })
                 .finally(() => {

@@ -4,6 +4,9 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
+@section Scripts {
+    <script src="~/clientapp/dist/views/areas/category/Index.js"></script>
+}
 
 <div class="card ">
     <div class="card-header d-flex justify-content-between">
@@ -15,60 +18,8 @@
         </div>
     </div>
     <div class="card-body">
-        <div class="table-responsive ps">
-            <table class="table tablesorter " id="">
-                <thead class=" text-primary">
-                    <tr>
-                        <th class="">
-                            ID
-                        </th>
-                        <th class="">
-                            Name
-                        </th>  
-                        <th>
-                            <i class="fas fa-cog"></i>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            1
-                        </td>
-                        <td class="">
-                            Pack do pé
-                        </td>
-                        <td>
-                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
-                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            2
-                        </td>
-                        <td class="">
-                            Shoes
-                        </td>
-                        <td>
-                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
-                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            3
-                        </td>
-                        <td>
-                            Shirt
-                        </td>
-                        <td >
-                            <a href="#" class="mx-2"><i class="fas fa-pencil-alt"></i></a>
-                            <a href="#" class="mx-2"><i class="fas fa-trash"></i></a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="table-responsive ps" id="root">
+           
         </div>
     </div>
 </div>

@@ -70,14 +70,17 @@ namespace coreClothes.Areas.Admin.DAL
                            where name = @name";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
-            parameters.Add("@name", name);
+            parameters.Add("@name", "%" + name + "%");
 
+            _bd.AbrirConexao();
             DataTable dt = _bd.ExecutarSelect(sql, parameters);
 
             foreach (DataRow row in dt.Rows)
             {
                 categories.Add(Map(row));
             }
+
+            _bd.FecharConexao();
 
             return categories;
         }
