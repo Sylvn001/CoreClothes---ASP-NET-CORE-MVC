@@ -8,11 +8,9 @@ class CategoryList extends React.Component
         super();
 
         this.state = {
-            id: 0,
-            name: "123",
-            msg: "",
+            msg: '',
             success: false,
-            searchName: "",
+            searchName: '',
             categories: [],
         }
     }
@@ -65,8 +63,11 @@ class CategoryList extends React.Component
     //     }
     // }
 
+    componentDidMount() {
+        this.search()
+    }
+
     render = () => {
-    this.search()
       let view =
         <>
             <table className="table tablesorter " id="">

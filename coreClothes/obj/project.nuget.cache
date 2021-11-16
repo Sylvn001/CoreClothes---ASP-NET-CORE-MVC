@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xXMoYKQ1yf1DW2xgykuev/lJ6tVdU8ob+cn6y6PqrvWE1HrL8rCVW4SCJS0qwLZmWMYHEz+ZIi7vtLtEnWhcfg==",
+  "dgSpecHash": "0QWdA9VBxQwET5CzPa76mZ5rwpq3VokaJnWGIQ8F1Y0OS1fkiRcKAr5YbNT7vrP7HplcMpSzKef/aP87NkdK2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj",
+  "projectFilePath": "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\junior\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\junior\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
