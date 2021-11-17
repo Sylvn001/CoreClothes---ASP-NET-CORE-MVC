@@ -10,6 +10,18 @@ namespace coreClothes.Areas.Admin.Models
         public int Id { get; set; }
         public string Name { get; set; }
 
+        public Category()
+        {
+            Id = 0;
+            Name = "";
+        }
+
+        public Category (int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
         public (bool, string) Validate()
         {
             bool flag = false;

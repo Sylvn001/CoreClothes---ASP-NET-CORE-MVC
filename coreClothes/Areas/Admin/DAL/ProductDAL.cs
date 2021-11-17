@@ -74,19 +74,20 @@ namespace coreClothes.Areas.Admin.DAL
         {
             List<Product> products = new List<Product>();
 
-            string sql = @"select * 
-                           from product 
-                           where name = @name";
+            string sql = @"SELECT p.*, c.name as cat_name, c.id as cat_id FROM product as p join category as c on p.category_id = c.id where p.name LIKE @name";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
-            parameters.Add("@name", name);
+            parameters.Add("@name", "%" + name + "%");
+
+            _bd.AbrirConexao();
 
             DataTable dt = _bd.ExecutarSelect(sql, parameters);
-
             foreach (DataRow row in dt.Rows)
             {
                 products.Add(Map(row));
             }
+
+            _bd.FecharConexao();
 
             return products;
         }
@@ -99,7 +100,7 @@ namespace coreClothes.Areas.Admin.DAL
                 Name = row["name"].ToString(),
                 Price = Convert.ToDouble(row["price"].ToString()),
                 Stock = Convert.ToInt32(row["stock"].ToString()),
-                //Category = row["category"][""]
+                Category = new Category(Convert.ToInt32(row["cat_id"].ToString()), row["cat_name"].ToString()),
             };
 
             return u;

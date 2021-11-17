@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using coreClothes.Areas.Admin.Models;
+using coreClothes.Areas.Admin.Services;
 
 namespace coreClothes.Areas.Admin.Controllers
 {
@@ -11,6 +12,7 @@ namespace coreClothes.Areas.Admin.Controllers
 
     public class ProductController : Controller
     {
+        ProductService _ps = new ProductService();
 
         public IActionResult Index()
         {
@@ -21,6 +23,12 @@ namespace coreClothes.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult Search(string name)
+        {
+            return Json(_ps.Search(name));
+        }
+
 
         [HttpPost]
         public IActionResult Store([FromBody] System.Text.Json.JsonElement data)

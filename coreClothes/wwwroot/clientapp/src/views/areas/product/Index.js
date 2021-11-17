@@ -68,16 +68,15 @@ class ProductList extends React.Component
     }
 
     render = () => {
-    this.search()
       let view =
         <>
             <table className="table tablesorter " id="">
                 <thead className=" text-primary">
                 <tr>
-                        <th class="">
+                        <th>
                             ID
                         </th>
-                        <th class="">
+                        <th >
                             Name
                         </th>
                         <th>
@@ -90,12 +89,12 @@ class ProductList extends React.Component
                             Category
                         </th>
                         <th>
-                            <i class="fas fa-cog"></i>
+                            <i className="fas fa-cog"></i>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    {this.state.products.length == 0 && <tr><td className="text-center" colSpan="6">Empty Categories</td></tr>}
+                    {this.state.products.length == 0 && <tr><td className="text-center" colSpan="6">Empty Products</td></tr>}
                     {
                         this.state.products.map(item => {
                             return(
@@ -103,8 +102,8 @@ class ProductList extends React.Component
                                     <td>{item.id}</td>
                                     <td>{item.name}</td>
                                     <td>{item.stock}</td>
-                                    <td>{item.name}</td>
-                                    <td>{item.category}</td>
+                                    <td>{item.price}</td>
+                                    <td>{item.category.name}</td>
                                     <td>
                                         <a href="#" className="mx-2"><i className="fas fa-pencil-alt"></i></a>
                                         <a href="#" className="mx-2"><i className="fas fa-trash"></i></a>
