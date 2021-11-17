@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj": {}
+    "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj": {
+    "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj",
+        "projectUniqueName": "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj",
         "projectName": "coreClothes",
-        "projectPath": "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\coreClothes.csproj",
+        "projectPath": "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\coreClothes.csproj",
         "packagesPath": "C:\\Users\\junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junior\\source\\repos\\coreClothes\\coreClothes\\obj\\",
+        "outputPath": "C:\\Users\\junior\\Desktop\\CoreClothes---ASP-NET-CORE-MVC\\coreClothes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

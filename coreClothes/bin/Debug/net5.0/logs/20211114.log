@@ -1,0 +1,349 @@
+2021-11-14 12:31:38.364 -03:00 [INF] Logger funcionado...
+2021-11-14 12:31:38.528 -03:00 [INF] Starting...
+2021-11-14 12:31:40.046 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 12:31:40.733 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 12:31:40.736 -03:00 [INF] Hosting environment: Development
+2021-11-14 12:31:40.738 -03:00 [INF] Content root path: C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes
+2021-11-14 12:31:40.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/ - -
+2021-11-14 12:31:40.848 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-14 12:31:40.929 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-11-14 12:31:41.003 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-14 12:31:41.181 -03:00 [INF] Executed ViewResult - view Index executed in 226.4422ms.
+2021-11-14 12:31:41.187 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 255.0569ms
+2021-11-14 12:31:41.194 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-14 12:31:41.211 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/ - - - 200 - text/html;+charset=utf-8 418.8531ms
+2021-11-14 12:31:41.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - -
+2021-11-14 12:31:41.379 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-11-14 12:31:41.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/style.css - -
+2021-11-14 12:31:41.385 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.min.js - -
+2021-11-14 12:31:41.385 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - -
+2021-11-14 12:31:41.400 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/demos/demo-18.css - -
+2021-11-14 12:31:41.407 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\css\plugins\magnific-popup\magnific-popup.css'
+2021-11-14 12:31:41.407 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-11-14 12:31:41.407 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-11-14 12:31:41.412 -03:00 [INF] The file /lib/molla/assets/css/style.css was not modified
+2021-11-14 12:31:41.423 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-11-14 12:31:41.410 -03:00 [INF] The file /lib/molla/assets/css/demos/demo-18.css was not modified
+2021-11-14 12:31:41.431 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\jquery.min.js'
+2021-11-14 12:31:41.431 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - - - 200 6016 text/css 44.1421ms
+2021-11-14 12:31:41.431 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 200 9553 text/css 51.9888ms
+2021-11-14 12:31:41.443 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-11-14 12:31:41.441 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/superfish.min.js - -
+2021-11-14 12:31:41.443 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.min.js - - - 200 88147 application/javascript 59.7058ms
+2021-11-14 12:31:41.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/style.css - - - 304 - text/css 53.4004ms
+2021-11-14 12:31:41.440 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.hoverIntent.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\jquery.hoverIntent.min.js'
+2021-11-14 12:31:41.462 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/owl.carousel.min.js - -
+2021-11-14 12:31:41.466 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.waypoints.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\jquery.waypoints.min.js'
+2021-11-14 12:31:41.466 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/superfish.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\superfish.min.js'
+2021-11-14 12:31:41.466 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - - - 200 155764 text/css 125.2528ms
+2021-11-14 12:31:41.475 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.waypoints.min.js - - - 200 10291 application/javascript 32.3179ms
+2021-11-14 12:31:41.480 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/main.js - -
+2021-11-14 12:31:41.480 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-11-14 12:31:41.484 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/superfish.min.js - - - 200 4508 application/javascript 41.8447ms
+2021-11-14 12:31:41.472 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 200 2317 application/javascript 48.0879ms
+2021-11-14 12:31:41.488 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/demos/demo-18.js - -
+2021-11-14 12:31:41.458 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-11-14 12:31:41.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/demos/demo-18.css - - - 304 - text/css 36.4127ms
+2021-11-14 12:31:41.429 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-11-14 12:31:41.499 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/owl.carousel.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\owl.carousel.min.js'
+2021-11-14 12:31:41.503 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/demos/demo-18.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\demos\demo-18.js'
+2021-11-14 12:31:41.502 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/main.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\main.js'
+2021-11-14 12:31:41.510 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.magnific-popup.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\jquery.magnific-popup.min.js'
+2021-11-14 12:31:41.513 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/owl.carousel.min.js - - - 200 44348 application/javascript 58.1317ms
+2021-11-14 12:31:41.525 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/main.js - - - 200 26530 application/javascript 38.7220ms
+2021-11-14 12:31:41.529 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\bootstrap.bundle.min.js'
+2021-11-14 12:31:41.503 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap-input-spinner.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\js\bootstrap-input-spinner.js'
+2021-11-14 12:31:41.513 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/demos/demo-18.js - - - 200 74 application/javascript 25.0775ms
+2021-11-14 12:31:41.529 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 200 20232 application/javascript 50.7617ms
+2021-11-14 12:31:41.544 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap-input-spinner.js - - - 200 12028 application/javascript 85.6678ms
+2021-11-14 12:31:41.547 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 117.8225ms
+2021-11-14 12:31:47.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/7.png - -
+2021-11-14 12:31:47.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - -
+2021-11-14 12:31:47.406 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-11-14 12:31:47.406 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/5.png - -
+2021-11-14 12:31:47.405 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - -
+2021-11-14 12:31:47.424 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/7.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\brands\7.png'
+2021-11-14 12:31:47.421 -03:00 [INF] The file /lib/molla/assets/images/products/cart/product-1.jpg was not modified
+2021-11-14 12:31:47.426 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg was not modified
+2021-11-14 12:31:47.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/7.png - - - 200 825 image/png 31.3392ms
+2021-11-14 12:31:47.439 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - - - 404 - - 38.0129ms
+2021-11-14 12:31:47.444 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-11-14 12:31:47.447 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - -
+2021-11-14 12:31:47.444 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - -
+2021-11-14 12:31:47.448 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - -
+2021-11-14 12:31:47.462 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg was not modified
+2021-11-14 12:31:47.462 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg was not modified
+2021-11-14 12:31:47.470 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - - - 304 - image/jpeg 22.4009ms
+2021-11-14 12:31:47.478 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - - - 304 - image/jpeg 33.7573ms
+2021-11-14 12:31:47.470 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg was not modified
+2021-11-14 12:31:47.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/cart/product-1.jpg - - - 304 - image/jpeg 26.6991ms
+2021-11-14 12:31:47.495 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - - - 304 - image/jpeg 46.9568ms
+2021-11-14 12:31:47.439 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - - - 304 - image/jpeg 32.2718ms
+2021-11-14 12:31:47.431 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/5.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\brands\5.png'
+2021-11-14 12:31:47.405 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/6.png - -
+2021-11-14 12:31:47.512 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/5.png - - - 200 1781 image/png 105.9533ms
+2021-11-14 12:31:47.513 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - -
+2021-11-14 12:31:47.517 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - -
+2021-11-14 12:31:47.523 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg was not modified
+2021-11-14 12:31:47.527 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/products/product-1.jpg was not modified
+2021-11-14 12:31:47.529 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - - - 304 - image/jpeg 15.7160ms
+2021-11-14 12:31:47.536 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - - - 304 - image/jpeg 18.4206ms
+2021-11-14 12:31:47.540 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-11-14 12:31:47.545 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - -
+2021-11-14 12:31:47.545 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - -
+2021-11-14 12:31:47.564 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg was not modified
+2021-11-14 12:31:47.568 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 200 134912 font/woff2 123.9694ms
+2021-11-14 12:31:47.574 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - -
+2021-11-14 12:31:47.574 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - - - 304 - image/jpeg 29.5516ms
+2021-11-14 12:31:47.583 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - -
+2021-11-14 12:31:47.599 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - -
+2021-11-14 12:31:47.574 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/products/product-2.jpg was not modified
+2021-11-14 12:31:47.569 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - -
+2021-11-14 12:31:47.639 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - - - 304 - image/jpeg 93.9876ms
+2021-11-14 12:31:47.524 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/6.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\brands\6.png'
+2021-11-14 12:31:47.653 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4-2.jpg'
+2021-11-14 12:31:47.655 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - -
+2021-11-14 12:31:47.655 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-3-2.jpg'
+2021-11-14 12:31:47.655 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5.jpg'
+2021-11-14 12:31:47.681 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - -
+2021-11-14 12:31:47.694 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6.jpg'
+2021-11-14 12:31:47.685 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - - - 200 14436 image/jpeg 85.7225ms
+2021-11-14 12:31:47.681 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - - - 200 17762 image/jpeg 111.1727ms
+2021-11-14 12:31:47.706 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - -
+2021-11-14 12:31:47.704 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - - - 200 30378 image/jpeg 119.5639ms
+2021-11-14 12:31:47.715 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - - - 200 15464 image/jpeg 57.1871ms
+2021-11-14 12:31:47.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - -
+2021-11-14 12:31:47.728 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5-2.jpg'
+2021-11-14 12:31:47.724 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - -
+2021-11-14 12:31:47.731 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6-2.jpg'
+2021-11-14 12:31:47.667 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - -
+2021-11-14 12:31:47.737 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - - - 200 25109 image/jpeg 56.1471ms
+2021-11-14 12:31:47.666 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4.jpg'
+2021-11-14 12:31:47.749 -03:00 [INF] The file /lib/molla/assets/images/demos/demo-18/products/product-3.jpg was not modified
+2021-11-14 12:31:47.752 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - - - 200 15586 image/jpeg 44.9576ms
+2021-11-14 12:31:47.753 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - -
+2021-11-14 12:31:47.756 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - -
+2021-11-14 12:31:47.771 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - -
+2021-11-14 12:31:47.753 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8.jpg'
+2021-11-14 12:31:47.801 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9.jpg'
+2021-11-14 12:31:47.803 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7-2.jpg'
+2021-11-14 12:31:47.815 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9-2.jpg'
+2021-11-14 12:31:47.823 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - -
+2021-11-14 12:31:47.825 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - - - 200 14903 image/jpeg 99.9511ms
+2021-11-14 12:31:47.852 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - - - 200 13947 image/jpeg 100.0935ms
+2021-11-14 12:31:47.854 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7.jpg'
+2021-11-14 12:31:47.854 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - -
+2021-11-14 12:31:47.867 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - - - 200 14074 image/jpeg 110.9484ms
+2021-11-14 12:31:47.870 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - - - 200 30236 image/jpeg 148.9234ms
+2021-11-14 12:31:47.870 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/4.png - -
+2021-11-14 12:31:47.883 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - - - 404 - - 63.8793ms
+2021-11-14 12:31:47.883 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - - - 200 25658 image/jpeg 115.3272ms
+2021-11-14 12:31:47.885 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8-2.jpg'
+2021-11-14 12:31:47.870 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - -
+2021-11-14 12:31:47.901 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/3.png - -
+2021-11-14 12:31:47.907 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - - - 200 7891 image/jpeg 54.4140ms
+2021-11-14 12:31:47.901 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/4.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\brands\4.png'
+2021-11-14 12:31:47.917 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - - - 404 - - 48.3252ms
+2021-11-14 12:31:47.756 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - - - 304 - image/jpeg 90.5835ms
+2021-11-14 12:31:47.931 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/4.png - - - 200 1184 image/png 61.1624ms
+2021-11-14 12:31:47.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - - - 200 13088 image/jpeg 183.7574ms
+2021-11-14 12:31:47.655 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/6.png - - - 200 1074 image/png 249.5757ms
+2021-11-14 12:31:47.987 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/3.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\brands\3.png'
+2021-11-14 12:31:47.999 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/3.png - - - 200 832 image/png 99.5927ms
+2021-11-14 12:31:48.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/favicon-32x32.png - -
+2021-11-14 12:31:48.099 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/apple-touch-icon.png - -
+2021-11-14 12:31:48.105 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/apple-touch-icon.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\icons\apple-touch-icon.png'
+2021-11-14 12:31:48.105 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/favicon-32x32.png'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\icons\favicon-32x32.png'
+2021-11-14 12:31:48.112 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/favicon-32x32.png - - - 0 1061 image/png 16.8812ms
+2021-11-14 12:31:48.112 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/apple-touch-icon.png - - - 0 1891 image/png 13.3898ms
+2021-11-14 12:34:16.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Product/Index - -
+2021-11-14 12:34:16.806 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-11-14 12:34:16.813 -03:00 [INF] Route matched with {action = "Index", controller = "Product", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.ProductController (coreClothes).
+2021-11-14 12:34:16.833 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-14 12:34:16.844 -03:00 [INF] Executed ViewResult - view Index executed in 27.8011ms.
+2021-11-14 12:34:16.852 -03:00 [INF] Executed action coreClothes.Controllers.ProductController.Index (coreClothes) in 32.4976ms
+2021-11-14 12:34:16.854 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.ProductController.Index (coreClothes)'
+2021-11-14 12:34:16.861 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Product/Index - - - 200 - text/html;+charset=utf-8 61.4884ms
+2021-11-14 12:34:16.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Product/assets/images/products/cart/product-2.jpg - -
+2021-11-14 12:34:16.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Product/assets/images/products/cart/product-2.jpg - - - 404 - - 7.7405ms
+2021-11-14 12:34:16.940 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/product/Index.js - -
+2021-11-14 12:34:16.958 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/product/Index.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\clientapp\dist\views\product\Index.js'
+2021-11-14 12:34:16.990 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/product/Index.js - - - 200 1383523 application/javascript 49.6314ms
+2021-11-14 12:34:17.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/product-5.jpg - -
+2021-11-14 12:34:17.100 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/product-5.jpg'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\molla\assets\images\products\product-5.jpg'
+2021-11-14 12:34:17.103 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/product-5.jpg - - - 200 33168 image/jpeg 7.7647ms
+2021-11-14 12:34:37.276 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin - -
+2021-11-14 12:34:37.282 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-14 12:34:37.286 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-14 12:34:37.300 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-14 12:34:37.310 -03:00 [INF] Executed ViewResult - view Index executed in 20.7382ms.
+2021-11-14 12:34:37.312 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 23.8076ms
+2021-11-14 12:34:37.315 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-14 12:34:37.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin - - - 200 - text/html;+charset=utf-8 43.4070ms
+2021-11-14 12:34:37.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - -
+2021-11-14 12:34:37.380 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js?cache=2 - -
+2021-11-14 12:34:37.380 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\views\admin\login\index.css'
+2021-11-14 12:34:37.380 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - -
+2021-11-14 12:34:37.394 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - - - 200 2401 text/css 25.5517ms
+2021-11-14 12:34:37.400 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\lib\HTTPClient.js'
+2021-11-14 12:34:37.413 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js?cache=2 - - - 200 3321 application/javascript 31.7991ms
+2021-11-14 12:34:37.424 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\wwwroot\clientapp\dist\views\login\Index.js'
+2021-11-14 12:34:37.454 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - - - 200 1345965 application/javascript 73.3955ms
+2021-11-14 12:34:37.548 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/favicon.ico - -
+2021-11-14 12:34:37.551 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/favicon.ico - - - 0 - - 2.9217ms
+2021-11-14 12:34:39.735 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-14 12:34:39.740 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:34:39.753 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-14 12:34:45.738 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-14 12:34:45.744 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:34:45.747 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-14 12:35:10.207 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-14 12:35:11.418 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:35:11.427 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-14 12:35:11.432 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 31676.6429ms
+2021-11-14 12:35:11.432 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 25682.3765ms
+2021-11-14 12:35:11.440 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:35:11.440 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:35:11.958 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (Este host não é conhecido.)
+ ---> System.Net.Sockets.SocketException (11001): Este host não é conhecido.
+   at System.Net.NameResolutionPal.ProcessResult(SocketError errorCode, GetAddrInfoExContext* context)
+   at System.Net.NameResolutionPal.GetAddressInfoExCallback(Int32 error, Int32 bytes, NativeOverlapped* overlapped)
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at coreClothes.DB.MySQLPersistence.AbrirConexao() in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\DB\MySQLPersistence.cs:line 27
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 101
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method27(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-14 12:35:11.958 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (Este host não é conhecido.)
+ ---> System.Net.Sockets.SocketException (11001): Este host não é conhecido.
+   at System.Net.NameResolutionPal.ProcessResult(SocketError errorCode, GetAddrInfoExContext* context)
+   at System.Net.NameResolutionPal.GetAddressInfoExCallback(Int32 error, Int32 bytes, NativeOverlapped* overlapped)
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at coreClothes.DB.MySQLPersistence.AbrirConexao() in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\DB\MySQLPersistence.cs:line 27
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 101
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method27(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-14 12:35:11.965 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 533.9093ms
+2021-11-14 12:35:12.015 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:35:12.018 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (Este host não é conhecido.)
+ ---> System.Net.Sockets.SocketException (11001): Este host não é conhecido.
+   at System.Net.NameResolutionPal.ProcessResult(SocketError errorCode, GetAddrInfoExContext* context)
+   at System.Net.NameResolutionPal.GetAddressInfoExCallback(Int32 error, Int32 bytes, NativeOverlapped* overlapped)
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings, MyNetworkStream& networkStream)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at coreClothes.DB.MySQLPersistence.AbrirConexao() in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\DB\MySQLPersistence.cs:line 27
+   at coreClothes.Areas.Admin.DAL.UserDAL.ValidateAuth(String email, String password) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\DAL\UserDAL.cs:line 101
+   at coreClothes.Areas.Admin.Services.UserService.ValidateAuth(User user) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Services\UserService.cs:line 52
+   at coreClothes.Areas.Admin.Controllers.LoginController.Auth(JsonElement data) in C:\Users\junior\Desktop\CoreClothes---ASP-NET-CORE-MVC\coreClothes\Areas\Admin\Controllers\LoginController.cs:line 31
+   at lambda_method27(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-14 12:35:12.033 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 1826.0635ms
+2021-11-14 12:35:12.033 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 26295.2508ms
+2021-11-14 12:35:12.033 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43 - 500 - text/plain 32297.4843ms
+2021-11-14 12:35:15.540 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-14 12:35:15.544 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-14 12:35:15.547 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
