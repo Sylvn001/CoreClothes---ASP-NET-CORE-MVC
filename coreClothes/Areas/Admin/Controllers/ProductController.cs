@@ -29,6 +29,9 @@ namespace coreClothes.Areas.Admin.Controllers
             return Json(_ps.Search(name));
         }
 
+        public IActionResult Delete(int id){
+            return Json(_ps.Delete(id));
+        }
 
         [HttpPost]
         public IActionResult Store([FromBody] System.Text.Json.JsonElement data)

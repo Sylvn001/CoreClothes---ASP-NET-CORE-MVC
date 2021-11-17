@@ -45,5 +45,10 @@ namespace coreClothes.Areas.Admin.Services
             return _pDAL.GetById(id);
         }
 
+        public bool Delete(int id)
+        {
+            return _pDAL.Delete(id);
+        }
+
     }
 }

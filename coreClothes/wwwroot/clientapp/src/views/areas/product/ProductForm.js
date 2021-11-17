@@ -15,7 +15,7 @@ class ProductForm extends React.Component
             stock: '',
             price: '',
             category: '',
-            urlImg,
+            urlImg: '',
             categories: [],
         }
     }
@@ -73,26 +73,122 @@ class ProductForm extends React.Component
 
     }
 
+    SetUpdateValues(){
+
+        if(this.state.id != 0)
+        {
+            HTTPClient.get("Admin/Product/SearchById?id=" + encodeURIComponent(this.state.id))
+            .then(r => r.json())
+            .then(r => {
+                console.log(r)
+                this.setState({
+                    id: r.id,
+                    name: r.name,
+                    stock: r.stock,
+                    price: r.price,
+                    category: r.category,
+                    urlImg: r.urlImg,
+                });
+
+           })
+           .catch((e) => {
+               console.log(e)
+           })
+        }
+    }
+
     componentDidMount() {
         this.search()
+        this.SetUpdateValues()
     }
 
     render = () => {
       let view =
         <>
-            <form>
-                <select>
-                    {
-                        this.state.categories.map(item => {
-                            return(
-                                <option key={"category-" + item.id}>
-                                    {item.name}
-                                </option>
-                            )
-                        })
-                    }
-                </select>
-            </form>
+            <div className="card-header">
+                <h3 className="title">New Category</h3>
+            </div>
+            <div className="card-body">
+                <form className="">
+                    <div className="form-group col-4">
+                        <label htmlFor ="productName">Product Name</label>
+                        <input
+                            type="text"
+                            className="form-control bg-dark"
+                            id="productName"
+                            name="name"
+                            value={this.state.name}
+                            onChange={e => this.setState({name: e.target.value})}
+                        />
+                    </div>
+
+                    <div className="form-group col-4">
+                        <label htmlFor ="productPrice">Product Price</label>
+                        <input
+                            type="text"
+                            className="form-control bg-dark"
+                            id="productPrice"
+                            name="price"
+                            placeholder="0.0"
+                            value={this.state.price}
+                            onChange={e => this.setState({price: e.target.price})}
+                        />
+                    </div>
+
+                    <div className="form-group col-4">
+                        <label htmlFor ="productStock">Product Stock</label>
+                        <input
+                            type="text"
+                            className="form-control bg-dark"
+                            id="productStock"
+                            name="stock"
+                            placeholder="0"
+                            value={this.state.stock}
+                            onChange={e => this.setState({stock: e.target.value})}
+                        />
+                    </div>
+
+                    <div className="form-group col-4 ">
+                        <label htmlFor ="productStock">URL IMG</label>
+                        <input
+                            type="text"
+                            className="form-control bg-dark"
+                            id="productStock"
+                            name="Img"
+                            placeholder=""
+                            value={this.state.urlImg}
+                            onChange={e => this.setState({urlImg: e.target.value})}
+                        />
+                    </div>
+
+                    <div className="form-group col-4">
+                        <label htmlFor ="productCategory">Select a Category</label>
+                        <select
+                            className="form-control bg-dark "
+                            id="productCategory"
+                            name="category"
+                            value={this.state.urlImg}
+                            onChange={e => this.setState({category: e.target.value})}
+                        >
+                            {
+                                this.state.categories.map(item => {
+                                    return(
+                                        <option value={item.id} key={"category-" + item.id}>
+                                            {item.name}
+                                        </option>
+                                    )
+                                })
+                            }
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div className="card-footer">
+                <a className="text-white font-weight-bold" href="~/admin/Product">
+                    <button type="button" className="btn btn-fill btn-info">CANCEL</button>
+                </a>
+                <button type="button" onClick={this.save} className="btn btn-fill btn-primary">Save</button>
+            </div>
         </>
       return view;
     }

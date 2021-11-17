@@ -31,37 +31,22 @@ class ProductList extends React.Component
        })
 
     }
-    // save = () => {
-    //     if (this.state.email.trim() == "" || this.state.password.trim() == "") {
-    //         this.setState({
-    //             msg: "Email and password are required!",
-    //             success: false
-    //         })
-    //     } else {
-    //         let data = {
-    //             email: this.state.email,
-    //             password: this.state.password
-    //         }
 
-    //         HTTPClient.post("Admin/Login/Auth", data)
-    //             .then(r => r.json())
-    //             .then(r => {
-    //                 console.log(r)
-    //                 if (r.success) {
-    //                     location.href = "Admin/Product";
-    //                 }
-    //                 else {
-    //                     this.setState({
-    //                         msg: r.msg,
-    //                         success: r.success
-    //                     });
-    //                     console.log(this.state.msg)
-    //                 }
-    //             })
-    //             .finally(() => {
-    //             });
-    //     }
-    // }
+    deleteItem = (id = 0) =>
+    {
+        if (window.confirm("You want delete this product?")) {
+            HTTPClient.get("Admin/Product/Delete?id=" +id)
+            .then(r => r.json())
+            .then(r => {
+                console.log(r)
+                if(r == true)
+                    this.search()
+           })
+           .catch((e) => {
+               console.log(e)
+           })
+        }
+    }
 
     componentDidMount() {
         this.search()
@@ -89,6 +74,9 @@ class ProductList extends React.Component
                             Category
                         </th>
                         <th>
+                            Url Img
+                        </th>
+                        <th>
                             <i className="fas fa-cog"></i>
                         </th>
                     </tr>
@@ -104,9 +92,10 @@ class ProductList extends React.Component
                                     <td>{item.stock}</td>
                                     <td>{item.price}</td>
                                     <td>{item.category.name}</td>
+                                    <td><img class="w-25" src={item.urlImg}/></td>
                                     <td>
-                                        <a href="#" className="mx-2"><i className="fas fa-pencil-alt"></i></a>
-                                        <a href="#" className="mx-2"><i className="fas fa-trash"></i></a>
+                                        <button href={'Product/Create?id='+item.id} className="btn btn-sm btn-warning"><i className="fas fa-pencil-alt"></i></button>
+                                        <button type="button" onClick={() => this.deleteItem(item.id)} className="mx-2 btn btn-sm btn-primary"><i className="fas fa-trash"></i></button>
                                     </td>
                                 </tr>
                             )

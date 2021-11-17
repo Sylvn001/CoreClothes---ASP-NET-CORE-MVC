@@ -34,7 +34,7 @@ namespace coreClothes.Areas.Admin.DAL
             parameters.Add("@stock", product.Stock);
             parameters.Add("@price", product.Price);
             parameters.Add("@category_id", product.Category.Id);
-            
+
             if (_bd.ExecutarNonQuery(sql, parameters) == 1)
             {
                 if (product.Id == 0)
@@ -50,8 +50,8 @@ namespace coreClothes.Areas.Admin.DAL
 
         public Product GetById(int id)
         {
-            string sql = @"select * 
-                           from product 
+            string sql = @"select *
+                           from product
                            where id = @id";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
@@ -90,6 +90,21 @@ namespace coreClothes.Areas.Admin.DAL
             _bd.FecharConexao();
 
             return products;
+        }
+
+        public bool Delete(int id)
+        {
+            bool flag = false;
+            string sql = "delete from product where id = @id";
+            Dictionary<string, object> parameters = new Dictionary<string, object>();
+            parameters.Add("@id",id);
+
+            _bd.AbrirConexao();
+            if (_bd.ExecutarNonQuery(sql, parameters) == 1)
+                flag = true;
+            _bd.FecharConexao();
+
+            return flag;
         }
 
         private Product Map(DataRow row)
