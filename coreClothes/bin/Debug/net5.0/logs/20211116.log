@@ -1,0 +1,1062 @@
+2021-11-16 17:27:19.369 -03:00 [INF] Logger funcionado...
+2021-11-16 17:27:19.460 -03:00 [INF] Starting...
+2021-11-16 17:27:20.729 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 17:27:21.286 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 17:27:21.289 -03:00 [INF] Hosting environment: Development
+2021-11-16 17:27:21.291 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-11-16 17:27:21.351 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/ - -
+2021-11-16 17:27:21.401 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:27:21.468 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-11-16 17:27:21.521 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:27:21.646 -03:00 [INF] Executed ViewResult - view Index executed in 153.0602ms.
+2021-11-16 17:27:21.658 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 187.2301ms
+2021-11-16 17:27:21.670 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:27:21.694 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - -
+2021-11-16 17:27:21.694 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/style.css - -
+2021-11-16 17:27:21.698 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-11-16 17:27:21.707 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/demos/demo-18.css - -
+2021-11-16 17:27:21.717 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - -
+2021-11-16 17:27:21.751 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.min.js - -
+2021-11-16 17:27:21.763 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/ - - - 200 - text/html;+charset=utf-8 404.4658ms
+2021-11-16 17:27:21.808 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/demos/demo-18.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\demos\demo-18.css'
+2021-11-16 17:27:21.809 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-11-16 17:27:21.809 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\magnific-popup\magnific-popup.css'
+2021-11-16 17:27:21.844 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap.bundle.min.js - -
+2021-11-16 17:27:21.814 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.hoverIntent.min.js - -
+2021-11-16 17:27:21.864 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/demos/demo-18.css - - - 200 9827 text/css 163.1994ms
+2021-11-16 17:27:21.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/owl.carousel.min.js - -
+2021-11-16 17:27:21.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.waypoints.min.js - -
+2021-11-16 17:27:21.870 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.hoverIntent.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.hoverIntent.min.js'
+2021-11-16 17:27:21.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/magnific-popup/magnific-popup.css - - - 200 6016 text/css 147.6856ms
+2021-11-16 17:27:21.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 200 9553 text/css 165.7617ms
+2021-11-16 17:27:21.870 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/superfish.min.js - -
+2021-11-16 17:27:21.887 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.hoverIntent.min.js - - - 200 2317 application/javascript 72.0357ms
+2021-11-16 17:27:21.892 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.waypoints.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.waypoints.min.js'
+2021-11-16 17:27:21.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap-input-spinner.js - -
+2021-11-16 17:27:21.899 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.min.js'
+2021-11-16 17:27:21.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.waypoints.min.js - - - 200 10275 application/javascript 33.1605ms
+2021-11-16 17:27:21.900 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/owl.carousel.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\owl.carousel.min.js'
+2021-11-16 17:27:21.901 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.magnific-popup.min.js - -
+2021-11-16 17:27:21.907 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/superfish.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\superfish.min.js'
+2021-11-16 17:27:21.914 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\bootstrap.bundle.min.js'
+2021-11-16 17:27:21.916 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/owl.carousel.min.js - - - 200 44342 application/javascript 50.2427ms
+2021-11-16 17:27:21.918 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/bootstrap-input-spinner.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\bootstrap-input-spinner.js'
+2021-11-16 17:27:21.920 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-11-16 17:27:21.919 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/demos/demo-18.js - -
+2021-11-16 17:27:21.923 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/superfish.min.js - - - 200 4508 application/javascript 53.3216ms
+2021-11-16 17:27:21.930 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap-input-spinner.js - - - 200 11736 application/javascript 37.3531ms
+2021-11-16 17:27:21.914 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.min.js - - - 200 88145 application/javascript 163.3863ms
+2021-11-16 17:27:21.932 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/bootstrap.bundle.min.js - - - 200 78635 application/javascript 116.8331ms
+2021-11-16 17:27:21.937 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - - - 200 155758 text/css 242.5775ms
+2021-11-16 17:27:21.938 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/demos/demo-18.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\demos\demo-18.js'
+2021-11-16 17:27:21.938 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/jquery.magnific-popup.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\jquery.magnific-popup.min.js'
+2021-11-16 17:27:21.945 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/style.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\style.css'
+2021-11-16 17:27:21.951 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/jquery.magnific-popup.min.js - - - 200 20229 application/javascript 49.4710ms
+2021-11-16 17:27:21.947 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/demos/demo-18.js - - - 200 74 application/javascript 28.5947ms
+2021-11-16 17:27:21.920 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/main.js - -
+2021-11-16 17:27:21.959 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/style.css - - - 200 272428 text/css 263.1797ms
+2021-11-16 17:27:21.968 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/js/main.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\js\main.js'
+2021-11-16 17:27:21.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/js/main.js - - - 200 26530 application/javascript 51.4300ms
+2021-11-16 17:27:22.017 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - -
+2021-11-16 17:27:22.020 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/3.png - -
+2021-11-16 17:27:22.021 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/5.png - -
+2021-11-16 17:27:22.021 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - -
+2021-11-16 17:27:22.020 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - -
+2021-11-16 17:27:22.021 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - -
+2021-11-16 17:27:22.043 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/3.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\3.png'
+2021-11-16 17:27:22.020 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - -
+2021-11-16 17:27:22.065 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/5.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\5.png'
+2021-11-16 17:27:22.066 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/4.png - -
+2021-11-16 17:27:22.066 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9.jpg'
+2021-11-16 17:27:22.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/3.png - - - 200 832 image/png 51.5557ms
+2021-11-16 17:27:22.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/5.png - - - 200 1781 image/png 59.1989ms
+2021-11-16 17:27:22.075 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-2.jpg'
+2021-11-16 17:27:22.085 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-11-16 17:27:22.088 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/4.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\4.png'
+2021-11-16 17:27:22.101 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-1.jpg'
+2021-11-16 17:27:22.091 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9.jpg - - - 200 13947 image/jpeg 73.8079ms
+2021-11-16 17:27:22.066 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-2-2.jpg'
+2021-11-16 17:27:22.109 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/4.png - - - 200 1184 image/png 40.8238ms
+2021-11-16 17:27:22.109 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-2.jpg - - - 200 36150 image/jpeg 87.6980ms
+2021-11-16 17:27:22.110 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/cart/product-1.jpg - -
+2021-11-16 17:27:22.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - -
+2021-11-16 17:27:22.117 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2-2.jpg - - - 200 28170 image/jpeg 95.7534ms
+2021-11-16 17:27:22.115 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-1.jpg - - - 200 42959 image/jpeg 93.4663ms
+2021-11-16 17:27:22.070 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8.jpg'
+2021-11-16 17:27:22.147 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - -
+2021-11-16 17:27:22.150 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/products/cart/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\products\cart\product-1.jpg'
+2021-11-16 17:27:22.156 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8.jpg - - - 200 14903 image/jpeg 135.3811ms
+2021-11-16 17:27:22.157 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-11-16 17:27:22.160 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-4.jpg'
+2021-11-16 17:27:22.166 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/products/cart/product-1.jpg - - - 200 2018 image/jpeg 56.0462ms
+2021-11-16 17:27:22.177 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - -
+2021-11-16 17:27:22.180 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 200 134912 font/woff2 95.0203ms
+2021-11-16 17:27:22.174 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - -
+2021-11-16 17:27:22.167 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - -
+2021-11-16 17:27:22.188 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-4.jpg - - - 200 13802 image/jpeg 41.0272ms
+2021-11-16 17:27:22.189 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1-2.jpg'
+2021-11-16 17:27:22.194 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - -
+2021-11-16 17:27:22.194 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-1.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-1.jpg'
+2021-11-16 17:27:22.198 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - -
+2021-11-16 17:27:22.201 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - - - 404 - - 68.2379ms
+2021-11-16 17:27:22.206 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - -
+2021-11-16 17:27:22.206 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\banners\banner-3.jpg'
+2021-11-16 17:27:22.212 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-2.jpg'
+2021-11-16 17:27:22.213 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1-2.jpg - - - 200 15949 image/jpeg 35.6479ms
+2021-11-16 17:27:22.219 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4-2.jpg'
+2021-11-16 17:27:22.221 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5.jpg'
+2021-11-16 17:27:22.225 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - -
+2021-11-16 17:27:22.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - -
+2021-11-16 17:27:22.230 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-2.jpg - - - 200 15624 image/jpeg 31.4319ms
+2021-11-16 17:27:22.230 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - -
+2021-11-16 17:27:22.221 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-1.jpg - - - 200 15198 image/jpeg 46.8787ms
+2021-11-16 17:27:22.238 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/banners/banner-3.jpg - - - 200 21587 image/jpeg 69.9273ms
+2021-11-16 17:27:22.239 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-9-2.jpg'
+2021-11-16 17:27:22.243 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5.jpg - - - 200 30378 image/jpeg 49.5002ms
+2021-11-16 17:27:22.238 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - -
+2021-11-16 17:27:22.250 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4-2.jpg - - - 200 14436 image/jpeg 44.5927ms
+2021-11-16 17:27:22.253 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-4.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-4.jpg'
+2021-11-16 17:27:22.251 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - -
+2021-11-16 17:27:22.258 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - -
+2021-11-16 17:27:22.253 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-3.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-3.jpg'
+2021-11-16 17:27:22.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-9-2.jpg - - - 200 14074 image/jpeg 41.6440ms
+2021-11-16 17:27:22.251 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-3-2.jpg'
+2021-11-16 17:27:22.274 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3.jpg - - - 200 21802 image/jpeg 54.7523ms
+2021-11-16 17:27:22.273 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-4.jpg - - - 200 13088 image/jpeg 33.3379ms
+2021-11-16 17:27:22.280 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-5-2.jpg'
+2021-11-16 17:27:22.279 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-3-2.jpg - - - 200 17762 image/jpeg 50.4260ms
+2021-11-16 17:27:22.286 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - -
+2021-11-16 17:27:22.279 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - -
+2021-11-16 17:27:22.289 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - -
+2021-11-16 17:27:22.295 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7.jpg'
+2021-11-16 17:27:22.268 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - -
+2021-11-16 17:27:22.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - -
+2021-11-16 17:27:22.306 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-8-2.jpg'
+2021-11-16 17:27:22.306 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - - - 404 - - 21.1060ms
+2021-11-16 17:27:22.307 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6-2.jpg'
+2021-11-16 17:27:22.310 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7.jpg - - - 200 25658 image/jpeg 54.3187ms
+2021-11-16 17:27:22.316 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-7-2.jpg'
+2021-11-16 17:27:22.317 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-5-2.jpg - - - 200 25109 image/jpeg 63.7377ms
+2021-11-16 17:27:22.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-8-2.jpg - - - 200 7891 image/jpeg 29.5038ms
+2021-11-16 17:27:22.323 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-7-2.jpg - - - 200 30236 image/jpeg 44.2707ms
+2021-11-16 17:27:22.323 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/6.png - -
+2021-11-16 17:27:22.317 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - -
+2021-11-16 17:27:22.321 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/7.png - -
+2021-11-16 17:27:22.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6-2.jpg - - - 200 15586 image/jpeg 49.2237ms
+2021-11-16 17:27:22.317 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/demos/demo-18/products/product-6.jpg'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\demos\demo-18\products\product-6.jpg'
+2021-11-16 17:27:22.337 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/7.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\7.png'
+2021-11-16 17:27:22.338 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - - - 404 - - 19.6255ms
+2021-11-16 17:27:22.338 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/demos/demo-18/products/product-6.jpg - - - 200 15464 image/jpeg 73.3040ms
+2021-11-16 17:27:22.340 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/brands/6.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\brands\6.png'
+2021-11-16 17:27:22.345 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/7.png - - - 200 825 image/png 23.5637ms
+2021-11-16 17:27:22.349 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/6.png - - - 200 1074 image/png 26.7687ms
+2021-11-16 17:27:22.551 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/apple-touch-icon.png - -
+2021-11-16 17:27:22.553 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/favicon-16x16.png - -
+2021-11-16 17:27:22.557 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/favicon-16x16.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\favicon-16x16.png'
+2021-11-16 17:27:22.557 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/images/icons/apple-touch-icon.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\images\icons\apple-touch-icon.png'
+2021-11-16 17:27:22.567 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/favicon-16x16.png - - - 200 842 image/png 14.3401ms
+2021-11-16 17:27:22.568 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/icons/apple-touch-icon.png - - - 200 1891 image/png 15.7578ms
+2021-11-16 17:28:42.938 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin - -
+2021-11-16 17:28:42.942 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-16 17:28:42.946 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-16 17:28:42.992 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:28:43.000 -03:00 [INF] Executed ViewResult - view Index executed in 52.0127ms.
+2021-11-16 17:28:43.002 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 54.0758ms
+2021-11-16 17:28:43.003 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-16 17:28:43.006 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin - - - 200 - text/html;+charset=utf-8 68.2309ms
+2021-11-16 17:28:43.022 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js?cache=2 - -
+2021-11-16 17:28:43.022 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - -
+2021-11-16 17:28:43.030 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - -
+2021-11-16 17:28:43.039 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-11-16 17:28:43.041 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - - - 200 2401 text/css 19.1884ms
+2021-11-16 17:28:43.043 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\HTTPClient.js'
+2021-11-16 17:28:43.049 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js?cache=2 - - - 200 3321 application/javascript 26.6079ms
+2021-11-16 17:28:43.056 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\login\Index.js'
+2021-11-16 17:28:43.073 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - - - 200 1345965 application/javascript 42.9020ms
+2021-11-16 17:28:43.555 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/favicon.ico - -
+2021-11-16 17:28:43.558 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/favicon.ico - - - 404 - - 2.4262ms
+2021-11-16 17:28:45.029 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-16 17:28:45.031 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-16 17:28:45.041 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-16 17:28:47.533 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-11-16 17:28:47.549 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 2506.6605ms
+2021-11-16 17:28:47.551 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-16 17:28:47.553 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43 - 200 - application/json;+charset=utf-8 2524.1344ms
+2021-11-16 17:28:47.567 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Product - -
+2021-11-16 17:28:47.570 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-11-16 17:28:47.572 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.ProductController (coreClothes).
+2021-11-16 17:28:47.579 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:28:47.596 -03:00 [INF] Executed ViewResult - view Index executed in 21.7904ms.
+2021-11-16 17:28:47.597 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes) in 23.7935ms
+2021-11-16 17:28:47.599 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-11-16 17:28:47.603 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Product - - - 200 - text/html;+charset=utf-8 35.2795ms
+2021-11-16 17:28:47.628 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - -
+2021-11-16 17:28:47.634 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - -
+2021-11-16 17:28:47.638 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - -
+2021-11-16 17:28:47.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - -
+2021-11-16 17:28:47.658 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/css/nucleo-icons.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\css\nucleo-icons.css'
+2021-11-16 17:28:47.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - -
+2021-11-16 17:28:47.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.css - -
+2021-11-16 17:28:47.664 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - - - 200 7743 text/css 35.6911ms
+2021-11-16 17:28:47.649 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - -
+2021-11-16 17:28:47.700 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/demo/demo.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\demo\demo.css'
+2021-11-16 17:28:47.651 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - -
+2021-11-16 17:28:47.692 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/core/popper.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\core\popper.min.js'
+2021-11-16 17:28:47.723 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/core/jquery.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\core\jquery.min.js'
+2021-11-16 17:28:47.725 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/plugins/bootstrap-notify.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\plugins\bootstrap-notify.js'
+2021-11-16 17:28:47.729 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/plugins/chartjs.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\plugins\chartjs.min.js'
+2021-11-16 17:28:47.732 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - - - 200 15612 application/javascript 82.7550ms
+2021-11-16 17:28:47.733 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - - - 200 86659 application/javascript 94.2171ms
+2021-11-16 17:28:47.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/black-dashboard.css?v=1.0.0 - -
+2021-11-16 17:28:47.737 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - - - 200 157844 application/javascript 103.1241ms
+2021-11-16 17:28:47.743 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\plugins\perfect-scrollbar.jquery.min.js'
+2021-11-16 17:28:47.723 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - - - 200 18994 application/javascript 89.4381ms
+2021-11-16 17:28:47.747 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - - - 200 18292 application/javascript 95.7743ms
+2021-11-16 17:28:47.700 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/core/bootstrap.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\core\bootstrap.min.js'
+2021-11-16 17:28:47.727 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - -
+2021-11-16 17:28:47.715 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.css - - - 200 904 text/css 76.4800ms
+2021-11-16 17:28:47.693 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - -
+2021-11-16 17:28:47.761 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - - - 200 58031 application/javascript 121.0705ms
+2021-11-16 17:28:47.761 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\HTTPClient.js'
+2021-11-16 17:28:47.723 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - -
+2021-11-16 17:28:47.768 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - - - 200 3321 application/javascript 40.8457ms
+2021-11-16 17:28:47.772 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/css/black-dashboard.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\css\black-dashboard.css'
+2021-11-16 17:28:47.774 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/js/black-dashboard.min.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\js\black-dashboard.min.js'
+2021-11-16 17:28:47.777 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - - - 200 4540 application/javascript 85.1430ms
+2021-11-16 17:28:47.778 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/demo/demo.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\demo\demo.js'
+2021-11-16 17:28:47.782 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - - - 200 19027 application/javascript 58.8229ms
+2021-11-16 17:28:47.784 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/black-dashboard.css?v=1.0.0 - - - 200 401382 text/css 48.0731ms
+2021-11-16 17:28:47.787 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - -
+2021-11-16 17:28:47.792 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/img/anime3.png'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\img\anime3.png'
+2021-11-16 17:28:47.794 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - - - 200 37930 image/png 6.9258ms
+2021-11-16 17:28:47.816 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - -
+2021-11-16 17:28:47.825 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/fonts/nucleo.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\fonts\nucleo.woff2'
+2021-11-16 17:28:47.827 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - - - 200 12616 font/woff2 10.9377ms
+2021-11-16 17:28:48.538 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/apple-icon.png - -
+2021-11-16 17:28:48.542 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/favicon.png - -
+2021-11-16 17:28:48.542 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/apple-icon.png - - - 404 - - 4.0617ms
+2021-11-16 17:28:48.548 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/favicon.png - - - 404 - - 5.2090ms
+2021-11-16 17:28:54.643 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/Category - -
+2021-11-16 17:28:54.645 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:28:54.648 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:28:57.909 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:28:57.915 -03:00 [INF] Executed ViewResult - view Index executed in 3264.3906ms.
+2021-11-16 17:28:57.916 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 3266.1892ms
+2021-11-16 17:28:57.918 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:28:57.921 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/Category - - - 200 - text/html;+charset=utf-8 3277.6100ms
+2021-11-16 17:28:57.951 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - -
+2021-11-16 17:28:57.976 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/areas/category/Index.js'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\clientapp\dist\views\areas\category\Index.js'
+2021-11-16 17:28:57.993 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - - - 200 1339206 application/javascript 41.5162ms
+2021-11-16 17:28:58.044 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:28:58.047 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 404 - - 2.7563ms
+2021-11-16 17:29:02.449 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/Category - -
+2021-11-16 17:29:02.451 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:29:02.452 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - -
+2021-11-16 17:29:02.454 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:29:02.459 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:29:02.461 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - - - 404 - - 8.5361ms
+2021-11-16 17:29:02.467 -03:00 [INF] Executed ViewResult - view Index executed in 7.7762ms.
+2021-11-16 17:29:02.469 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 9.8116ms
+2021-11-16 17:29:02.470 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:29:02.472 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/Category - - - 200 - text/html;+charset=utf-8 22.9451ms
+2021-11-16 17:29:12.780 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/Category - -
+2021-11-16 17:29:12.782 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:29:12.783 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:29:12.785 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:29:12.788 -03:00 [INF] Executed ViewResult - view Index executed in 2.2104ms.
+2021-11-16 17:29:12.789 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 3.8895ms
+2021-11-16 17:29:12.792 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:29:12.797 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/Category - - - 200 - text/html;+charset=utf-8 16.4421ms
+2021-11-16 17:29:12.824 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - -
+2021-11-16 17:29:12.825 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - -
+2021-11-16 17:29:12.829 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - -
+2021-11-16 17:29:12.829 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - -
+2021-11-16 17:29:12.829 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - -
+2021-11-16 17:29:12.829 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - -
+2021-11-16 17:29:12.841 -03:00 [INF] The file /lib/bdashboard/assets/js/core/jquery.min.js was not modified
+2021-11-16 17:29:12.841 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js was not modified
+2021-11-16 17:29:12.843 -03:00 [INF] The file /lib/bdashboard/assets/js/core/popper.min.js was not modified
+2021-11-16 17:29:12.845 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - - - 304 - application/javascript 20.9465ms
+2021-11-16 17:29:12.843 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/bootstrap-notify.js was not modified
+2021-11-16 17:29:12.850 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - - - 304 - application/javascript 19.7340ms
+2021-11-16 17:29:12.851 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - - - 304 - application/javascript 25.6993ms
+2021-11-16 17:29:12.855 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - -
+2021-11-16 17:29:12.856 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - -
+2021-11-16 17:29:12.851 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - -
+2021-11-16 17:29:12.860 -03:00 [INF] The file /lib/bdashboard/assets/demo/demo.js was not modified
+2021-11-16 17:29:12.861 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-11-16 17:29:12.861 -03:00 [INF] The file /lib/bdashboard/assets/js/black-dashboard.min.js was not modified
+2021-11-16 17:29:12.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - - - 304 - application/javascript 10.5024ms
+2021-11-16 17:29:12.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - - - 304 - application/javascript 8.9398ms
+2021-11-16 17:29:12.868 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - - - 304 - application/javascript 16.8214ms
+2021-11-16 17:29:12.871 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - -
+2021-11-16 17:29:12.871 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - -
+2021-11-16 17:29:12.876 -03:00 [INF] The file /clientapp/dist/views/areas/category/Index.js was not modified
+2021-11-16 17:29:12.853 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - - - 304 - application/javascript 23.2879ms
+2021-11-16 17:29:12.879 -03:00 [INF] The file /lib/bdashboard/assets/img/anime3.png was not modified
+2021-11-16 17:29:12.881 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - - - 304 - application/javascript 9.7809ms
+2021-11-16 17:29:12.841 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/chartjs.min.js was not modified
+2021-11-16 17:29:12.884 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - - - 304 - image/png 11.9222ms
+2021-11-16 17:29:12.886 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - - - 304 - application/javascript 56.4574ms
+2021-11-16 17:29:12.843 -03:00 [INF] The file /lib/bdashboard/assets/js/core/bootstrap.min.js was not modified
+2021-11-16 17:29:12.891 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - - - 304 - application/javascript 61.2755ms
+2021-11-16 17:29:13.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:29:13.131 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 404 - - 3.6775ms
+2021-11-16 17:29:13.429 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - -
+2021-11-16 17:29:13.432 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - - - 404 - - 2.6887ms
+2021-11-16 17:29:34.104 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - -
+2021-11-16 17:29:34.132 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - - - 404 - - 27.9653ms
+2021-11-16 17:29:34.166 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/favicon.ico - -
+2021-11-16 17:29:34.168 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/favicon.ico - - - 0 - - 1.4078ms
+2021-11-16 17:29:37.894 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search - -
+2021-11-16 17:29:37.897 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search - - - 404 - - 2.4972ms
+2021-11-16 17:29:41.894 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search - -
+2021-11-16 17:29:41.896 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search - - - 404 - - 2.3381ms
+2021-11-16 17:29:50.014 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%27%27 - -
+2021-11-16 17:29:50.016 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%27%27 - - - 404 - - 2.2106ms
+2021-11-16 17:29:53.789 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%22%22 - -
+2021-11-16 17:29:53.791 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%22%22 - - - 404 - - 2.0261ms
+2021-11-16 17:29:56.485 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=a - -
+2021-11-16 17:29:56.487 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=a - - - 404 - - 2.1826ms
+2021-11-16 17:30:00.526 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%27a%27 - -
+2021-11-16 17:30:00.528 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=%27a%27 - - - 404 - - 2.2120ms
+2021-11-16 17:30:04.504 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=] - -
+2021-11-16 17:30:04.506 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name=] - - - 404 - - 2.1613ms
+2021-11-16 17:30:07.597 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name= - -
+2021-11-16 17:30:07.599 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name= - - - 404 - - 2.1627ms
+2021-11-16 17:30:11.995 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name= - -
+2021-11-16 17:30:11.996 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/search?name= - - - 404 - - 1.8636ms
+2021-11-16 17:30:29.206 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name= - -
+2021-11-16 17:30:29.209 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name= - - - 404 - - 2.3289ms
+2021-11-16 17:30:32.689 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name=%22%22 - -
+2021-11-16 17:30:32.691 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name=%22%22 - - - 404 - - 2.0770ms
+2021-11-16 17:30:34.919 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name=a - -
+2021-11-16 17:30:34.921 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/Category/search?name=a - - - 404 - - 2.0966ms
+2021-11-16 17:30:38.830 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/category/search?name=a - -
+2021-11-16 17:30:38.832 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/category/search?name=a - - - 404 - - 2.0388ms
+2021-11-16 17:30:59.320 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/category/Search?name=a - -
+2021-11-16 17:30:59.325 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/category/Search?name=a - - - 404 - - 4.5538ms
+2021-11-16 17:31:02.901 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/areas/admin/category/Search?name=%22%22 - -
+2021-11-16 17:31:02.903 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/areas/admin/category/Search?name=%22%22 - - - 404 - - 2.3718ms
+2021-11-16 17:31:05.728 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/category/Search?name=%22%22 - -
+2021-11-16 17:31:05.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/category/Search?name=%22%22 - - - 404 - - 2.1229ms
+2021-11-16 17:32:43.442 -03:00 [INF] Logger funcionado...
+2021-11-16 17:32:43.553 -03:00 [INF] Starting...
+2021-11-16 17:32:44.333 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 17:32:44.635 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 17:32:44.637 -03:00 [INF] Hosting environment: Development
+2021-11-16 17:32:44.638 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-11-16 17:32:44.673 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/ - -
+2021-11-16 17:32:44.697 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:32:44.735 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-11-16 17:32:44.781 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:32:44.877 -03:00 [INF] Executed ViewResult - view Index executed in 123.9752ms.
+2021-11-16 17:32:44.886 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 145.0873ms
+2021-11-16 17:32:44.888 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:32:44.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/ - - - 200 - text/html;+charset=utf-8 225.1159ms
+2021-11-16 17:32:44.951 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - -
+2021-11-16 17:32:44.952 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - -
+2021-11-16 17:32:44.955 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - -
+2021-11-16 17:32:44.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - -
+2021-11-16 17:32:44.961 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - -
+2021-11-16 17:32:45.014 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - - - 404 - - 59.6850ms
+2021-11-16 17:32:45.016 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - - - 404 - - 55.1783ms
+2021-11-16 17:32:45.017 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - - - 404 - - 55.9100ms
+2021-11-16 17:32:45.032 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-11-16 17:32:45.251 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-11-16 17:32:45.251 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\plugins\owl-carousel\owl.carousel.css'
+2021-11-16 17:32:45.251 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-11-16 17:32:45.265 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/plugins/owl-carousel/owl.carousel.css - - - 0 9553 text/css 314.0590ms
+2021-11-16 17:32:45.267 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 314.0738ms
+2021-11-16 17:32:45.262 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 229.6962ms
+2021-11-16 17:32:50.801 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin - -
+2021-11-16 17:32:50.803 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-16 17:32:50.805 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-16 17:32:50.810 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:32:50.818 -03:00 [INF] Executed ViewResult - view Index executed in 10.1813ms.
+2021-11-16 17:32:50.819 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes) in 12.1754ms
+2021-11-16 17:32:50.827 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Index (coreClothes)'
+2021-11-16 17:32:50.835 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin - - - 200 - text/html;+charset=utf-8 34.6084ms
+2021-11-16 17:32:50.853 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - -
+2021-11-16 17:32:50.853 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - -
+2021-11-16 17:32:50.924 -03:00 [INF] Sending file. Request path: '/views/admin/login/index.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\views\admin\login\index.css'
+2021-11-16 17:32:50.926 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/views/admin/login/index.css - - - 0 2401 text/css 72.5623ms
+2021-11-16 17:32:50.927 -03:00 [INF] The file /clientapp/dist/views/login/Index.js was not modified
+2021-11-16 17:32:50.929 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/login/Index.js - - - 304 - application/javascript 75.6072ms
+2021-11-16 17:32:50.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/favicon.ico - -
+2021-11-16 17:32:50.998 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/favicon.ico - - - 0 - - 2.1595ms
+2021-11-16 17:32:52.354 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43
+2021-11-16 17:32:52.356 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-16 17:32:52.365 -03:00 [INF] Route matched with {area = "admin", action = "Auth", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Auth(System.Text.Json.JsonElement) on controller coreClothes.Areas.Admin.Controllers.LoginController (coreClothes).
+2021-11-16 17:32:54.605 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-11-16 17:32:54.700 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes) in 2332.7591ms
+2021-11-16 17:32:54.738 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.LoginController.Auth (coreClothes)'
+2021-11-16 17:32:54.746 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:54080/Admin/Login/Auth application/json;+charset=utf-8 43 - 200 - application/json;+charset=utf-8 2392.3876ms
+2021-11-16 17:32:54.768 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Product - -
+2021-11-16 17:32:54.771 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-11-16 17:32:54.775 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.ProductController (coreClothes).
+2021-11-16 17:32:54.780 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:32:54.802 -03:00 [INF] Executed ViewResult - view Index executed in 23.7023ms.
+2021-11-16 17:32:54.804 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes) in 25.8645ms
+2021-11-16 17:32:54.823 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.ProductController.Index (coreClothes)'
+2021-11-16 17:32:54.870 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Product - - - 200 - text/html;+charset=utf-8 101.9306ms
+2021-11-16 17:32:54.880 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - -
+2021-11-16 17:32:54.928 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - -
+2021-11-16 17:32:55.197 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/css/nucleo-icons.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\css\nucleo-icons.css'
+2021-11-16 17:32:55.208 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - - - 0 7743 text/css 328.0945ms
+2021-11-16 17:32:55.210 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/fonts/nucleo.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\fonts\nucleo.woff2'
+2021-11-16 17:32:55.222 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - - - 0 12616 font/woff2 293.1140ms
+2021-11-16 17:32:59.050 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/Category - -
+2021-11-16 17:32:59.052 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:32:59.054 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:02.043 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:33:02.049 -03:00 [INF] Executed ViewResult - view Index executed in 2991.3834ms.
+2021-11-16 17:33:02.051 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 2993.9201ms
+2021-11-16 17:33:02.053 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:33:02.061 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/Category - - - 200 - text/html;+charset=utf-8 3011.0872ms
+2021-11-16 17:33:02.099 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - -
+2021-11-16 17:33:02.106 -03:00 [INF] The file /clientapp/dist/views/areas/category/Index.js was not modified
+2021-11-16 17:33:02.116 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - - - 304 - application/javascript 16.4944ms
+2021-11-16 17:33:02.185 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:33:02.187 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:02.191 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:02.780 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 586.5694ms
+2021-11-16 17:33:02.798 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:02.826 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:33:02.888 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 500 - text/plain 703.5826ms
+2021-11-16 17:33:04.739 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - -
+2021-11-16 17:33:04.936 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - - - 404 - - 195.7534ms
+2021-11-16 17:33:18.856 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map - -
+2021-11-16 17:33:18.860 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map - - - 404 - - 4.1594ms
+2021-11-16 17:33:28.757 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - -
+2021-11-16 17:33:28.760 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - - - 404 - - 2.7126ms
+2021-11-16 17:33:30.317 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/admin/Category - -
+2021-11-16 17:33:30.318 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:33:30.319 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:30.321 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:33:30.324 -03:00 [INF] Executed ViewResult - view Index executed in 2.7439ms.
+2021-11-16 17:33:30.328 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 6.959ms
+2021-11-16 17:33:30.329 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:33:30.333 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/admin/Category - - - 200 - text/html;+charset=utf-8 16.2875ms
+2021-11-16 17:33:30.351 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - -
+2021-11-16 17:33:30.356 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - -
+2021-11-16 17:33:30.358 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - -
+2021-11-16 17:33:30.360 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/bootstrap-notify.js was not modified
+2021-11-16 17:33:30.360 -03:00 [INF] The file /lib/bdashboard/assets/js/core/jquery.min.js was not modified
+2021-11-16 17:33:30.367 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - -
+2021-11-16 17:33:30.365 -03:00 [INF] The file /lib/bdashboard/assets/js/core/bootstrap.min.js was not modified
+2021-11-16 17:33:30.371 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/jquery.min.js - - - 304 - application/javascript 19.2596ms
+2021-11-16 17:33:30.377 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/bootstrap.min.js - - - 304 - application/javascript 18.4020ms
+2021-11-16 17:33:30.367 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/bootstrap-notify.js - - - 304 - application/javascript 10.4670ms
+2021-11-16 17:33:30.384 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js was not modified
+2021-11-16 17:33:30.385 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - -
+2021-11-16 17:33:30.385 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - -
+2021-11-16 17:33:30.392 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/perfect-scrollbar.jquery.min.js - - - 304 - application/javascript 24.7783ms
+2021-11-16 17:33:30.393 -03:00 [INF] The file /lib/bdashboard/assets/js/black-dashboard.min.js was not modified
+2021-11-16 17:33:30.394 -03:00 [INF] The file /lib/bdashboard/assets/js/plugins/chartjs.min.js was not modified
+2021-11-16 17:33:30.397 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - -
+2021-11-16 17:33:30.398 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/black-dashboard.min.js?v=1.0.0 - - - 304 - application/javascript 13.6587ms
+2021-11-16 17:33:30.403 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/plugins/chartjs.min.js - - - 304 - application/javascript 16.9290ms
+2021-11-16 17:33:30.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - -
+2021-11-16 17:33:30.367 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - -
+2021-11-16 17:33:30.408 -03:00 [INF] The file /clientapp/dist/views/areas/category/Index.js was not modified
+2021-11-16 17:33:30.409 -03:00 [INF] The file /lib/bdashboard/assets/img/anime3.png was not modified
+2021-11-16 17:33:30.412 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - - - 304 - application/javascript 25.0080ms
+2021-11-16 17:33:30.410 -03:00 [INF] The file /lib/bdashboard/assets/js/core/popper.min.js was not modified
+2021-11-16 17:33:30.414 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/img/anime3.png - - - 304 - image/png 17.6187ms
+2021-11-16 17:33:30.417 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/js/core/popper.min.js - - - 304 - application/javascript 51.2689ms
+2021-11-16 17:33:30.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - -
+2021-11-16 17:33:30.377 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - -
+2021-11-16 17:33:30.423 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-11-16 17:33:30.425 -03:00 [INF] The file /lib/bdashboard/assets/demo/demo.js was not modified
+2021-11-16 17:33:30.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/HTTPClient.js - - - 304 - application/javascript 43.1081ms
+2021-11-16 17:33:30.431 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/demo/demo.js - - - 304 - application/javascript 53.9823ms
+2021-11-16 17:33:30.583 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:33:30.586 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:30.588 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:30.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - -
+2021-11-16 17:33:30.869 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/dashboard-free.css.map - - - 404 - - 2.7177ms
+2021-11-16 17:33:32.529 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1937.5758ms
+2021-11-16 17:33:32.542 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:32.567 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:33:32.571 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 500 - text/plain 1987.8295ms
+2021-11-16 17:33:34.622 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - -
+2021-11-16 17:33:34.625 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:34.626 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:36.564 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1928.3676ms
+2021-11-16 17:33:36.579 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:36.604 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:33:36.665 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - - - 500 - text/html;+charset=utf-8 2043.4162ms
+2021-11-16 17:33:43.845 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - -
+2021-11-16 17:33:43.847 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:43.848 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:33:45.794 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1944.5918ms
+2021-11-16 17:33:45.808 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:33:45.833 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:33:45.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - - - 500 - text/html;+charset=utf-8 2020.1628ms
+2021-11-16 17:34:02.789 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - -
+2021-11-16 17:34:02.791 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:02.793 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:04.710 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1915.8367ms
+2021-11-16 17:34:04.724 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:04.745 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%\"\"%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:04.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - - - 500 - text/html;+charset=utf-8 1985.3664ms
+2021-11-16 17:34:09.303 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%20%22 - -
+2021-11-16 17:34:09.305 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:09.306 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:11.213 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1904.6215ms
+2021-11-16 17:34:11.227 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:11.253 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%\" \"%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:11.286 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%20%22 - - - 500 - text/html;+charset=utf-8 1983.2319ms
+2021-11-16 17:34:14.366 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=a - -
+2021-11-16 17:34:14.367 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:14.369 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:16.295 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1924.6975ms
+2021-11-16 17:34:16.309 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:16.332 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%a%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:16.364 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=a - - - 500 - text/html;+charset=utf-8 1998.3905ms
+2021-11-16 17:34:20.069 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%27a%27 - -
+2021-11-16 17:34:20.071 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:20.072 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:22.204 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 2129.6175ms
+2021-11-16 17:34:22.217 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:22.242 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%\'a\'%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:22.271 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%27a%27 - - - 500 - text/html;+charset=utf-8 2202.6075ms
+2021-11-16 17:34:47.692 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%27a%27 - -
+2021-11-16 17:34:47.694 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:47.698 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:49.592 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1892.7039ms
+2021-11-16 17:34:49.606 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:49.631 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%\'a\'%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:49.666 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%27a%27 - - - 500 - text/html;+charset=utf-8 1973.5997ms
+2021-11-16 17:34:56.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=a - -
+2021-11-16 17:34:56.031 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:56.032 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:34:57.912 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1878.6969ms
+2021-11-16 17:34:57.926 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:57.950 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%a%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:34:57.980 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=a - - - 500 - text/html;+charset=utf-8 1950.9365ms
+2021-11-16 17:34:59.502 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - -
+2021-11-16 17:34:59.504 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:34:59.507 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:01.443 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1933.3767ms
+2021-11-16 17:35:01.457 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:01.481 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:35:01.514 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - - - 500 - text/html;+charset=utf-8 2011.3391ms
+2021-11-16 17:35:03.950 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - -
+2021-11-16 17:35:03.952 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:03.954 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:05.882 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 1926.9216ms
+2021-11-16 17:35:05.896 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:05.922 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '%\"\"%'' at line 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at coreClothes.DB.MySQLPersistence.ExecutarSelect(String select, Dictionary`2 parametros) in C:\Users\junior\source\repos\coreClothes\coreClothes\DB\MySQLPersistence.cs:line 79
+   at coreClothes.Areas.Admin.DAL.CategoryDAL.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\DAL\CategoryDAL.cs:line 76
+   at coreClothes.Areas.Admin.Services.CategoryService.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Services\CategoryService.cs:line 39
+   at coreClothes.Areas.Admin.Controllers.CategoryController.Search(String name) in C:\Users\junior\source\repos\coreClothes\coreClothes\Areas\Admin\Controllers\CategoryController.cs:line 23
+   at lambda_method35(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-16 17:35:05.954 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - - - 500 - text/html;+charset=utf-8 2004.3730ms
+2021-11-16 17:35:18.577 -03:00 [INF] Logger funcionado...
+2021-11-16 17:35:18.639 -03:00 [INF] Starting...
+2021-11-16 17:35:19.645 -03:00 [INF] User profile is available. Using 'C:\Users\junior\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-16 17:35:19.964 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-16 17:35:19.966 -03:00 [INF] Hosting environment: Development
+2021-11-16 17:35:19.967 -03:00 [INF] Content root path: C:\Users\junior\source\repos\coreClothes\coreClothes
+2021-11-16 17:35:20.002 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/ - -
+2021-11-16 17:35:20.031 -03:00 [INF] Executing endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:35:20.063 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Controllers.HomeController (coreClothes).
+2021-11-16 17:35:20.096 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:35:20.191 -03:00 [INF] Executed ViewResult - view Index executed in 115.5372ms.
+2021-11-16 17:35:20.195 -03:00 [INF] Executed action coreClothes.Controllers.HomeController.Index (coreClothes) in 129.3075ms
+2021-11-16 17:35:20.197 -03:00 [INF] Executed endpoint 'coreClothes.Controllers.HomeController.Index (coreClothes)'
+2021-11-16 17:35:20.211 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/ - - - 200 - text/html;+charset=utf-8 209.8404ms
+2021-11-16 17:35:20.280 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - -
+2021-11-16 17:35:20.293 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - -
+2021-11-16 17:35:20.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - -
+2021-11-16 17:35:20.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - -
+2021-11-16 17:35:20.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/1.png - - - 404 - - 25.8695ms
+2021-11-16 17:35:20.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/images/brands/2.png - - - 404 - - 24.7557ms
+2021-11-16 17:35:20.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/assets/images/products/cart/product-2.jpg - - - 404 - - 35.1924ms
+2021-11-16 17:35:20.404 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - -
+2021-11-16 17:35:20.487 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/css/bootstrap.min.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\css\bootstrap.min.css'
+2021-11-16 17:35:20.499 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/css/bootstrap.min.css - - - 0 155758 text/css 219.3222ms
+2021-11-16 17:35:20.519 -03:00 [INF] Sending file. Request path: '/lib/molla/assets/fonts/molla0ab2.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\molla\assets\fonts\molla0ab2.woff2'
+2021-11-16 17:35:20.521 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/molla/assets/fonts/molla0ab2.woff2?74273691 - - - 0 134912 font/woff2 117.3092ms
+2021-11-16 17:35:21.985 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - -
+2021-11-16 17:35:21.988 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:21.996 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:24.107 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:24.126 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 2128.2451ms
+2021-11-16 17:35:24.128 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:24.130 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name=%22%22 - - - 200 - application/json;+charset=utf-8 2145.0188ms
+2021-11-16 17:35:30.587 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - -
+2021-11-16 17:35:30.590 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:30.593 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:30.999 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:31.018 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 423.5166ms
+2021-11-16 17:35:31.021 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:31.028 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= - - - 200 - application/json;+charset=utf-8 441.6554ms
+2021-11-16 17:35:39.102 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/ - -
+2021-11-16 17:35:39.104 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:35:39.107 -03:00 [INF] Route matched with {area = "admin", action = "Index", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:41.428 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-16 17:35:41.448 -03:00 [INF] Executed ViewResult - view Index executed in 2339.4437ms.
+2021-11-16 17:35:41.450 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes) in 2341.4042ms
+2021-11-16 17:35:41.452 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Index (coreClothes)'
+2021-11-16 17:35:41.457 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/ - - - 200 - text/html;+charset=utf-8 2354.8290ms
+2021-11-16 17:35:41.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - -
+2021-11-16 17:35:41.521 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - -
+2021-11-16 17:35:41.540 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - -
+2021-11-16 17:35:41.635 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/css/nucleo-icons.css'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\css\nucleo-icons.css'
+2021-11-16 17:35:41.644 -03:00 [INF] The file /clientapp/dist/views/areas/category/Index.js was not modified
+2021-11-16 17:35:41.645 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/css/nucleo-icons.css - - - 0 7743 text/css 145.0558ms
+2021-11-16 17:35:41.662 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/clientapp/dist/views/areas/category/Index.js - - - 304 - application/javascript 134.0331ms
+2021-11-16 17:35:41.672 -03:00 [INF] Sending file. Request path: '/lib/bdashboard/assets/fonts/nucleo.woff2'. Physical path: 'C:\Users\junior\source\repos\coreClothes\coreClothes\wwwroot\lib\bdashboard\assets\fonts\nucleo.woff2'
+2021-11-16 17:35:41.674 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/lib/bdashboard/assets/fonts/nucleo.woff2 - - - 0 12616 font/woff2 134.0136ms
+2021-11-16 17:35:41.707 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:41.709 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:41.711 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:42.117 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:42.119 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 405.3687ms
+2021-11-16 17:35:42.121 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.126 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 418.7710ms
+2021-11-16 17:35:42.131 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:42.132 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.134 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:42.538 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:42.541 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 404.8468ms
+2021-11-16 17:35:42.543 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.545 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 414.7367ms
+2021-11-16 17:35:42.550 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:42.552 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.553 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:42.959 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:42.961 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 405.6121ms
+2021-11-16 17:35:42.963 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.965 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 415.2150ms
+2021-11-16 17:35:42.969 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:42.971 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:42.972 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:43.375 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:43.378 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 403.4852ms
+2021-11-16 17:35:43.380 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:43.382 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 412.8394ms
+2021-11-16 17:35:43.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:43.389 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:43.391 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:43.796 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:43.798 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 405.0682ms
+2021-11-16 17:35:43.800 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:43.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 416.2381ms
+2021-11-16 17:35:43.807 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:43.810 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:43.812 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:44.215 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:44.217 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 404.3632ms
+2021-11-16 17:35:44.219 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:44.222 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 414.6744ms
+2021-11-16 17:35:44.225 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:44.227 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:44.229 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:44.633 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:44.635 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 403.7385ms
+2021-11-16 17:35:44.637 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:44.639 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 414.0337ms
+2021-11-16 17:35:44.643 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:44.645 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:44.646 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:45.053 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:45.056 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 408.08ms
+2021-11-16 17:35:45.060 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.063 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 420.6208ms
+2021-11-16 17:35:45.067 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:45.068 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.070 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:45.474 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:45.476 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 403.7758ms
+2021-11-16 17:35:45.477 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.480 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 412.8889ms
+2021-11-16 17:35:45.485 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:45.486 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.488 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:45.892 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:45.894 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 403.3219ms
+2021-11-16 17:35:45.895 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.897 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 412.3276ms
+2021-11-16 17:35:45.900 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:45.902 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:45.914 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:46.322 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:46.324 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 405.4027ms
+2021-11-16 17:35:46.326 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:46.329 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 428.3846ms
+2021-11-16 17:35:46.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:46.335 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:46.336 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:46.740 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:46.742 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 404.1493ms
+2021-11-16 17:35:46.744 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:46.746 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 414.5411ms
+2021-11-16 17:35:46.750 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 -
+2021-11-16 17:35:46.751 -03:00 [INF] Executing endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:46.753 -03:00 [INF] Route matched with {area = "admin", action = "Search", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search(System.String) on controller coreClothes.Areas.Admin.Controllers.CategoryController (coreClothes).
+2021-11-16 17:35:46.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:54080/Admin/Category/Category/Create - -
+2021-11-16 17:35:46.921 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Category/Create - - - 404 - - 3.4280ms
+2021-11-16 17:35:47.157 -03:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[coreClothes.Areas.Admin.Models.Category, coreClothes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-16 17:35:47.159 -03:00 [INF] Executed action coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes) in 404.4802ms
+2021-11-16 17:35:47.161 -03:00 [INF] Executed endpoint 'coreClothes.Areas.Admin.Controllers.CategoryController.Search (coreClothes)'
+2021-11-16 17:35:47.162 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:54080/Admin/Category/Search?name= application/json;+charset=utf-8 - - 200 - application/json;+charset=utf-8 412.6839ms

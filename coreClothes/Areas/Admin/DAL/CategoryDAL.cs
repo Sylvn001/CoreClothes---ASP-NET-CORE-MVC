@@ -67,7 +67,7 @@ namespace coreClothes.Areas.Admin.DAL
 
             string sql = @"select * 
                            from category 
-                           where name = @name";
+                           where name LIKE @name";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
             parameters.Add("@name", "%" + name + "%");

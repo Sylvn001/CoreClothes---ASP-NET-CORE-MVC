@@ -1,0 +1,3 @@
+{"@t":"2021-11-17T11:08:12.0184615Z","@mt":"Logger funcionado..."}
+{"@t":"2021-11-17T11:08:12.1934646Z","@mt":"Starting..."}
+{"@t":"2021-11-17T11:08:19.3987336Z","@mt":"User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.","FullName":"C:\\Users\\junior\\AppData\\Local\\ASP.NET\\DataProtection-Keys","EventId":{"Id":63,"Name":"UsingProfileAsKeyRepositoryWithDPAPI"},"SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"}
