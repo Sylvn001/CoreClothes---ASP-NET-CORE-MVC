@@ -47,6 +47,7 @@ namespace coreClothes.Areas.Admin.Controllers
                 string name = data.GetProperty("name").GetString();
                 int stock = int.Parse(data.GetProperty("stock").GetString());
                 float price = float.Parse(data.GetProperty("price").GetString());
+                float urlImg = float.Parse(data.GetProperty("urlImg").GetString());
 
                 category.Id = int.Parse(data.GetProperty("category").GetString());
                 category.Name = "";
@@ -54,7 +55,12 @@ namespace coreClothes.Areas.Admin.Controllers
                 Services.ProductService productService = new Services.ProductService();
                 if (productService.Save(product))
                 {
-                    return Redirect("/admin/Product");
+                    msg = "created with success!";
+                    success = true;
+                }
+                else
+                {
+                    msg = "Error on create!";
                 }
 
             }

@@ -73,33 +73,8 @@ class ProductForm extends React.Component
 
     }
 
-    SetUpdateValues(){
-
-        if(this.state.id != 0)
-        {
-            HTTPClient.get("Admin/Product/SearchById?id=" + encodeURIComponent(this.state.id))
-            .then(r => r.json())
-            .then(r => {
-                console.log(r)
-                this.setState({
-                    id: r.id,
-                    name: r.name,
-                    stock: r.stock,
-                    price: r.price,
-                    category: r.category,
-                    urlImg: r.urlImg,
-                });
-
-           })
-           .catch((e) => {
-               console.log(e)
-           })
-        }
-    }
-
     componentDidMount() {
         this.search()
-        this.SetUpdateValues()
     }
 
     render = () => {
@@ -127,11 +102,10 @@ class ProductForm extends React.Component
                         <input
                             type="text"
                             className="form-control bg-dark"
-                            id="productPrice"
+                            id="price"
                             name="price"
-                            placeholder="0.0"
                             value={this.state.price}
-                            onChange={e => this.setState({price: e.target.price})}
+                            onChange={e => this.setState({price: e.target.value})}
                         />
                     </div>
 
@@ -149,12 +123,12 @@ class ProductForm extends React.Component
                     </div>
 
                     <div className="form-group col-4 ">
-                        <label htmlFor ="productStock">URL IMG</label>
+                        <label htmlFor ="urlImg">URL IMG</label>
                         <input
                             type="text"
                             className="form-control bg-dark"
-                            id="productStock"
-                            name="Img"
+                            id="urlIMG"
+                            name="urlImg"
                             placeholder=""
                             value={this.state.urlImg}
                             onChange={e => this.setState({urlImg: e.target.value})}

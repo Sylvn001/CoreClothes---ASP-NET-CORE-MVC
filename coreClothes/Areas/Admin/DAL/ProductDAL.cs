@@ -20,31 +20,25 @@ namespace coreClothes.Areas.Admin.DAL
             Dictionary<string, object> parameters = new Dictionary<string, object>();
             if (product.Id == 0)
             {
-                sql = @"insert into product (name, stock, price, category_id) values (@name, @stock, @price, @category_id)";
+                sql = "insert into product (name, category_id, price, stock, urlImg) values (@name, @category_id, @price, @stock, @urlImg)";
             }
             else
             {
-                sql = @"update product set name = @name, stock = @stock, price = @price, category_id = @category_id
-                        where id = @id";
-
+                sql = "update product set name = @name, category_id = @category_id, price = @price, stock = @stock, urlImg = @urlImg where id = @id";
                 parameters.Add("@id", product.Id);
             }
 
             parameters.Add("@name", product.Name);
             parameters.Add("@stock", product.Stock);
             parameters.Add("@price", product.Price);
+            parameters.Add("@urlImg", product.UrlImg);
             parameters.Add("@category_id", product.Category.Id);
 
-            if (_bd.ExecutarNonQuery(sql, parameters) == 1)
-            {
-                if (product.Id == 0)
-                {
-                    product.Id = _bd.UltimoId ;
-                }
-
+            _bd.AbrirConexao();
+            if (_bd.ExecutarNonQuery(sql, parameters) == 1)                    
                 success = true;
-            }
-
+              
+            _bd.FecharConexao();
             return success;
         }
 
@@ -114,6 +108,7 @@ namespace coreClothes.Areas.Admin.DAL
                 Id = Convert.ToInt32(row["id"]),
                 Name = row["name"].ToString(),
                 Price = Convert.ToDouble(row["price"].ToString()),
+                UrlImg = row["urlImg"].ToString(),
                 Stock = Convert.ToInt32(row["stock"].ToString()),
                 Category = new Category(Convert.ToInt32(row["cat_id"].ToString()), row["cat_name"].ToString()),
             };

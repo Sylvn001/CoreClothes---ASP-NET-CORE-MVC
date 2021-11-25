@@ -10,28 +10,14 @@ namespace coreClothes.Areas.Admin.Services
     {
         ProductDAL _pDAL = new ProductDAL();
 
-        public bool Save(Models.Product u)
+        public bool Save(Models.Product p)
         {
-            bool sucess;
-            string msg;
-            (sucess, msg) = u.Validate();
+            var ProductSearched = _pDAL.Search(p.Name).FirstOrDefault();
 
-            if (sucess)
-            {
-                sucess = false;
-                var ProductSearched = _pDAL.Search(u.Name).FirstOrDefault();
+            if (ProductSearched != null && ProductSearched.Id == p.Id)
+                return false;
 
-                if (ProductSearched != null && ProductSearched.Id != u.Id)
-                {
-                    msg = "Name already exist.";
-                }
-                else
-                {
-                    sucess = _pDAL.Save(u);
-                }
-            }
-
-            return sucess;
+            return _pDAL.Save(p);
         }
 
         public IEnumerable<Models.Product> Search(string name)

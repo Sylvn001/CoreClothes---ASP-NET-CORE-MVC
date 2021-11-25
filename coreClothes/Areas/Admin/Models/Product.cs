@@ -11,21 +11,8 @@ namespace coreClothes.Areas.Admin.Models
         public string Name { get; set; }
         public int Stock { get; set; }
         public double Price { get; set; }
-
+        public string UrlImg { get; set; }
         public Models.Category Category { get; set; }
-
-        public (bool, string) Validate()
-        {
-            bool flag = false;
-            string msg = "";
-
-            if (Name != "" && Stock != 0 && Price > 0.0 && Category != null)
-                flag = true;
-            else
-                msg = "Error, invalid values in creation of product!";
-
-            return (flag, msg);
-        }
 
     }
 }
