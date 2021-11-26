@@ -21,18 +21,18 @@ class ProductForm extends React.Component
     }
 
     save = () => {
-        if (this.state.name.trim() == "" || this.state.price.trim() == "" || this.state.stock.trim() == "" || this.state.category.trim() == "") {
+        if (this.state.name.trim() == "" || this.state.price == "" || this.state.stock == "" || this.state.category == "") {
             this.setState({
                 msg: "all fields are required",
                 success: false
             })
         } else {
             let data = {
-                id: this.state.id,
+                id: this.state.id+"",
                 name: this.state.name,
-                stock: this.state.stock,
-                price: this.state.price,
-                category: this.state.category,
+                stock: this.state.stock + "",
+                price: this.state.price + "",
+                category: this.state.category + "",
                 urlImg: this.state.urlImg,
             }
 
@@ -41,7 +41,7 @@ class ProductForm extends React.Component
                 .then(r => {
                     console.log(r)
                     if (r.success) {
-                        location.href = "Admin/Product";
+                        location.href = "/admin/Product";
                     }
                     else {
                         this.setState({
@@ -73,7 +73,33 @@ class ProductForm extends React.Component
 
     }
 
+    checkIDAndSetProduct = () =>{
+        let id = window.location.search.substring(4)
+        if(id)
+        {
+            HTTPClient.get("Admin/Product/SearchByID?id=" + id)
+            .then(r => r.json())
+            .then(r => {
+                console.log(r)
+                this.setState({
+                    id: r.id,
+                    name: r.name,
+                    stock: r.stock,
+                    price: r.price,
+                    urlImg: r.urlImg,
+                    category: r.category.id,
+                });
+                console.log(this.state)
+
+           })
+           .catch((e) => {
+               console.log(e)
+           })
+        }
+    }
+
     componentDidMount() {
+        this.checkIDAndSetProduct()
         this.search()
     }
 
@@ -85,6 +111,15 @@ class ProductForm extends React.Component
             </div>
             <div className="card-body">
                 <form className="">
+                    <div className="form-group col-4">
+                            <label htmlFor ="productName">ID</label>
+                            <input
+                                type="text"
+                                className="form-control text-white bg-dark"
+                                placeholder={this.state.id}
+                                disabled
+                            />
+                        </div>
                     <div className="form-group col-4">
                         <label htmlFor ="productName">Product Name</label>
                         <input
@@ -141,7 +176,7 @@ class ProductForm extends React.Component
                             className="form-control bg-dark "
                             id="productCategory"
                             name="category"
-                            value={this.state.urlImg}
+                            value={this.state.category}
                             onChange={e => this.setState({category: e.target.value})}
                         >
                             {
@@ -158,7 +193,7 @@ class ProductForm extends React.Component
                 </form>
             </div>
             <div className="card-footer">
-                <a className="text-white font-weight-bold" href="~/admin/Product">
+                <a className="text-white font-weight-bold" href="/admin/Product">
                     <button type="button" className="btn btn-fill btn-info">CANCEL</button>
                 </a>
                 <button type="button" onClick={this.save} className="btn btn-fill btn-primary">Save</button>

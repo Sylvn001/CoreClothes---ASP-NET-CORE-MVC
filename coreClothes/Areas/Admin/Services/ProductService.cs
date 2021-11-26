@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using coreClothes.Areas.Admin.DAL;
+using coreClothes.Areas.Admin.Models;
 
 namespace coreClothes.Areas.Admin.Services
 {
@@ -14,7 +15,7 @@ namespace coreClothes.Areas.Admin.Services
         {
             var ProductSearched = _pDAL.Search(p.Name).FirstOrDefault();
 
-            if (ProductSearched != null && ProductSearched.Id == p.Id)
+            if (ProductSearched != null && ProductSearched.Id != p.Id)
                 return false;
 
             return _pDAL.Save(p);
@@ -26,7 +27,7 @@ namespace coreClothes.Areas.Admin.Services
         }
 
 
-        public Models.Product GetById(int id)
+        public Product GetById(int id)
         {
             return _pDAL.GetById(id);
         }

@@ -44,15 +44,15 @@ namespace coreClothes.Areas.Admin.DAL
 
         public Product GetById(int id)
         {
-            string sql = @"select *
-                           from product
-                           where id = @id";
+            string sql = "SELECT p.*, c.name as cat_name, c.id as cat_id FROM product as p join category as c on p.category_id = c.id where p.id = @id";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
             parameters.Add("@id", id);
 
+            _bd.AbrirConexao();
             DataTable dt = _bd.ExecutarSelect(sql, parameters);
-
+            _bd.FecharConexao();
+    
             if (dt.Rows.Count == 0)
                 return null;
             else
@@ -68,10 +68,10 @@ namespace coreClothes.Areas.Admin.DAL
         {
             List<Product> products = new List<Product>();
 
-            string sql = @"SELECT p.*, c.name as cat_name, c.id as cat_id FROM product as p join category as c on p.category_id = c.id where p.name LIKE @name";
+            string sql = @"SELECT p.*, c.name as cat_name, c.id as cat_id FROM product as p join category as c on p.category_id = c.id where p.name LIKE @pname";
 
             Dictionary<string, object> parameters = new Dictionary<string, object>();
-            parameters.Add("@name", "%" + name + "%");
+            parameters.Add("@pname", "%" + name + "%");
 
             _bd.AbrirConexao();
 
@@ -107,7 +107,7 @@ namespace coreClothes.Areas.Admin.DAL
             {
                 Id = Convert.ToInt32(row["id"]),
                 Name = row["name"].ToString(),
-                Price = Convert.ToDouble(row["price"].ToString()),
+                Price = Convert.ToDecimal(row["price"].ToString()),
                 UrlImg = row["urlImg"].ToString(),
                 Stock = Convert.ToInt32(row["stock"].ToString()),
                 Category = new Category(Convert.ToInt32(row["cat_id"].ToString()), row["cat_name"].ToString()),

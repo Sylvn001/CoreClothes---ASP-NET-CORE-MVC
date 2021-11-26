@@ -29,6 +29,11 @@ namespace coreClothes.Areas.Admin.Controllers
             return Json(_ps.Search(name));
         }
 
+        public IActionResult SearchByID(int id)
+        {
+            return Json(_ps.GetById(id));
+        }
+
         public IActionResult Delete(int id){
             return Json(_ps.Delete(id));
         }
@@ -40,18 +45,17 @@ namespace coreClothes.Areas.Admin.Controllers
             bool success = false;
 
             Models.Product product = new Models.Product();
-            Models.Category category = new Models.Category();
 
             try
             {
-                string name = data.GetProperty("name").GetString();
-                int stock = int.Parse(data.GetProperty("stock").GetString());
-                float price = float.Parse(data.GetProperty("price").GetString());
-                float urlImg = float.Parse(data.GetProperty("urlImg").GetString());
-
-                category.Id = int.Parse(data.GetProperty("category").GetString());
-                category.Name = "";
-
+                product.Id = Int32.Parse(data.GetProperty("id").GetString());
+                product.Name  = data.GetProperty("name").GetString();
+                product.Stock = int.Parse(data.GetProperty("stock").GetString());
+                product.Price = decimal.Parse(data.GetProperty("price").GetString());
+                product.UrlImg = data.GetProperty("urlImg").GetString();
+                product.Category.Id = Int32.Parse(data.GetProperty("category").GetString());
+                product.Category.Name = "";
+         
                 Services.ProductService productService = new Services.ProductService();
                 if (productService.Save(product))
                 {
@@ -66,7 +70,7 @@ namespace coreClothes.Areas.Admin.Controllers
             }
             catch (Exception e)
             {
-                ViewBag.Msg = "Error on create a new Product!! More info: " + e;
+                msg = "Error on create a new Product!! More info: " + e;
             }
 
             var jsonMessage = new

@@ -48,6 +48,11 @@ class ProductList extends React.Component
         }
     }
 
+    swipe = (urlImg) => {
+        let url= urlImg
+        window.open(url,'Image','width=300,height=300,resizable=1');
+    }
+
     componentDidMount() {
         this.search()
     }
@@ -92,9 +97,15 @@ class ProductList extends React.Component
                                     <td>{item.stock}</td>
                                     <td>{item.price}</td>
                                     <td>{item.category.name}</td>
-                                    <td><img class="w-25" src={item.urlImg}/></td>
                                     <td>
-                                        <button href={'Product/Create?id='+item.id} className="btn btn-sm btn-warning"><i className="fas fa-pencil-alt"></i></button>
+                                        <img
+                                            onClick={() => this.swipe(item.urlImg)}
+                                            style={{width: 70, cursor: 'pointer'}}
+                                            src={item.urlImg}
+                                        />
+                                    </td>
+                                    <td>
+                                        <a href={'Product/Create?id='+item.id} className="btn btn-sm btn-warning"><i className="fas fa-pencil-alt"></i></a>
                                         <button type="button" onClick={() => this.deleteItem(item.id)} className="mx-2 btn btn-sm btn-primary"><i className="fas fa-trash"></i></button>
                                     </td>
                                 </tr>
