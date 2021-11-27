@@ -27,19 +27,19 @@
 <h3> How Start This Project? </h3>
 
 ``` 
-  <Strong>First, Install Dependencies, Node, .NET 4.8, 5.0  </strong>
+  First, Install Dependencies, Node, .NET 4.8, 5.0  
 ``` 
 
 <hr/>
 
 ``` 
-  <span> Use Visual Studio to build and run project. Just Open file CoreClothes.sln. </span>
+   Use Visual Studio to build and run project. Just Open file CoreClothes.sln. 
 ``` 
 
 <hr/>
 
 ``` 
-  <span> After build the project, in terminal command open wwwroot/clientapp directory, and run  <strong> NPM INSTALL </strong> </span>
+  After build the project, in terminal command open wwwroot/clientapp directory, and run  "NPM INSTALL" 
 ``` 
 
 ``` 
