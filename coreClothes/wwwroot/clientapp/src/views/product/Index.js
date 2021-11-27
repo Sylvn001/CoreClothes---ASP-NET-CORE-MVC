@@ -14,6 +14,7 @@ class ProductsList extends React.Component
 
         this.state = {
           products: [],
+          productsCart: [],
       }
     }
 
@@ -48,7 +49,7 @@ class ProductsList extends React.Component
 
                         <div className="products mb-3">
                             <div className="row justify-content-center">
-                              {this.state.products.map((item, index) => {return(<ProductStore productValues={item} key={"id_" + index}/>)})}
+                              {this.state.products.map((item, index) => {return(<ProductStore father={this} product={item} key={"id_" + index}/>)})}
                             </div>
                         </div>
 

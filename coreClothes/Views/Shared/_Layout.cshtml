@@ -77,7 +77,7 @@
                         <div class="dropdown cart-dropdown">
                             <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="icon-shopping-cart"></i>
-                                <span class="cart-count">2</span>
+                                <span id="cart-count">0</span>
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right">
@@ -370,6 +370,7 @@
     <!-- Main JS File -->
     <script src="~/lib/molla/assets/js/main.js"></script>
     <script src="~/lib/molla/assets/js/demos/demo-18.js"></script>
+    <script src="~/lib/HTTPClient.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 
