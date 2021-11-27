@@ -107,7 +107,7 @@ class ProductForm extends React.Component
       let view =
         <>
             <div className="card-header">
-                <h3 className="title">New Category</h3>
+                <h3 className="title">New Product</h3>
             </div>
             <div className="card-body">
                 <form className="">
